@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const withMDX = createMDX({
   options: {
-    remarkPlugins: process.env.NODE_ENV === "development" ? [] : [remarkGfm],
+    remarkPlugins: [remarkGfm],
   },
 });
 

@@ -60,7 +60,10 @@
 
 @layer base {
   * { @apply border-border; }
-  html { scroll-behavior: smooth; }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
   body { @apply bg-background text-foreground; }
   body::before {
     content: "";
@@ -76,6 +79,34 @@
 
 @layer utilities {
   .prose-invert { color: hsl(var(--muted-foreground)); }
+  .prose-invert > table {
+    display: block;
+    max-width: 100%;
+    margin: 1.75rem 0;
+    overflow-x: auto;
+    border: 1px solid hsl(var(--border));
+    border-radius: 0.75rem;
+    background: hsl(var(--card));
+    border-spacing: 0;
+  }
+  .prose-invert > table th,
+  .prose-invert > table td {
+    min-width: 9rem;
+    padding: 0.75rem 1rem;
+    vertical-align: top;
+    border-top: 1px solid hsl(var(--border));
+    line-height: 1.5rem;
+    text-align: left;
+  }
+  .prose-invert > table th {
+    color: hsl(var(--foreground));
+    font-weight: 600;
+    background: hsl(var(--muted) / 0.7);
+  }
+  .prose-invert > table tr:first-child th,
+  .prose-invert > table tr:first-child td {
+    border-top: 0;
+  }
 }
 
 /* Trending Now auto-scroll carousel */
