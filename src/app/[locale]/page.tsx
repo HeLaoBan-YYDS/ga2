@@ -6,7 +6,16 @@ import { routing, type Locale } from "@/i18n/routing";
 import en from "@/locales/en.json";
 import HomePageClient from "./HomePageClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://vvultimatum.sbs";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://growagarden2wiki.wiki";
+const officialLinks = [
+  "https://gag.gg/",
+  "https://www.roblox.com/games/97598239454123/Grow-a-Garden-2",
+  "https://www.roblox.com/communities/432538536/Strawberreh-Squad",
+  "https://discord.gg/H8qPF3QnMF",
+  "https://x.com/GrowaGardenRblx",
+  "https://www.reddit.com/r/growagarden/",
+  "https://www.youtube.com/watch?v=a3TCmxcT2QI",
+];
 
 type Messages = typeof en;
 
@@ -17,7 +26,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: messages.home.meta.title,
     description: messages.home.meta.description,
     alternates: { canonical: locale === "en" ? "/" : `/${locale}`, languages: { en: "/" } },
-    openGraph: { title: messages.home.meta.title, description: messages.home.meta.description, url: siteUrl, images: [`${siteUrl}/images/hero.webp`] },
+    openGraph: { title: messages.home.meta.title, description: messages.home.meta.description, url: siteUrl, siteName: messages.site.name, images: [`${siteUrl}/images/hero.webp`] },
+    twitter: { card: "summary_large_image", title: messages.home.meta.title, description: messages.home.meta.description, images: [`${siteUrl}/images/hero.webp`] },
   };
 }
 
@@ -26,7 +36,16 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const loc = locale as Locale;
   const messages = (await getMessages({ locale })) as Messages;
   const navGroups = getDynamicNavigation(loc);
-  const webSite = { "@context": "https://schema.org", "@type": "WebSite", name: "VV Ultimatum Wiki", url: siteUrl, description: messages.home.meta.description };
+  const webSite = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: messages.site.name,
+    url: siteUrl,
+    description: messages.site.description,
+    image: `${siteUrl}/images/hero.webp`,
+    inLanguage: locale,
+    sameAs: officialLinks,
+  };
 
   // 动态加载所有 content 目录下的文章
   const allArticles: ContentItem[] = [];

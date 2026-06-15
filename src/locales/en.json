@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "VV: ULTIMATUM",
-    "shortName": "VV Ultimatum",
+    "name": "Grow a Garden 2 Wiki",
+    "shortName": "Grow a Garden 2",
     "tagline": "Fan-Made Community Wiki",
-    "description": "Your complete companion for VV: ULTIMATUM on Roblox. Master all three races Shinigami, Quincy, and Hollow with in-depth guides, boss strategies, build optimization, and the latest codes.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "description": "Fan-made Grow a Garden 2 wiki with active codes, beginner guide, seed shop tips, stealing defense, guild rewards, pets, badges, and Roblox update notes.",
+    "legalNotice": "Independent fan-made Grow a Garden 2 wiki. Not affiliated with Roblox or Strawberreh Squad."
   },
   "nav": {
     "races": "Races",
@@ -21,24 +21,24 @@
   },
   "home": {
     "meta": {
-      "title": "VV: ULTIMATUM — Codes, Builds, Guides | VV Ultimatum Wiki",
-      "description": "Complete VV: ULTIMATUM wiki with active codes, boss strategies, race guides, build optimization, and progression walkthroughs for Shinigami, Quincy, and Hollow."
+      "title": "Grow a Garden 2 Wiki - Codes, Guide & Seeds",
+      "description": "Fan-made Grow a Garden 2 wiki with active codes, beginner guide, seed shop tips, stealing defense, guild rewards, pets, badges, and Roblox update notes."
     },
     "hero": {
       "eyebrow": "Fan-Made Community Wiki",
-      "title": "VV: ULTIMATUM",
-      "description": "Your complete companion for VV: ULTIMATUM on Roblox. Master all three races Shinigami, Quincy, and Hollow with in-depth guides, boss strategies, build optimization, and the latest codes.",
+      "title": "Grow a Garden 2 Wiki",
+      "description": "Plant seeds, harvest crops, and turn Sheckles into a stronger garden while your plants keep growing offline. Grow a Garden 2 adds guild rewards and nighttime stealing, so smart layouts, defenses, and seed choices matter from the first session.",
       "stats": [
-        "Launched Jun 5",
-        "Updated Jun 11",
-        "3 Races",
-        "Lv100 Cap",
-        "130+ Skills"
+        "Launched Jun 2026",
+        "130M+ Visits",
+        "803K Peak CCU",
+        "93% Rating",
+        "214K+ Favorites"
       ],
-      "primaryCta": "Start Beginner Guide",
-      "secondaryCta": "Compare Races",
+      "primaryCta": "Play on Roblox",
+      "secondaryCta": "Join Official Discord",
       "tertiaryCta": "Check Active Codes",
-      "videoLabel": "Official media"
+      "videoLabel": "Gameplay showcase"
     },
     "updates": {
       "title": "动态更新",
@@ -429,8 +429,8 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master VV: ULTIMATUM?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Master Grow a Garden 2?",
+      "description": "From your first seed purchase to night defense, guild rewards, pets, and badges, this community wiki helps you grow faster and avoid beginner mistakes.",
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Roblox"
     }
@@ -466,21 +466,21 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "VV Ultimatum Wiki",
-    "about": "VV Ultimatum Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Grow a Garden 2 Wiki",
+    "about": "Grow a Garden 2 Wiki is an independent fan-made guide hub for Roblox players. It covers codes, beginner routes, seed choices, pets, defense layouts, badges, and update notes. This site is not affiliated with Roblox or Strawberreh Squad.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 VV: ULTIMATUM Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play VV: ULTIMATUM",
+    "copyright": "2026 Grow a Garden 2 Wiki. Not affiliated with Roblox or Strawberreh Squad.",
+    "description": "Free Roblox farming simulator with seeds, Sheckles, guild rewards, nighttime stealing, and offline growth.",
+    "playGame": "Play Grow a Garden 2",
     "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "officialYoutube": "Popular YouTube Video",
+    "vvBuilder": "Official X",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "raceGuides": "Seed Guides",
+    "bossGuides": "Defense Guides",
+    "buildGuide": "Pet Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
