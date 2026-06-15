@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "codes": "Codes",
+    "guide": "Guide",
+    "release": "Release",
+    "community": "Community",
+    "pets": "Pets",
+    "crops": "Crops",
+    "tools": "Tools"
   },
   "home": {
     "meta": {
@@ -305,7 +312,34 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "codes": {
+    "overviewTitle": "Codes",
+    "overviewDescription": "Browse Grow a Garden 2 code guides, redemption notes, active rewards, and expiry checks."
+  },
+  "guide": {
+    "overviewTitle": "Guide",
+    "overviewDescription": "Start with practical Grow a Garden 2 guides for progression, tier lists, tools, and key gameplay systems."
+  },
+  "release": {
+    "overviewTitle": "Release",
+    "overviewDescription": "Track Grow a Garden 2 release timing, countdown updates, early access details, and launch status."
+  },
+  "community": {
+    "overviewTitle": "Community",
+    "overviewDescription": "Find Grow a Garden 2 community resources, Discord guidance, and places to follow player updates."
+  },
+  "pets": {
+    "overviewTitle": "Pets",
+    "overviewDescription": "Compare Grow a Garden 2 pets, abilities, rarities, and standout companions for your garden."
+  },
+  "crops": {
+    "overviewTitle": "Crops",
+    "overviewDescription": "Explore Grow a Garden 2 crops, seeds, special plants, value picks, and farming priorities."
+  },
+  "tools": {
+    "overviewTitle": "Tools",
+    "overviewDescription": "Use Grow a Garden 2 utility guides for stock tracking, notifications, and player planning tools."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
