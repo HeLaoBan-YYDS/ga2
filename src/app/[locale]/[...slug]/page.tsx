@@ -31,15 +31,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
   const messages = (await getMessages({ locale })) as Messages;
   if (slug.length === 1 && CONTENT_TYPES.includes(slug[0])) {
     const ct = slug[0];
-    const ctTitle = ct.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    const sectionMessages = (messages as unknown as Record<string, Record<string, string>>)[ct];
+    const ctTitle = sectionMessages?.overviewTitle ?? ct.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    const sectionDesc = sectionMessages?.overviewDescription ?? `Browse all ${ctTitle.toLowerCase()} guides and resources for Grow a Garden 2.`;
     const title = `${ctTitle} - ${siteName}`;
-    const description = `Browse all ${ctTitle.toLowerCase()} guides and resources for Grow a Garden 2.`;
     return {
       title,
-      description,
+      description: sectionDesc,
       alternates: { canonical: locale === "en" ? `/${ct}` : `/${locale}/${ct}`, languages: languageAlternates(`/${ct}`) },
-      openGraph: { title, description, url: `${siteUrl}${locale === "en" ? "" : `/${locale}`}/${ct}`, siteName, images: [`${siteUrl}/images/hero.webp`] },
-      twitter: { card: "summary_large_image", title, description, images: [`${siteUrl}/images/hero.webp`] },
+      openGraph: { title, description: sectionDesc, url: `${siteUrl}${locale === "en" ? "" : `/${locale}`}/${ct}`, siteName, images: [`${siteUrl}/images/hero.webp`] },
+      twitter: { card: "summary_large_image", title, description: sectionDesc, images: [`${siteUrl}/images/hero.webp`] },
     };
   }
   const [contentType, ...articleSlug] = slug;
@@ -71,7 +72,7 @@ async function NavigationPage({ locale, contentType, navGroups }: { locale: Loca
     itemListElement: items.map((item, index) => ({ "@type": "ListItem", position: index + 1, url: `${siteUrl}${localePrefix}/${contentType}/${item.slug}`, name: item.metadata.title })),
   };
 
-  // 读取分类标题（优先用 locale JSON 里的，没有就转 slug）
+  // Read section title/description from locale JSON, fallback to slug → title case
   const sectionTitle = (messages as unknown as Record<string, Record<string, string>>)[contentType]?.overviewTitle
     || contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   const sectionDesc = (messages as unknown as Record<string, Record<string, string>>)[contentType]?.overviewDescription || "";
@@ -89,7 +90,8 @@ async function DetailPage({ locale, contentType, slug, navGroups }: { locale: Lo
   const canonicalUrl = `${siteUrl}${localePrefix}${pathname}`;
   const articleImage = item.metadata.image?.startsWith("http") ? item.metadata.image : `${siteUrl}${item.metadata.image ?? "/images/hero.webp"}`;
   const tocLabel = messages.shared.tableOfContents || messages.shared.inThisSection || "Table of Contents";
-  const sectionLabel = contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  const sectionLabel = (messages as unknown as Record<string, Record<string, string>>)[contentType]?.overviewTitle
+    ?? contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   const articleData = { "@context": "https://schema.org", "@type": "Article", headline: item.metadata.title, description: item.metadata.description, image: articleImage, datePublished: item.metadata.date, dateModified: item.metadata.lastModified ?? item.metadata.date, mainEntityOfPage: canonicalUrl, author: { "@type": "Organization", name: siteName }, publisher: { "@type": "Organization", name: siteName, logo: { "@type": "ImageObject", url: `${siteUrl}/android-chrome-512x512.png` } } };
   const breadcrumbData = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}${localePrefix || "/"}` }, { "@type": "ListItem", position: 2, name: sectionLabel, item: `${siteUrl}${localePrefix}/${contentType}` }, { "@type": "ListItem", position: 3, name: item.metadata.title, item: canonicalUrl }] };
 
@@ -99,7 +101,6 @@ async function DetailPage({ locale, contentType, slug, navGroups }: { locale: Lo
 }
 
 async function ArticleCards({ locale, contentType, currentSlug, relatedLabel }: { locale: string; contentType: string; currentSlug: string; relatedLabel: string }) {
-  // 动态获取同分类其他文章（排除当前文章）
   const allItems = await getAllContent(contentType, locale as Locale);
   const related = allItems.filter((item) => item.slug !== currentSlug).slice(0, 4);
 
