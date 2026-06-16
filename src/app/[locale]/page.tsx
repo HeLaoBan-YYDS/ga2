@@ -22,11 +22,16 @@ type Messages = typeof en;
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const messages = (await getMessages({ locale })) as Messages;
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
+  const homeAlternates: Record<string, string> = { "x-default": siteUrl };
+  for (const loc of routing.locales) {
+    homeAlternates[loc] = loc === "en" ? siteUrl : `${siteUrl}/${loc}`;
+  }
   return {
     title: messages.home.meta.title,
     description: messages.home.meta.description,
-    alternates: { canonical: locale === "en" ? "/" : `/${locale}`, languages: { en: "/" } },
-    openGraph: { title: messages.home.meta.title, description: messages.home.meta.description, url: siteUrl, siteName: messages.site.name, images: [`${siteUrl}/images/hero.webp`] },
+    alternates: { canonical: locale === "en" ? "/" : `/${locale}`, languages: homeAlternates },
+    openGraph: { title: messages.home.meta.title, description: messages.home.meta.description, url: `${siteUrl}${localePrefix}`, siteName: messages.site.name, images: [`${siteUrl}/images/hero.webp`] },
     twitter: { card: "summary_large_image", title: messages.home.meta.title, description: messages.home.meta.description, images: [`${siteUrl}/images/hero.webp`] },
   };
 }
