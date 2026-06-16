@@ -247,10 +247,54 @@ const GROUP_TITLES: Record<string, string> = {
 };
 
 // locale → 分组标题映射
-const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {};
+const GROUP_TITLES_BY_LOCALE: Record<Locale, Record<string, string>> = {
+  en: GROUP_TITLES,
+  es: {
+    codes: "C\u00f3digos",
+    guide: "Gu\u00eda",
+    release: "Lanzamiento",
+    community: "Comunidad",
+    pets: "Mascotas",
+    crops: "Cultivos",
+    tools: "Herramientas",
+  },
+  "pt-BR": {
+    codes: "C\u00f3digos",
+    guide: "Gu\u00eda",
+    release: "Lanzamiento",
+    community: "Comunidad",
+    pets: "Mascotas",
+    crops: "Cultivos",
+    tools: "Herramientas",
+  },
+  th: {
+    codes: "\u0e42\u0e04\u0e49\u0e14",
+    guide: "\u0e04\u0e39\u0e48\u0e21\u0e37\u0e2d",
+    release: "\u0e27\u0e31\u0e19\u0e40\u0e1b\u0e34\u0e14\u0e15\u0e31\u0e27",
+    community: "\u0e0a\u0e38\u0e21\u0e0a\u0e19",
+    pets: "\u0e2a\u0e31\u0e15\u0e27\u0e4c\u0e40\u0e25\u0e35\u0e49\u0e22\u0e07",
+    crops: "\u0e1e\u0e37\u0e0a\u0e1c\u0e25",
+    tools: "\u0e40\u0e04\u0e23\u0e37\u0e48\u0e2d\u0e07\u0e21\u0e37\u0e2d",
+  },
+  zh: {
+    codes: "\u5151\u6362\u7801",
+    guide: "\u653b\u7565",
+    release: "\u53d1\u5e03",
+    community: "\u793e\u533a",
+    pets: "\u5ba0\u7269",
+    crops: "\u4f5c\u7269",
+    tools: "\u5de5\u5177",
+  },
+};
 
 // locale → "Overview" 翻译
-const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {};
+const OVERVIEW_LABEL_BY_LOCALE: Record<Locale, string> = {
+  en: "Overview",
+  es: "Resumen",
+  "pt-BR": "Resumen",
+  th: "\u0e20\u0e32\u0e1e\u0e23\u0e27\u0e21",
+  zh: "\u6982\u89c8",
+};
 
 // 分组排序顺序
 const GROUP_ORDER: string[] = [

@@ -1,0 +1,383 @@
+{
+  "site": {
+    "name": "Grow a Garden 2 Wiki",
+    "shortName": "Grow a Garden 2",
+    "tagline": "玩家社区维基",
+    "description": "Grow a Garden 2 玩家维基 — 提供最新兑换码、新手攻略、种子商店技巧、偷窃防御、公会奖励、宠物、徽章及 Roblox 更新笔记。",
+    "legalNotice": "Grow a Garden 2 独立玩家维基，与 Roblox 及 Strawberreh Squad 无关。"
+  },
+  "nav": {
+    "home": "首页",
+    "menu": "菜单",
+    "toggleTheme": "切换主题",
+    "codes": "兑换码",
+    "guide": "攻略",
+    "release": "发布",
+    "community": "社区",
+    "pets": "宠物",
+    "crops": "作物",
+    "tools": "工具"
+  },
+  "home": {
+    "meta": {
+      "title": "Grow a Garden 2 Wiki - 兑换码、攻略与种子",
+      "description": "Grow a Garden 2 玩家维基，提供有效兑换码、新手攻略、种子选择技巧、偷窃防御、公会奖励、宠物、徽章及 Roblox 更新笔记。"
+    },
+    "hero": {
+      "eyebrow": "玩家社区维基",
+      "title": "Grow a Garden 2 Wiki",
+      "description": "购买种子、种植作物、收获并出售换取 Sheckles，打造更强大的花园，即使离线植物也会继续生长。Grow a Garden 2 新增公会奖励和夜间偷窃机制，从第一局开始，布局、防御和种子选择就至关重要。",
+      "stats": [
+        "2026年6月上线",
+        "1.3亿+ 访问",
+        "80.3万 峰值同时在线",
+        "93% 好评率",
+        "21.4万+ 收藏"
+      ],
+      "primaryCta": "在 Roblox 上玩",
+      "secondaryCta": "加入官方 Discord",
+      "tertiaryCta": "查看有效兑换码",
+      "videoLabel": "游戏实机演示"
+    },
+    "updates": {
+      "title": "最新更新",
+      "browse": "浏览全部攻略",
+      "viewAll": "查看全部"
+    },
+    "start": {
+      "eyebrow": "从这里开始",
+      "title": "你的 Grow a Garden 2 之旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "新手攻略",
+          "description": "掌握首局路线：购买种子、种植作物、收获、出售换取 Sheckles，避免前期浪费资金。"
+        },
+        {
+          "number": "2",
+          "title": "种子与 Sheckles 农场",
+          "description": "掌握商店补货时该买什么、新手快速扩展的作物选择，以及如何将利润再投资到更好的种子上。"
+        },
+        {
+          "number": "3",
+          "title": "夜间偷窃防御",
+          "description": "了解夜间偷窃如何改变核心循环，以及如何通过更聪明的布局、围栏和陷阱保护高价值作物。"
+        },
+        {
+          "number": "4",
+          "title": "公会奖励与成长",
+          "description": "利用公会系统、每周奖励、徽章和宠物，从休闲种田进阶到竞技花园和排行榜竞争。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "热门页面",
+      "title": "正在流行",
+      "quickLinks": [
+        "种子梯度榜",
+        "新手攻略",
+        "夜间防御",
+        "宠物攻略汇总"
+      ],
+      "cards": [
+        {
+          "badge": "新手",
+          "title": "新手攻略",
+          "description": "从购买第一颗种子到掌握种植、收获和出售作物的完整循环，你需要的所有内容。",
+          "href": "/guide"
+        },
+        {
+          "badge": "已更新",
+          "title": "有效兑换码",
+          "description": "所有可用的 Grow a Garden 2 兑换码及奖励 — 在过期前兑换。",
+          "href": "/codes"
+        },
+        {
+          "badge": "已更新",
+          "title": "种子梯度榜",
+          "description": "按售价、收获类型、ROI 和防御能力排名的所有种子 — 优先种植正确的作物。",
+          "href": "/guide/grow-a-garden-2-tier-list"
+        },
+        {
+          "badge": "热门",
+          "title": "应该先种哪些种子？",
+          "description": "按利润率、生长时间和被偷风险比较前期种子 — 找到最佳入门作物。",
+          "href": "/guide/grow-a-garden-2-tier-list"
+        },
+        {
+          "badge": "新",
+          "title": "宠物攻略",
+          "description": "全部宠物含价格、稀有度和能力 — 从普通 Frog 到神话 Unicorn 和超级 Raccoon。",
+          "href": "/pets"
+        },
+        {
+          "badge": "热门",
+          "title": "偷窃与防御攻略",
+          "description": "夜间突袭如何运作、哪些防御道具能阻止小偷、如何保护你最值钱的作物。",
+          "href": "/guide"
+        },
+        {
+          "badge": "热门",
+          "title": "公会攻略",
+          "description": "创建或加入公会、在排行榜上竞争、领取独家每周奖励。",
+          "href": "/guide"
+        },
+        {
+          "badge": "新",
+          "title": "天气事件攻略",
+          "description": "所有天气类型 — 雨、闪电、彩虹、星落 — 含持续时间、效果和突变几率。",
+          "href": "/guide"
+        },
+        {
+          "badge": "新",
+          "title": "徽章攻略",
+          "description": "从播种第一颗种子到 1000ft 巨植的全部徽章 — 追踪你的成就目标和里程碑。",
+          "href": "/guide"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Grow a Garden 2 是什么？",
+      "paragraphs": [
+        "Grow a Garden 2 是一款 Roblox 农场模拟器，玩家购买种子、种植作物、收获并出售农产品换取 Sheckles。核心循环简单易懂，但续作通过公会竞争和夜间偷窃增加了更多压力。",
+        "玩家最关心的问题包括有效兑换码、最佳前期种子、如何赚取 Sheckles、如何夜间防守花园以及哪些宠物或徽章值得追求。玩家维基应优先提供快速的新手解答，然后扩展到种子列表、防御布局、公会奖励和更新跟踪。"
+      ],
+      "stats": [
+        { "label": "开发商", "value": "Strawberreh Squad" },
+        { "label": "平台", "value": "Roblox" },
+        { "label": "类型", "value": "农场模拟 / 经营" },
+        { "label": "访问量", "value": "1.3亿+" },
+        { "label": "收藏", "value": "21.4万+" },
+        { "label": "评分", "value": "93.5%" },
+        { "label": "峰值同时在线", "value": "80.3万+" },
+        { "label": "最大玩家数", "value": "8" }
+      ],
+      "cta": "探索全部攻略"
+    },
+    "explore": {
+      "title": "Grow a Garden 2 首页模块导航",
+      "description": "直接跳转到八个首页模块，滚动到你需要的内容。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Grow a Garden 2 兑换码",
+          "description": "追踪最新的 Grow a Garden 2 兑换码，获取免费开局奖励。适合想在开始种田前快速获取免费道具的玩家。",
+          "href": "/codes",
+          "displayType": "code-cards",
+          "highlights": [
+            { "label": "TEAMGREENBEAN", "detail": "兑换获得 3 颗 Green Bean 种子。", "badge": "有效" }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Grow a Garden 2 新手攻略",
+          "description": "核心循环快速攻略：购买种子、种植作物、收获并出售换取 Sheckles。还介绍了离线生长、公会奖励和夜间偷窃机制。",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "在商店补货时购买种子。" },
+            { "label": "2", "detail": "在农田中种植种子，等待它们生长。" },
+            { "label": "3", "detail": "收获作物并出售换取 Sheckles。" },
+            { "label": "4", "detail": "用利润购买更好的种子、装备、宠物和装饰品。" },
+            { "label": "5", "detail": "创建或加入公会，竞争每周独家奖励。" },
+            { "label": "6", "detail": "做好夜间准备，因为天黑后偷窃就会开始。" },
+            { "label": "7", "detail": "即使离线也能继续进步，因为花园在你离开时仍在生长。" }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Grow a Garden 2 种子梯度榜",
+          "description": "种子排名模块，帮助玩家了解哪些作物值得优先种植。梯度基于平均售价、收获类型、种子成本、ROI 和防御价值。",
+          "href": "/guide/grow-a-garden-2-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            { "label": "S", "detail": "Ghost Pepper、Dragon's Breath、Venus Flytrap、Moon Bloom。", "badge": "最佳种子" },
+            { "label": "A", "detail": "Poison Ivy、Poison Apple、Pomegranate、Sunflower、Mushroom。", "badge": "非常好" },
+            { "label": "B", "detail": "Cherry、Dragon Fruit、Bamboo、Acorn。", "badge": "不错" },
+            { "label": "C", "detail": "Mango、Coconut、Grape、Banana、Green Bean、Pineapple、Cactus、Corn、Apple、Tulip。", "badge": "中等" },
+            { "label": "D", "detail": "Tomato、Blueberry、Strawberry、Carrot。", "badge": "仅前期" }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Grow a Garden 2 宠物攻略",
+          "description": "宠物攻略模块，帮助玩家比较价格、稀有度和能力。宠物可以辅助种植、移动、突变、偷窃和花园防御。",
+          "href": "/pets",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "Frog", "detail": "普通宠物，售价1万 Sheckles；跳跃高度+5。", "badge": "普通" },
+            { "label": "Bunny", "detail": "普通宠物，售价2万 Sheckles；移动速度+5。", "badge": "普通" },
+            { "label": "Deer", "detail": "稀有宠物，售价5万 Sheckles；植物生长速度+10%。", "badge": "稀有" },
+            { "label": "Dragonfly", "detail": "神话宠物，售价300万 Sheckles；金色几率翻倍。", "badge": "神话" },
+            { "label": "Unicorn", "detail": "神话宠物，售价400万 Sheckles；彩虹果实几率翻倍。", "badge": "神话" },
+            { "label": "Raccoon", "detail": "超级宠物，售价500万 Sheckles；夜间从无人花园偷水果，偷窃上限+25。", "badge": "超级" }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Grow a Garden 2 公会攻略",
+          "description": "Grow a Garden 2 新公会系统的专项攻略。本模块帮助玩家了解公会创建、邀请、排行榜和每周奖励。",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "在中央枢纽找到公会摊位。" },
+            { "label": "2", "detail": "创建公会或通过邀请加入现有公会。" },
+            { "label": "3", "detail": "在全球竞赛中与其他公会竞争。" },
+            { "label": "4", "detail": "查看公会排行榜跟踪进度。" },
+            { "label": "5", "detail": "当公会表现出色时领取独家每周奖励。" }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Grow a Garden 2 偷窃与防御攻略",
+          "description": "夜间偷窃系统和基地保护的实用模块。解释偷窃何时开始、突袭如何运作以及哪些防御选项最重要。",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "等待夜晚到来，因为 PvP 偷窃在夜间开始。" },
+            { "label": "2", "detail": "进入其他玩家的花园尝试偷窃作物。" },
+            { "label": "3", "detail": "当花园主人在田地内时，你无法收获。" },
+            { "label": "4", "detail": "用防御作物、道具、墙壁、围栏和陷阱保护你的花园。" },
+            { "label": "5", "detail": "优先使用 Bear Trap Crate 阻止小偷带走贵重作物。" },
+            { "label": "6", "detail": "使用 Fence Crate 和 Owner Door Crate 减少入口点并控制基地访问。" }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Grow a Garden 2 天气事件",
+          "description": "天气模块，帮助玩家抓住生长加速、突变几率和特殊种子刷新的机会。天气事件直接关系到作物价值和种植速度。",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "Rain", "detail": "持续5分钟，所有植物2倍生长速度。", "badge": "生长" },
+            { "label": "Lightning", "detail": "持续5分钟，随机作物获得 Shocked 或 Electric 突变。", "badge": "突变" },
+            { "label": "Rainbow", "detail": "持续5分钟，提高彩虹果实几率。", "badge": "突变" },
+            { "label": "Snowfall", "detail": "持续2分30秒，随机作物获得 Frozen 突变。", "badge": "突变" },
+            { "label": "Starfall", "detail": "持续2分钟，给予 Starstruck 突变。", "badge": "稀有" },
+            { "label": "Gold Seed", "detail": "持续2分钟，随机生成金色种子。", "badge": "种子刷新" },
+            { "label": "Rainbow Seed", "detail": "持续2分钟，随机生成彩虹种子。", "badge": "种子刷新" },
+            { "label": "Rainbow Moon", "detail": "持续2分钟，偷到的水果变为彩虹色。", "badge": "偷窃" }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Grow a Garden 2 徽章攻略",
+          "description": "徽章清单模块，帮助玩家设定超越赚钱的成长目标。涵盖早期里程碑、突变目标、偷窃成就、尺寸目标和首周奖励。",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "First Seed", "detail": "种下你的第一颗种子。", "badge": "早期" },
+            { "label": "First Pet", "detail": "获得你的第一只 Grow a Garden 2 宠物。", "badge": "早期" },
+            { "label": "First Mutation", "detail": "培育出你的第一株突变植物。", "badge": "突变" },
+            { "label": "Stole A Fruit", "detail": "成功从其他玩家花园偷取水果。", "badge": "PvP" },
+            { "label": "Builder", "detail": "放置你的第一个道具或装饰品。", "badge": "建造" },
+            { "label": "Rainbow", "detail": "培育出一颗彩虹果实。", "badge": "稀有" },
+            { "label": "OMG its HUGE", "detail": "获得一只 HUGE 宠物。", "badge": "困难" },
+            { "label": "1000ft Plant", "detail": "培育一株达到1000英尺的植物。", "badge": "困难" },
+            { "label": "OG Badge", "detail": "在首周内游玩游戏。", "badge": "限定" }
+          ]
+        }
+      ],
+      "readFullGuide": "阅读完整攻略"
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "关于 Grow a Garden 2 最常见问题的快速回答。",
+      "items": [
+        {
+          "question": "Grow a Garden 2 是什么？",
+          "answer": "Grow a Garden 2 是一款在 Roblox 上的免费农场模拟器，由 Strawberreh Squad 开发。玩家购买种子、种植作物、收获并出售农产品换取 Sheckles。续作引入了公会竞争、夜间偷窃、拥有特殊能力的宠物、天气事件和离线生长，即使你离开游戏花园也会继续生长。"
+        },
+        {
+          "question": "新手应该先种哪些种子？",
+          "answer": "从低成本、快速生长的作物开始，如 Carrots、Tomatoes 和 Strawberries，积累你的第一批 Sheckles。收入稳定后，再投资更高等级的种子如 Green Beans 和 Sunflowers。查看种子梯度榜获取按利润率、生长时间和防御价值的完整排名。"
+        },
+        {
+          "question": "夜间偷窃如何运作？",
+          "answer": "当夜晚降临时，PvP 偷窃机制激活。玩家可以进入其他花园尝试偷窃作物，但当花园主人在田地内时无法收获。用围栏、熊陷阱、主人门以及 Venus Flytraps 和 Poison Ivy 等防御作物保护你的花园来阻止小偷。"
+        },
+        {
+          "question": "在哪里找到有效的 Grow a Garden 2 兑换码？",
+          "answer": "查看兑换码页面获取所有可用的 Grow a Garden 2 兑换码及其奖励和过期说明。如 TEAMGREENBEAN 等兑换码可免费获得种子，建议尽早兑换。"
+        },
+        {
+          "question": "宠物和公会值得投入吗？",
+          "answer": "值得 — 宠物提供被动加成，如更快生长、更高跳跃和偷窃能力，直接提升种植效率。公会解锁每周竞赛和独家奖励。即使是 Bunny（移动速度+5）这样的普通宠物也能帮你更快在田地间移动，加入活跃公会能获得单人无法获得的奖励。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "准备好征服 Grow a Garden 2 了吗？",
+      "description": "从购买第一颗种子到夜间防御、公会奖励、宠物和徽章，这个社区维基帮你更快成长并避免新手错误。",
+      "primary": "阅读新手攻略",
+      "secondary": "在 Roblox 上玩"
+    }
+  },
+  "codes": {
+    "overviewTitle": "兑换码",
+    "overviewDescription": "浏览 Grow a Garden 2 兑换码攻略、兑换说明、有效奖励和过期检测。"
+  },
+  "guide": {
+    "overviewTitle": "攻略",
+    "overviewDescription": "从实用的 Grow a Garden 2 攻略开始，涵盖成长、梯度榜、工具和核心游戏系统。"
+  },
+  "release": {
+    "overviewTitle": "发布",
+    "overviewDescription": "追踪 Grow a Garden 2 发布时间、倒计时更新、早期测试详情和上线状态。"
+  },
+  "community": {
+    "overviewTitle": "社区",
+    "overviewDescription": "查找 Grow a Garden 2 社区资源、Discord 指南和关注玩家更新的渠道。"
+  },
+  "pets": {
+    "overviewTitle": "宠物",
+    "overviewDescription": "比较 Grow a Garden 2 宠物的能力、稀有度和出色的花园伙伴。"
+  },
+  "crops": {
+    "overviewTitle": "作物",
+    "overviewDescription": "探索 Grow a Garden 2 的作物、种子、特殊植物、价值选择和种植优先级。"
+  },
+  "tools": {
+    "overviewTitle": "工具",
+    "overviewDescription": "使用 Grow a Garden 2 工具攻略进行库存追踪、通知和玩家规划。"
+  },
+  "shared": {
+    "wikiNavigation": "维基导航",
+    "activeCodes": "有效兑换码",
+    "updated": "已更新",
+    "viewAllCodes": "查看全部兑换码",
+    "playOnRoblox": "在 Roblox 上玩",
+    "inThisSection": "本节内容",
+    "tableOfContents": "目录",
+    "nextSteps": "下一步",
+    "needHelp": "需要帮助？",
+    "relatedReading": "扩展阅读",
+    "relatedGuides": "相关攻略",
+    "readMore": "阅读更多",
+    "officialMedia": "官方媒体",
+    "home": "首页",
+    "noGuidesAvailable": "暂无攻略，请稍后再来！",
+    "noCodes": "暂无兑换码。",
+    "copied": "已复制！",
+    "copyCode": "复制兑换码"
+  },
+  "footer": {
+    "aboutTitle": "Grow a Garden 2 Wiki",
+    "about": "Grow a Garden 2 Wiki 是一个为 Roblox 玩家打造的独立玩家攻略中心。涵盖兑换码、新手路线、种子选择、宠物、防御布局、徽章和更新笔记。本网站与 Roblox 及 Strawberreh Squad 无关。",
+    "quickLinks": "快速链接",
+    "guides": "攻略",
+    "legal": "法律",
+    "copyright": "2026 Grow a Garden 2 Wiki。与 Roblox 及 Strawberreh Squad 无关。",
+    "description": "免费的 Roblox 农场模拟器，包含种子、Sheckles、公会奖励、夜间偷窃和离线生长。",
+    "playGame": "玩 Grow a Garden 2",
+    "officialDiscord": "官方 Discord",
+    "officialYoutube": "热门 YouTube 视频",
+    "beginnerGuide": "新手攻略",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "officialX": "官方 X",
+    "seedGuides": "种子攻略",
+    "defenseGuides": "防御攻略",
+    "petGuides": "宠物攻略"
+  }
+}

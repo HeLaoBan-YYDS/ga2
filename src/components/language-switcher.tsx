@@ -15,7 +15,8 @@ const LOCALE_LABELS: Record<Locale, string> = {
   en: "English",
   es: "Espanol",
   "pt-BR": "Portugues",
-  th: "Thai",
+  th: "ไทย",
+  zh: "简体中文",
 };
 
 /**

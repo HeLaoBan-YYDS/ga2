@@ -8,6 +8,7 @@ import en from "@/locales/en.json";
 import es from "@/locales/es.json";
 import ptBR from "@/locales/pt-BR.json";
 import th from "@/locales/th.json";
+import zh from "@/locales/zh.json";
 
 type Messages = typeof en;
 
@@ -16,6 +17,7 @@ const messagesMap: Record<string, Partial<Messages>> = {
   es: es as unknown as Partial<Messages>,
   "pt-BR": ptBR as unknown as Partial<Messages>,
   th: th as unknown as Partial<Messages>,
+  zh: zh as unknown as Partial<Messages>,
 };
 
 /**
