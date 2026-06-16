@@ -1,0 +1,761 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Grow a Garden 2 Grow a Garden 2" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Grow a Garden 2" [ref=e6]
+        - generic [ref=e7]: Grow a Garden 2
+      - navigation [ref=e8]:
+        - link "Codes" [ref=e9] [cursor=pointer]:
+          - /url: /codes
+        - link "Guide" [ref=e10] [cursor=pointer]:
+          - /url: /guide
+        - link "Release" [ref=e11] [cursor=pointer]:
+          - /url: /release
+        - link "Community" [ref=e12] [cursor=pointer]:
+          - /url: /community
+        - link "Pets" [ref=e13] [cursor=pointer]:
+          - /url: /pets
+        - link "Crops" [ref=e14] [cursor=pointer]:
+          - /url: /crops
+        - link "Tools" [ref=e15] [cursor=pointer]:
+          - /url: /tools
+      - generic [ref=e16]:
+        - button "English" [ref=e17] [cursor=pointer]:
+          - img
+          - generic [ref=e18]: English
+        - button "Toggle theme" [ref=e19] [cursor=pointer]:
+          - img
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - heading "Grow a Garden 2 Wiki" [level=1] [ref=e25]
+            - generic [ref=e26]: Fan-Made Community Wiki
+          - paragraph [ref=e27]: Plant seeds, harvest crops, and turn Sheckles into a stronger garden while your plants keep growing offline. Grow a Garden 2 adds guild rewards and nighttime stealing, so smart layouts, defenses, and seed choices matter from the first session.
+          - generic [ref=e28]:
+            - generic [ref=e29]: Launched Jun 2026
+            - generic [ref=e30]: 130M+ Visits
+            - generic [ref=e31]: 803K Peak CCU
+            - generic [ref=e32]: 93% Rating
+            - generic [ref=e33]: 214K+ Favorites
+          - generic [ref=e34]:
+            - link "Play on Roblox" [ref=e35] [cursor=pointer]:
+              - /url: https://www.roblox.com/games/97598239454123/Grow-a-Garden-2
+              - text: Play on Roblox
+              - img
+            - link "Join Official Discord" [ref=e36] [cursor=pointer]:
+              - /url: https://discord.gg/H8qPF3QnMF
+            - link "Check Active Codes" [ref=e37] [cursor=pointer]:
+              - /url: /codes
+        - generic [ref=e38]:
+          - button "Grow a Garden 2 video preview YouTube" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - img "Grow a Garden 2 video preview" [ref=e42]
+              - img [ref=e46]
+              - generic [ref=e48]: YouTube
+          - dialog:
+            - generic:
+              - iframe [ref=e49]:
+                
+              - button "✕ Close"
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - heading "Latest Updates" [level=2] [ref=e52]
+            - generic [ref=e53]:
+              - 'link "Codes 2026-06-15 Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)" [ref=e54] [cursor=pointer]':
+                - /url: /codes/grow-a-garden-2-codes
+                - generic [ref=e55]:
+                  - generic [ref=e56]: Codes
+                  - generic [ref=e57]: 2026-06-15
+                - paragraph [ref=e58]: "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)"
+              - 'link "Guide 2026-06-15 Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips" [ref=e59] [cursor=pointer]':
+                - /url: /guide/grow-a-garden-2-gnome
+                - generic [ref=e60]:
+                  - generic [ref=e61]: Guide
+                  - generic [ref=e62]: 2026-06-15
+                - paragraph [ref=e63]: "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips"
+              - 'link "Guide 2026-06-15 Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds" [ref=e64] [cursor=pointer]':
+                - /url: /guide/grow-a-garden-2-tier-list
+                - generic [ref=e65]:
+                  - generic [ref=e66]: Guide
+                  - generic [ref=e67]: 2026-06-15
+                - paragraph [ref=e68]: "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds"
+              - 'link "Guide 2026-06-15 Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow" [ref=e69] [cursor=pointer]':
+                - /url: /guide/grow-a-garden-2-wheelbarrow
+                - generic [ref=e70]:
+                  - generic [ref=e71]: Guide
+                  - generic [ref=e72]: 2026-06-15
+                - paragraph [ref=e73]: "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow"
+              - link "Release 2026-06-15 Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!" [ref=e74] [cursor=pointer]:
+                - /url: /release/grow-a-garden-2-is-out
+                - generic [ref=e75]:
+                  - generic [ref=e76]: Release
+                  - generic [ref=e77]: 2026-06-15
+                - paragraph [ref=e78]: Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!
+              - 'link "Release 2026-06-15 Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know" [ref=e79] [cursor=pointer]':
+                - /url: /release/grow-a-garden-2-countdown
+                - generic [ref=e80]:
+                  - generic [ref=e81]: Release
+                  - generic [ref=e82]: 2026-06-15
+                - paragraph [ref=e83]: "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know"
+              - 'link "Release 2026-06-15 Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay" [ref=e84] [cursor=pointer]':
+                - /url: /release/grow-a-garden-2-early-access
+                - generic [ref=e85]:
+                  - generic [ref=e86]: Release
+                  - generic [ref=e87]: 2026-06-15
+                - paragraph [ref=e88]: "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay"
+              - 'link "Release 2026-06-15 Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day" [ref=e89] [cursor=pointer]':
+                - /url: /release/grow-a-garden-2-release-date
+                - generic [ref=e90]:
+                  - generic [ref=e91]: Release
+                  - generic [ref=e92]: 2026-06-15
+                - paragraph [ref=e93]: "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day"
+            - link "Browse All Guides" [ref=e94] [cursor=pointer]:
+              - /url: /codes
+          - generic [ref=e95]:
+            - paragraph [ref=e96]: Start Here
+            - heading "Your Grow a Garden 2 Journey" [level=2] [ref=e97]
+            - generic [ref=e98]:
+              - generic [ref=e99]:
+                - generic [ref=e100]: "1"
+                - heading "Beginner Guide" [level=3] [ref=e101]
+                - paragraph [ref=e102]: "Learn the first-session route: buy seeds, plant plots, harvest crops, sell for Sheckles, and avoid wasting early money."
+              - generic [ref=e103]:
+                - generic [ref=e104]: "2"
+                - heading "Seeds & Sheckles Farming" [level=3] [ref=e105]
+                - paragraph [ref=e106]: Track what to buy when the shop restocks, which crops help beginners scale fastest, and how to reinvest profits into better seeds.
+              - generic [ref=e107]:
+                - generic [ref=e108]: "3"
+                - heading "Night Stealing Defense" [level=3] [ref=e109]
+                - paragraph [ref=e110]: Understand how nighttime stealing changes the core loop and how to protect valuable crops with smarter layouts, fences, and traps.
+              - generic [ref=e111]:
+                - generic [ref=e112]: "4"
+                - heading "Guild Rewards & Progression" [level=3] [ref=e113]
+                - paragraph [ref=e114]: Use guild systems, weekly rewards, badges, and pets to move from casual farming into competitive garden growth and leaderboard climbing.
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e117]:
+              - paragraph [ref=e118]: Popular Pages
+              - heading "Trending Now" [level=2] [ref=e119]
+            - generic [ref=e120]:
+              - generic [ref=e121]: Seed Tier List
+              - generic [ref=e122]: Beginner Guide
+              - generic [ref=e123]: Night Defense
+              - generic [ref=e124]: All Pet Guides
+          - generic [ref=e126]:
+            - 'link "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026) Discover all active Grow A Garden 2 codes for June 2026! Get free seeds, cash, and more to boost your Roblox farming adventure. Learn how to redeem codes and find new ones." [ref=e127] [cursor=pointer]':
+              - /url: /codes/grow-a-garden-2-codes
+              - img [ref=e130]
+              - 'heading "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)" [level=3] [ref=e132]'
+              - paragraph [ref=e133]: Discover all active Grow A Garden 2 codes for June 2026! Get free seeds, cash, and more to boost your Roblox farming adventure. Learn how to redeem codes and find new ones.
+            - 'link "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips Unlock the secrets of the Grow a Garden 2 gnome. Learn where to find them, how to trigger rare events, and maximize your garden rewards in this guide." [ref=e134] [cursor=pointer]':
+              - /url: /guide/grow-a-garden-2-gnome
+              - img [ref=e137]
+              - 'heading "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips" [level=3] [ref=e139]'
+              - paragraph [ref=e140]: Unlock the secrets of the Grow a Garden 2 gnome. Learn where to find them, how to trigger rare events, and maximize your garden rewards in this guide.
+            - 'link "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds Unlock your full farming potential in Roblox''s Grow A Garden 2 with our ultimate tier list for pets and seeds. Discover top-tier strategies for profit and defense." [ref=e141] [cursor=pointer]':
+              - /url: /guide/grow-a-garden-2-tier-list
+              - img [ref=e144]
+              - 'heading "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds" [level=3] [ref=e147]'
+              - paragraph [ref=e148]: Unlock your full farming potential in Roblox's Grow A Garden 2 with our ultimate tier list for pets and seeds. Discover top-tier strategies for profit and defense.
+            - 'link "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow Uncover the secrets of the Grow a Garden 2 wheelbarrow! Learn how to get it, its unique uses for player interaction and movement, and whether this legendary gear is a must-have for your farm." [ref=e149] [cursor=pointer]':
+              - /url: /guide/grow-a-garden-2-wheelbarrow
+              - img [ref=e152]
+              - 'heading "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow" [level=3] [ref=e162]'
+              - paragraph [ref=e163]: Uncover the secrets of the Grow a Garden 2 wheelbarrow! Learn how to get it, its unique uses for player interaction and movement, and whether this legendary gear is a must-have for your farm.
+            - link "Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today! Discover all the exciting new features and improvements as Grow a Garden 2 is out now! Learn what makes this sequel a must-play for virtual gardeners." [ref=e164] [cursor=pointer]:
+              - /url: /release/grow-a-garden-2-is-out
+              - img [ref=e167]
+              - heading "Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!" [level=3] [ref=e169]
+              - paragraph [ref=e170]: Discover all the exciting new features and improvements as Grow a Garden 2 is out now! Learn what makes this sequel a must-play for virtual gardeners.
+            - 'link "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know Check the Grow a Garden 2 countdown, regional release times, and essential beginner tips for this hit Roblox gardening simulator." [ref=e171] [cursor=pointer]':
+              - /url: /release/grow-a-garden-2-countdown
+              - img [ref=e174]
+              - 'heading "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know" [level=3] [ref=e178]'
+              - paragraph [ref=e179]: Check the Grow a Garden 2 countdown, regional release times, and essential beginner tips for this hit Roblox gardening simulator.
+            - 'link "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay Dive into Grow a Garden 2 Early Access! Discover new seeds, pets, guilds, and the thrilling steal mechanic. Get all the details on this exciting Roblox update." [ref=e180] [cursor=pointer]':
+              - /url: /release/grow-a-garden-2-early-access
+              - img [ref=e183]
+              - 'heading "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay" [level=3] [ref=e192]'
+              - paragraph [ref=e193]: Dive into Grow a Garden 2 Early Access! Discover new seeds, pets, guilds, and the thrilling steal mechanic. Get all the details on this exciting Roblox update.
+            - 'link "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day Get the confirmed Grow a Garden 2 release date, what''s new, and what to expect from this highly anticipated Roblox sequel. Prepare for launch!" [ref=e194] [cursor=pointer]':
+              - /url: /release/grow-a-garden-2-release-date
+              - img [ref=e197]
+              - 'heading "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day" [level=3] [ref=e199]'
+              - paragraph [ref=e200]: Get the confirmed Grow a Garden 2 release date, what's new, and what to expect from this highly anticipated Roblox sequel. Prepare for launch!
+            - 'link "Mastering Time in Grow a Garden 2: Optimize Your Gameplay for Maximum Yields Unlock the secrets to efficient time management in Grow a Garden 2. Learn how to maximize your progress and cultivate a thriving virtual farm." [ref=e201] [cursor=pointer]':
+              - /url: /release/grow-a-garden-2-time
+              - img [ref=e204]
+              - 'heading "Mastering Time in Grow a Garden 2: Optimize Your Gameplay for Maximum Yields" [level=3] [ref=e209]'
+              - paragraph [ref=e210]: Unlock the secrets to efficient time management in Grow a Garden 2. Learn how to maximize your progress and cultivate a thriving virtual farm.
+            - 'link "Cultivate Your Community: How to Find the Best Grow a Garden 2 Discord Servers Discover active Grow a Garden 2 Discord communities! Connect with fellow gardeners, share tips, and find thriving servers for your virtual farming adventures." [ref=e211] [cursor=pointer]':
+              - /url: /community/grow-a-garden-2-discord
+              - img [ref=e214]
+              - 'heading "Cultivate Your Community: How to Find the Best Grow a Garden 2 Discord Servers" [level=3] [ref=e220]'
+              - paragraph [ref=e221]: Discover active Grow a Garden 2 Discord communities! Connect with fellow gardeners, share tips, and find thriving servers for your virtual farming adventures.
+            - 'link "Grow a Garden 2 Pets Guide: Rankings, Abilities, and Best Strategies Master the Grow a Garden 2 pets system with our guide on abilities, tier rankings, and how to stack pet passives for maximum profit." [ref=e222] [cursor=pointer]':
+              - /url: /pets/grow-a-garden-2-pets
+              - img [ref=e225]
+              - 'heading "Grow a Garden 2 Pets Guide: Rankings, Abilities, and Best Strategies" [level=3] [ref=e230]'
+              - paragraph [ref=e231]: Master the Grow a Garden 2 pets system with our guide on abilities, tier rankings, and how to stack pet passives for maximum profit.
+            - 'link "Unicorns in Grow a Garden 2: Your Ultimate Guide to Finding and Utilizing Magical Companions Discover how to find and make the most of unicorns in Grow a Garden 2. Learn about their benefits, how to acquire them, and strategies for maximizing your magical farming experience." [ref=e232] [cursor=pointer]':
+              - /url: /pets/grow-a-garden-2-unicorn
+              - img [ref=e235]
+              - 'heading "Unicorns in Grow a Garden 2: Your Ultimate Guide to Finding and Utilizing Magical Companions" [level=3] [ref=e237]'
+              - paragraph [ref=e238]: Discover how to find and make the most of unicorns in Grow a Garden 2. Learn about their benefits, how to acquire them, and strategies for maximizing your magical farming experience.
+            - 'link "Mastering Dragon''s Breath in Grow a Garden 2: The Ultimate Guide to Riches and Defense Unlock the full potential of Dragon''s Breath in Grow a Garden 2! Learn how to cultivate, profit, and defend your garden with this powerful plant." [ref=e239] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-dragons-breath
+              - img [ref=e242]
+              - 'heading "Mastering Dragon''s Breath in Grow a Garden 2: The Ultimate Guide to Riches and Defense" [level=3] [ref=e245]'
+              - paragraph [ref=e246]: Unlock the full potential of Dragon's Breath in Grow a Garden 2! Learn how to cultivate, profit, and defend your garden with this powerful plant.
+            - 'link "Mastering Grow a Garden 2 Seed Acquisition: Your Ultimate Guide to Rarity and Rewards Unlock the secrets to finding and cultivating every Grow a Garden 2 seed, from common varieties to the elusive Rainbow and Gold seeds. Maximize your harvest!" [ref=e247] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-seed
+              - img [ref=e250]
+              - 'heading "Mastering Grow a Garden 2 Seed Acquisition: Your Ultimate Guide to Rarity and Rewards" [level=3] [ref=e253]'
+              - paragraph [ref=e254]: Unlock the secrets to finding and cultivating every Grow a Garden 2 seed, from common varieties to the elusive Rainbow and Gold seeds. Maximize your harvest!
+            - 'link "Mastering the Acorn in Grow a Garden 2: Cultivation, Theft Prevention, and Profit Uncover the secrets to successfully cultivating Acorns in Grow a Garden 2. Learn planting strategies, how to protect your crops from thieves, and maximize your profits." [ref=e255] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-acorn
+              - img [ref=e258]
+              - 'heading "Mastering the Acorn in Grow a Garden 2: Cultivation, Theft Prevention, and Profit" [level=3] [ref=e260]'
+              - paragraph [ref=e261]: Uncover the secrets to successfully cultivating Acorns in Grow a Garden 2. Learn planting strategies, how to protect your crops from thieves, and maximize your profits.
+            - 'link "Mastering the Grow a Garden 2 Gold Seed: Unleash 15x Value & Riches Discover how to find, plant, and strategically use the Grow a Garden 2 Gold Seed to multiply your crop value by 15x and dominate the market." [ref=e262] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-gold-seed
+              - img [ref=e265]
+              - 'heading "Mastering the Grow a Garden 2 Gold Seed: Unleash 15x Value & Riches" [level=3] [ref=e267]'
+              - paragraph [ref=e268]: Discover how to find, plant, and strategically use the Grow a Garden 2 Gold Seed to multiply your crop value by 15x and dominate the market.
+            - 'link "Mastering the Grow a Garden 2 Venus Fly Trap: Price, Abilities, and Stealing Glitches Explained Unleash the power of the Mythic Grow a Garden 2 Venus Fly Trap. Learn its cost, unique defensive abilities, and even a stealthy stealing glitch." [ref=e269] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-venus-fly-trap
+              - img [ref=e272]
+              - 'heading "Mastering the Grow a Garden 2 Venus Fly Trap: Price, Abilities, and Stealing Glitches Explained" [level=3] [ref=e275]'
+              - paragraph [ref=e276]: Unleash the power of the Mythic Grow a Garden 2 Venus Fly Trap. Learn its cost, unique defensive abilities, and even a stealthy stealing glitch.
+            - 'link "Mastering the Majestic Sunflower in Grow a Garden 2: A Comprehensive Guide Uncover the secrets to cultivating the legendary Sunflower in Grow a Garden 2. Learn where to find it, its value, and how to maximize your harvest." [ref=e277] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-sunflower
+              - img [ref=e280]
+              - 'heading "Mastering the Majestic Sunflower in Grow a Garden 2: A Comprehensive Guide" [level=3] [ref=e290]'
+              - paragraph [ref=e291]: Uncover the secrets to cultivating the legendary Sunflower in Grow a Garden 2. Learn where to find it, its value, and how to maximize your harvest.
+            - 'link "Mastering the Moon Bloom: Your Essential Guide to Growing a Garden 2 Moon Bloom Unlock the secrets to cultivating the elusive Moon Bloom in Grow a Garden 2. This guide covers everything from planting to harvesting for maximum yield." [ref=e292] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-moon-bloom
+              - img [ref=e295]
+              - 'heading "Mastering the Moon Bloom: Your Essential Guide to Growing a Garden 2 Moon Bloom" [level=3] [ref=e297]'
+              - paragraph [ref=e298]: Unlock the secrets to cultivating the elusive Moon Bloom in Grow a Garden 2. This guide covers everything from planting to harvesting for maximum yield.
+            - 'link "Master the Market: Your Ultimate Grow a Garden 2 Stock Notifier & Live Tracker Guide Never miss a rare seed again with our comprehensive guide to Grow a Garden 2 stock notifiers, live trackers, and shop restock alerts." [ref=e299] [cursor=pointer]':
+              - /url: /tools/grow-a-garden-2-stock-notifier
+              - img [ref=e302]
+              - 'heading "Master the Market: Your Ultimate Grow a Garden 2 Stock Notifier & Live Tracker Guide" [level=3] [ref=e306]'
+              - paragraph [ref=e307]: Never miss a rare seed again with our comprehensive guide to Grow a Garden 2 stock notifiers, live trackers, and shop restock alerts.
+            - 'link "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026) Discover all active Grow A Garden 2 codes for June 2026! Get free seeds, cash, and more to boost your Roblox farming adventure. Learn how to redeem codes and find new ones." [ref=e308] [cursor=pointer]':
+              - /url: /codes/grow-a-garden-2-codes
+              - img [ref=e311]
+              - 'heading "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)" [level=3] [ref=e320]'
+              - paragraph [ref=e321]: Discover all active Grow A Garden 2 codes for June 2026! Get free seeds, cash, and more to boost your Roblox farming adventure. Learn how to redeem codes and find new ones.
+            - 'link "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips Unlock the secrets of the Grow a Garden 2 gnome. Learn where to find them, how to trigger rare events, and maximize your garden rewards in this guide." [ref=e322] [cursor=pointer]':
+              - /url: /guide/grow-a-garden-2-gnome
+              - img [ref=e325]
+              - 'heading "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips" [level=3] [ref=e327]'
+              - paragraph [ref=e328]: Unlock the secrets of the Grow a Garden 2 gnome. Learn where to find them, how to trigger rare events, and maximize your garden rewards in this guide.
+            - 'link "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds Unlock your full farming potential in Roblox''s Grow A Garden 2 with our ultimate tier list for pets and seeds. Discover top-tier strategies for profit and defense." [ref=e329] [cursor=pointer]':
+              - /url: /guide/grow-a-garden-2-tier-list
+              - img [ref=e332]
+              - 'heading "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds" [level=3] [ref=e337]'
+              - paragraph [ref=e338]: Unlock your full farming potential in Roblox's Grow A Garden 2 with our ultimate tier list for pets and seeds. Discover top-tier strategies for profit and defense.
+            - 'link "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow Uncover the secrets of the Grow a Garden 2 wheelbarrow! Learn how to get it, its unique uses for player interaction and movement, and whether this legendary gear is a must-have for your farm." [ref=e339] [cursor=pointer]':
+              - /url: /guide/grow-a-garden-2-wheelbarrow
+              - img [ref=e342]
+              - 'heading "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow" [level=3] [ref=e348]'
+              - paragraph [ref=e349]: Uncover the secrets of the Grow a Garden 2 wheelbarrow! Learn how to get it, its unique uses for player interaction and movement, and whether this legendary gear is a must-have for your farm.
+            - link "Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today! Discover all the exciting new features and improvements as Grow a Garden 2 is out now! Learn what makes this sequel a must-play for virtual gardeners." [ref=e350] [cursor=pointer]:
+              - /url: /release/grow-a-garden-2-is-out
+              - img [ref=e353]
+              - heading "Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!" [level=3] [ref=e358]
+              - paragraph [ref=e359]: Discover all the exciting new features and improvements as Grow a Garden 2 is out now! Learn what makes this sequel a must-play for virtual gardeners.
+            - 'link "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know Check the Grow a Garden 2 countdown, regional release times, and essential beginner tips for this hit Roblox gardening simulator." [ref=e360] [cursor=pointer]':
+              - /url: /release/grow-a-garden-2-countdown
+              - img [ref=e363]
+              - 'heading "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know" [level=3] [ref=e365]'
+              - paragraph [ref=e366]: Check the Grow a Garden 2 countdown, regional release times, and essential beginner tips for this hit Roblox gardening simulator.
+            - 'link "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay Dive into Grow a Garden 2 Early Access! Discover new seeds, pets, guilds, and the thrilling steal mechanic. Get all the details on this exciting Roblox update." [ref=e367] [cursor=pointer]':
+              - /url: /release/grow-a-garden-2-early-access
+              - img [ref=e370]
+              - 'heading "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay" [level=3] [ref=e373]'
+              - paragraph [ref=e374]: Dive into Grow a Garden 2 Early Access! Discover new seeds, pets, guilds, and the thrilling steal mechanic. Get all the details on this exciting Roblox update.
+            - 'link "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day Get the confirmed Grow a Garden 2 release date, what''s new, and what to expect from this highly anticipated Roblox sequel. Prepare for launch!" [ref=e375] [cursor=pointer]':
+              - /url: /release/grow-a-garden-2-release-date
+              - img [ref=e378]
+              - 'heading "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day" [level=3] [ref=e381]'
+              - paragraph [ref=e382]: Get the confirmed Grow a Garden 2 release date, what's new, and what to expect from this highly anticipated Roblox sequel. Prepare for launch!
+            - 'link "Mastering Time in Grow a Garden 2: Optimize Your Gameplay for Maximum Yields Unlock the secrets to efficient time management in Grow a Garden 2. Learn how to maximize your progress and cultivate a thriving virtual farm." [ref=e383] [cursor=pointer]':
+              - /url: /release/grow-a-garden-2-time
+              - img [ref=e386]
+              - 'heading "Mastering Time in Grow a Garden 2: Optimize Your Gameplay for Maximum Yields" [level=3] [ref=e388]'
+              - paragraph [ref=e389]: Unlock the secrets to efficient time management in Grow a Garden 2. Learn how to maximize your progress and cultivate a thriving virtual farm.
+            - 'link "Cultivate Your Community: How to Find the Best Grow a Garden 2 Discord Servers Discover active Grow a Garden 2 Discord communities! Connect with fellow gardeners, share tips, and find thriving servers for your virtual farming adventures." [ref=e390] [cursor=pointer]':
+              - /url: /community/grow-a-garden-2-discord
+              - img [ref=e393]
+              - 'heading "Cultivate Your Community: How to Find the Best Grow a Garden 2 Discord Servers" [level=3] [ref=e395]'
+              - paragraph [ref=e396]: Discover active Grow a Garden 2 Discord communities! Connect with fellow gardeners, share tips, and find thriving servers for your virtual farming adventures.
+            - 'link "Grow a Garden 2 Pets Guide: Rankings, Abilities, and Best Strategies Master the Grow a Garden 2 pets system with our guide on abilities, tier rankings, and how to stack pet passives for maximum profit." [ref=e397] [cursor=pointer]':
+              - /url: /pets/grow-a-garden-2-pets
+              - img [ref=e400]
+              - 'heading "Grow a Garden 2 Pets Guide: Rankings, Abilities, and Best Strategies" [level=3] [ref=e403]'
+              - paragraph [ref=e404]: Master the Grow a Garden 2 pets system with our guide on abilities, tier rankings, and how to stack pet passives for maximum profit.
+            - 'link "Unicorns in Grow a Garden 2: Your Ultimate Guide to Finding and Utilizing Magical Companions Discover how to find and make the most of unicorns in Grow a Garden 2. Learn about their benefits, how to acquire them, and strategies for maximizing your magical farming experience." [ref=e405] [cursor=pointer]':
+              - /url: /pets/grow-a-garden-2-unicorn
+              - img [ref=e408]
+              - 'heading "Unicorns in Grow a Garden 2: Your Ultimate Guide to Finding and Utilizing Magical Companions" [level=3] [ref=e418]'
+              - paragraph [ref=e419]: Discover how to find and make the most of unicorns in Grow a Garden 2. Learn about their benefits, how to acquire them, and strategies for maximizing your magical farming experience.
+            - 'link "Mastering Dragon''s Breath in Grow a Garden 2: The Ultimate Guide to Riches and Defense Unlock the full potential of Dragon''s Breath in Grow a Garden 2! Learn how to cultivate, profit, and defend your garden with this powerful plant." [ref=e420] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-dragons-breath
+              - img [ref=e423]
+              - 'heading "Mastering Dragon''s Breath in Grow a Garden 2: The Ultimate Guide to Riches and Defense" [level=3] [ref=e425]'
+              - paragraph [ref=e426]: Unlock the full potential of Dragon's Breath in Grow a Garden 2! Learn how to cultivate, profit, and defend your garden with this powerful plant.
+            - 'link "Mastering Grow a Garden 2 Seed Acquisition: Your Ultimate Guide to Rarity and Rewards Unlock the secrets to finding and cultivating every Grow a Garden 2 seed, from common varieties to the elusive Rainbow and Gold seeds. Maximize your harvest!" [ref=e427] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-seed
+              - img [ref=e430]
+              - 'heading "Mastering Grow a Garden 2 Seed Acquisition: Your Ultimate Guide to Rarity and Rewards" [level=3] [ref=e434]'
+              - paragraph [ref=e435]: Unlock the secrets to finding and cultivating every Grow a Garden 2 seed, from common varieties to the elusive Rainbow and Gold seeds. Maximize your harvest!
+            - 'link "Mastering the Acorn in Grow a Garden 2: Cultivation, Theft Prevention, and Profit Uncover the secrets to successfully cultivating Acorns in Grow a Garden 2. Learn planting strategies, how to protect your crops from thieves, and maximize your profits." [ref=e436] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-acorn
+              - img [ref=e439]
+              - 'heading "Mastering the Acorn in Grow a Garden 2: Cultivation, Theft Prevention, and Profit" [level=3] [ref=e448]'
+              - paragraph [ref=e449]: Uncover the secrets to successfully cultivating Acorns in Grow a Garden 2. Learn planting strategies, how to protect your crops from thieves, and maximize your profits.
+            - 'link "Mastering the Grow a Garden 2 Gold Seed: Unleash 15x Value & Riches Discover how to find, plant, and strategically use the Grow a Garden 2 Gold Seed to multiply your crop value by 15x and dominate the market." [ref=e450] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-gold-seed
+              - img [ref=e453]
+              - 'heading "Mastering the Grow a Garden 2 Gold Seed: Unleash 15x Value & Riches" [level=3] [ref=e455]'
+              - paragraph [ref=e456]: Discover how to find, plant, and strategically use the Grow a Garden 2 Gold Seed to multiply your crop value by 15x and dominate the market.
+            - 'link "Mastering the Grow a Garden 2 Venus Fly Trap: Price, Abilities, and Stealing Glitches Explained Unleash the power of the Mythic Grow a Garden 2 Venus Fly Trap. Learn its cost, unique defensive abilities, and even a stealthy stealing glitch." [ref=e457] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-venus-fly-trap
+              - img [ref=e460]
+              - 'heading "Mastering the Grow a Garden 2 Venus Fly Trap: Price, Abilities, and Stealing Glitches Explained" [level=3] [ref=e465]'
+              - paragraph [ref=e466]: Unleash the power of the Mythic Grow a Garden 2 Venus Fly Trap. Learn its cost, unique defensive abilities, and even a stealthy stealing glitch.
+            - 'link "Mastering the Majestic Sunflower in Grow a Garden 2: A Comprehensive Guide Uncover the secrets to cultivating the legendary Sunflower in Grow a Garden 2. Learn where to find it, its value, and how to maximize your harvest." [ref=e467] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-sunflower
+              - img [ref=e470]
+              - 'heading "Mastering the Majestic Sunflower in Grow a Garden 2: A Comprehensive Guide" [level=3] [ref=e476]'
+              - paragraph [ref=e477]: Uncover the secrets to cultivating the legendary Sunflower in Grow a Garden 2. Learn where to find it, its value, and how to maximize your harvest.
+            - 'link "Mastering the Moon Bloom: Your Essential Guide to Growing a Garden 2 Moon Bloom Unlock the secrets to cultivating the elusive Moon Bloom in Grow a Garden 2. This guide covers everything from planting to harvesting for maximum yield." [ref=e478] [cursor=pointer]':
+              - /url: /crops/grow-a-garden-2-moon-bloom
+              - img [ref=e481]
+              - 'heading "Mastering the Moon Bloom: Your Essential Guide to Growing a Garden 2 Moon Bloom" [level=3] [ref=e486]'
+              - paragraph [ref=e487]: Unlock the secrets to cultivating the elusive Moon Bloom in Grow a Garden 2. This guide covers everything from planting to harvesting for maximum yield.
+            - 'link "Master the Market: Your Ultimate Grow a Garden 2 Stock Notifier & Live Tracker Guide Never miss a rare seed again with our comprehensive guide to Grow a Garden 2 stock notifiers, live trackers, and shop restock alerts." [ref=e488] [cursor=pointer]':
+              - /url: /tools/grow-a-garden-2-stock-notifier
+              - img [ref=e491]
+              - 'heading "Master the Market: Your Ultimate Grow a Garden 2 Stock Notifier & Live Tracker Guide" [level=3] [ref=e493]'
+              - paragraph [ref=e494]: Never miss a rare seed again with our comprehensive guide to Grow a Garden 2 stock notifiers, live trackers, and shop restock alerts.
+        - generic [ref=e495]:
+          - generic [ref=e496]:
+            - heading "What is Grow a Garden 2?" [level=2] [ref=e497]
+            - paragraph [ref=e498]: Grow a Garden 2 is a Roblox farming simulator where players buy seeds, plant crops, harvest them, and sell produce for Sheckles. The core loop is easy to understand, but the sequel adds more pressure through guild competition and nighttime stealing.
+            - paragraph [ref=e499]: The biggest player questions are about active codes, best early seeds, how to farm Sheckles, how to defend a garden at night, and which pets or badges are worth chasing. A fan wiki should focus on fast beginner answers first, then expand into seed lists, defense layouts, guild rewards, and update tracking.
+            - link "Explore All Guides" [ref=e500] [cursor=pointer]:
+              - /url: /guide
+          - generic [ref=e501]:
+            - generic [ref=e502]:
+              - paragraph [ref=e503]: Developer
+              - paragraph [ref=e504]: Strawberreh Squad
+            - generic [ref=e505]:
+              - paragraph [ref=e506]: Platform
+              - paragraph [ref=e507]: Roblox
+            - generic [ref=e508]:
+              - paragraph [ref=e509]: Genre
+              - paragraph [ref=e510]: Farming Simulator / Tycoon
+            - generic [ref=e511]:
+              - paragraph [ref=e512]: Visits
+              - paragraph [ref=e513]: 130M+
+            - generic [ref=e514]:
+              - paragraph [ref=e515]: Favorites
+              - paragraph [ref=e516]: 214K+
+            - generic [ref=e517]:
+              - paragraph [ref=e518]: Rating
+              - paragraph [ref=e519]: 93.5%
+            - generic [ref=e520]:
+              - paragraph [ref=e521]: Peak CCU
+              - paragraph [ref=e522]: 803K+
+            - generic [ref=e523]:
+              - paragraph [ref=e524]: Max Players
+              - paragraph [ref=e525]: "8"
+        - generic [ref=e526]:
+          - heading "Grow a Garden 2 Homepage Modules Navigation" [level=2] [ref=e527]
+          - paragraph [ref=e528]: Jump straight to the eight homepage sections and scroll to the module you need.
+          - generic [ref=e529]:
+            - link "Grow a Garden 2 Codes" [ref=e530] [cursor=pointer]:
+              - /url: /codes
+            - link "Grow a Garden 2 Beginner Guide" [ref=e531] [cursor=pointer]:
+              - /url: /beginner-guide
+            - link "Grow a Garden 2 Seeds Tier List" [ref=e532] [cursor=pointer]:
+              - /url: /seeds-tier-list
+            - link "Grow a Garden 2 Pets Guide" [ref=e533] [cursor=pointer]:
+              - /url: /pets
+            - link "Grow a Garden 2 Guilds Guide" [ref=e534] [cursor=pointer]:
+              - /url: /guilds
+            - link "Grow a Garden 2 Stealing and Defense Guide" [ref=e535] [cursor=pointer]:
+              - /url: /stealing-and-defense
+            - link "Grow a Garden 2 Weather Events" [ref=e536] [cursor=pointer]:
+              - /url: /weather-events
+            - link "Grow a Garden 2 Badges Guide" [ref=e537] [cursor=pointer]:
+              - /url: /badges
+          - generic [ref=e538]:
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - heading "Grow a Garden 2 Codes" [level=3] [ref=e541]
+                - paragraph [ref=e542]: Track the latest redeemable Grow a Garden 2 codes for free launch rewards. Useful for players who want quick freebies before starting their garden progression.
+              - generic [ref=e543]:
+                - generic [ref=e545]:
+                  - generic [ref=e546]:
+                    - code [ref=e547]: TEAMGREENBEAN
+                    - button "Copy code" [ref=e548] [cursor=pointer]:
+                      - img [ref=e549]
+                    - generic [ref=e552]: Redeem for 3 Green Bean Seeds.
+                  - generic [ref=e553]: Active
+                - link "Read Full Guide" [ref=e554] [cursor=pointer]:
+                  - /url: /codes
+                  - text: Read Full Guide
+                  - img [ref=e555]
+            - generic [ref=e557]:
+              - generic [ref=e558]:
+                - heading "Grow a Garden 2 Beginner Guide" [level=3] [ref=e559]
+                - paragraph [ref=e560]: A quick start guide covering the core loop of buying seeds, planting crops, harvesting, and selling for Sheckles. It also introduces offline growth, guild rewards, and the nighttime stealing mechanic.
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - generic [ref=e563]:
+                    - generic [ref=e564]: "1"
+                    - generic [ref=e565]: Buy seeds from the shop when the stock refreshes.
+                  - generic [ref=e566]:
+                    - generic [ref=e567]: "2"
+                    - generic [ref=e568]: Plant seeds in your farm plots and wait for them to grow.
+                  - generic [ref=e569]:
+                    - generic [ref=e570]: "3"
+                    - generic [ref=e571]: Harvest crops and sell them for Sheckles.
+                  - generic [ref=e572]:
+                    - generic [ref=e573]: "4"
+                    - generic [ref=e574]: Use your profits to buy better seeds, gears, pets, and props.
+                  - generic [ref=e575]:
+                    - generic [ref=e576]: "5"
+                    - generic [ref=e577]: Create or join a guild to compete for exclusive weekly rewards.
+                  - generic [ref=e578]:
+                    - generic [ref=e579]: "6"
+                    - generic [ref=e580]: Prepare for nighttime, because stealing starts when night falls.
+                  - generic [ref=e581]:
+                    - generic [ref=e582]: "7"
+                    - generic [ref=e583]: Keep progressing even offline, because gardens continue growing while you are away.
+                - link "Read Full Guide" [ref=e584] [cursor=pointer]:
+                  - /url: /beginner-guide
+                  - text: Read Full Guide
+                  - img [ref=e585]
+            - generic [ref=e587]:
+              - generic [ref=e588]:
+                - heading "Grow a Garden 2 Seeds Tier List" [level=3] [ref=e589]
+                - paragraph [ref=e590]: A seed ranking module for players who want to know which crops are worth planting first. The tiers focus on average sell value, harvest type, seed cost, ROI, and defensive value.
+              - generic [ref=e591]:
+                - generic [ref=e592]:
+                  - generic [ref=e593]:
+                    - generic [ref=e594]: S Tier
+                    - paragraph [ref=e595]: Ghost Pepper, Dragon's Breath, Venus Flytrap, Moon Bloom.
+                  - generic [ref=e596]:
+                    - generic [ref=e597]: A Tier
+                    - paragraph [ref=e598]: Poison Ivy, Poison Apple, Pomegranate, Sunflower, Mushroom.
+                  - generic [ref=e599]:
+                    - generic [ref=e600]: B Tier
+                    - paragraph [ref=e601]: Cherry, Dragon Fruit, Bamboo, Acorn.
+                  - generic [ref=e602]:
+                    - generic [ref=e603]: C Tier
+                    - paragraph [ref=e604]: Mango, Coconut, Grape, Banana, Green Bean, Pineapple, Cactus, Corn, Apple, Tulip.
+                  - generic [ref=e605]:
+                    - generic [ref=e606]: D Tier
+                    - paragraph [ref=e607]: Tomato, Blueberry, Strawberry, Carrot.
+                - link "Read Full Guide" [ref=e608] [cursor=pointer]:
+                  - /url: /seeds-tier-list
+                  - text: Read Full Guide
+                  - img [ref=e609]
+            - generic [ref=e611]:
+              - generic [ref=e612]:
+                - heading "Grow a Garden 2 Pets Guide" [level=3] [ref=e613]
+                - paragraph [ref=e614]: A pet guide module for players comparing prices, rarities, and abilities. Pets can support farming, movement, mutations, stealing, and garden defense.
+              - generic [ref=e615]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - generic [ref=e618]: Frog
+                    - generic [ref=e619]: Common pet costing 10K Sheckles; increases jump height by +5.
+                  - generic [ref=e620]:
+                    - generic [ref=e621]: Bunny
+                    - generic [ref=e622]: Common pet costing 20K Sheckles; increases walk speed by +5.
+                  - generic [ref=e623]:
+                    - generic [ref=e624]: Deer
+                    - generic [ref=e625]: Rare pet costing 50K Sheckles; helps plants grow 10% faster.
+                  - generic [ref=e626]:
+                    - generic [ref=e627]: Dragonfly
+                    - generic [ref=e628]: Mythic pet costing 3M Sheckles; boosts gold chance by 2x.
+                  - generic [ref=e629]:
+                    - generic [ref=e630]: Unicorn
+                    - generic [ref=e631]: Mythic pet costing 4M Sheckles; doubles the chance of rainbow fruits.
+                  - generic [ref=e632]:
+                    - generic [ref=e633]: Raccoon
+                    - generic [ref=e634]: Super pet costing 5M Sheckles; steals fruit from empty gardens at night and increases the steal limit by +25.
+                - link "Read Full Guide" [ref=e635] [cursor=pointer]:
+                  - /url: /pets
+                  - text: Read Full Guide
+                  - img [ref=e636]
+            - generic [ref=e638]:
+              - generic [ref=e639]:
+                - heading "Grow a Garden 2 Guilds Guide" [level=3] [ref=e640]
+                - paragraph [ref=e641]: A focused guide for the new guild system in Grow a Garden 2. This module helps players understand guild creation, invitations, leaderboards, and weekly rewards.
+              - generic [ref=e642]:
+                - generic [ref=e643]:
+                  - generic [ref=e644]:
+                    - generic [ref=e645]: "1"
+                    - generic [ref=e646]: Find the Guild booth in the central hub.
+                  - generic [ref=e647]:
+                    - generic [ref=e648]: "2"
+                    - generic [ref=e649]: Create a guild or join an existing guild through an invitation.
+                  - generic [ref=e650]:
+                    - generic [ref=e651]: "3"
+                    - generic [ref=e652]: Compete with other guilds in global competitions.
+                  - generic [ref=e653]:
+                    - generic [ref=e654]: "4"
+                    - generic [ref=e655]: Check guild leaderboards to track progress.
+                  - generic [ref=e656]:
+                    - generic [ref=e657]: "5"
+                    - generic [ref=e658]: Claim exclusive weekly rewards when your guild performs well.
+                - link "Read Full Guide" [ref=e659] [cursor=pointer]:
+                  - /url: /guilds
+                  - text: Read Full Guide
+                  - img [ref=e660]
+            - generic [ref=e662]:
+              - generic [ref=e663]:
+                - heading "Grow a Garden 2 Stealing and Defense Guide" [level=3] [ref=e664]
+                - paragraph [ref=e665]: A practical module for the nighttime stealing system and base protection. It explains when stealing starts, how raids work, and which defensive options matter most.
+              - generic [ref=e666]:
+                - generic [ref=e667]:
+                  - generic [ref=e668]:
+                    - generic [ref=e669]: "1"
+                    - generic [ref=e670]: Wait for night to start, because PvP stealing begins during nighttime.
+                  - generic [ref=e671]:
+                    - generic [ref=e672]: "2"
+                    - generic [ref=e673]: Enter other players' gardens and attempt to steal crops.
+                  - generic [ref=e674]:
+                    - generic [ref=e675]: "3"
+                    - generic [ref=e676]: You cannot harvest from a garden while the owner is inside the plot.
+                  - generic [ref=e677]:
+                    - generic [ref=e678]: "4"
+                    - generic [ref=e679]: Protect your own garden with defensive crops, props, walls, fences, and traps.
+                  - generic [ref=e680]:
+                    - generic [ref=e681]: "5"
+                    - generic [ref=e682]: Prioritize Bear Trap Crate items to stop thieves from escaping with valuable crops.
+                  - generic [ref=e683]:
+                    - generic [ref=e684]: "6"
+                    - generic [ref=e685]: Use Fence Crate and Owner Door Crate items to reduce entry points and control access to your base.
+                - link "Read Full Guide" [ref=e686] [cursor=pointer]:
+                  - /url: /stealing-and-defense
+                  - text: Read Full Guide
+                  - img [ref=e687]
+            - generic [ref=e689]:
+              - generic [ref=e690]:
+                - heading "Grow a Garden 2 Weather Events" [level=3] [ref=e691]
+                - paragraph [ref=e692]: A weather module for players who want to catch growth boosts, mutation chances, and special seed spawns. Weather events are important because they can directly affect crop value and farming speed.
+              - generic [ref=e693]:
+                - generic [ref=e694]:
+                  - generic [ref=e695]:
+                    - generic [ref=e696]: Rain
+                    - generic [ref=e697]: Lasts 5 minutes and gives 2x growth speed to all plants.
+                  - generic [ref=e698]:
+                    - generic [ref=e699]: Lightning
+                    - generic [ref=e700]: Lasts 5 minutes and gives Shocked or Electric mutation to random crops.
+                  - generic [ref=e701]:
+                    - generic [ref=e702]: Rainbow
+                    - generic [ref=e703]: Lasts 5 minutes and increases rainbow fruit chance.
+                  - generic [ref=e704]:
+                    - generic [ref=e705]: Snowfall
+                    - generic [ref=e706]: Lasts 2 minutes 30 seconds and gives Frozen mutation to random crops.
+                  - generic [ref=e707]:
+                    - generic [ref=e708]: Starfall
+                    - generic [ref=e709]: Lasts 2 minutes and gives Starstruck mutation to random crops.
+                  - generic [ref=e710]:
+                    - generic [ref=e711]: Gold Seed
+                    - generic [ref=e712]: Lasts 2 minutes and spawns golden seeds randomly.
+                  - generic [ref=e713]:
+                    - generic [ref=e714]: Rainbow Seed
+                    - generic [ref=e715]: Lasts 2 minutes and spawns rainbow seeds randomly.
+                  - generic [ref=e716]:
+                    - generic [ref=e717]: Rainbow Moon
+                    - generic [ref=e718]: Lasts 2 minutes and makes stolen fruits become rainbow.
+                - link "Read Full Guide" [ref=e719] [cursor=pointer]:
+                  - /url: /weather-events
+                  - text: Read Full Guide
+                  - img [ref=e720]
+            - generic [ref=e722]:
+              - generic [ref=e723]:
+                - heading "Grow a Garden 2 Badges Guide" [level=3] [ref=e724]
+                - paragraph [ref=e725]: A badge checklist module for players who want progression goals beyond farming money. It covers early milestones, mutation goals, stealing achievements, size goals, and first-week rewards.
+              - generic [ref=e726]:
+                - generic [ref=e727]:
+                  - generic [ref=e728]:
+                    - generic [ref=e729]: First Seed
+                    - generic [ref=e730]: Plant your first seed.
+                  - generic [ref=e731]:
+                    - generic [ref=e732]: First Pet
+                    - generic [ref=e733]: Obtain your first Grow a Garden 2 pet.
+                  - generic [ref=e734]:
+                    - generic [ref=e735]: First Mutation
+                    - generic [ref=e736]: Grow your first mutated plant.
+                  - generic [ref=e737]:
+                    - generic [ref=e738]: Stole A Fruit
+                    - generic [ref=e739]: Successfully steal a fruit from another player's garden.
+                  - generic [ref=e740]:
+                    - generic [ref=e741]: Builder
+                    - generic [ref=e742]: Place your first prop or decorative item.
+                  - generic [ref=e743]:
+                    - generic [ref=e744]: Rainbow
+                    - generic [ref=e745]: Grow a Rainbow fruit.
+                  - generic [ref=e746]:
+                    - generic [ref=e747]: OMG its HUGE
+                    - generic [ref=e748]: Obtain a HUGE pet.
+                  - generic [ref=e749]:
+                    - generic [ref=e750]: 1000ft Plant
+                    - generic [ref=e751]: Grow a plant that reaches 1000ft.
+                  - generic [ref=e752]:
+                    - generic [ref=e753]: OG Badge
+                    - generic [ref=e754]: Play the game in the first week.
+                - link "Read Full Guide" [ref=e755] [cursor=pointer]:
+                  - /url: /badges
+                  - text: Read Full Guide
+                  - img [ref=e756]
+        - generic [ref=e758]:
+          - heading "Frequently Asked Questions" [level=2] [ref=e759]
+          - paragraph [ref=e760]: Quick answers to the most common questions about Grow a Garden 2.
+          - generic [ref=e761]:
+            - heading "What is Grow a Garden 2?" [level=3] [ref=e763]:
+              - button "What is Grow a Garden 2?" [ref=e764] [cursor=pointer]:
+                - text: What is Grow a Garden 2?
+                - img [ref=e765]
+            - heading "Which seeds should beginners plant first in Grow a Garden 2?" [level=3] [ref=e768]:
+              - button "Which seeds should beginners plant first in Grow a Garden 2?" [ref=e769] [cursor=pointer]:
+                - text: Which seeds should beginners plant first in Grow a Garden 2?
+                - img [ref=e770]
+            - heading "How does nighttime stealing work in Grow a Garden 2?" [level=3] [ref=e773]:
+              - button "How does nighttime stealing work in Grow a Garden 2?" [ref=e774] [cursor=pointer]:
+                - text: How does nighttime stealing work in Grow a Garden 2?
+                - img [ref=e775]
+            - heading "Where do I find active Grow a Garden 2 codes?" [level=3] [ref=e778]:
+              - button "Where do I find active Grow a Garden 2 codes?" [ref=e779] [cursor=pointer]:
+                - text: Where do I find active Grow a Garden 2 codes?
+                - img [ref=e780]
+            - heading "Are Grow a Garden 2 pets and guilds worth investing in?" [level=3] [ref=e783]:
+              - button "Are Grow a Garden 2 pets and guilds worth investing in?" [ref=e784] [cursor=pointer]:
+                - text: Are Grow a Garden 2 pets and guilds worth investing in?
+                - img [ref=e785]
+        - generic [ref=e787]:
+          - heading "Ready to Master Grow a Garden 2?" [level=2] [ref=e788]
+          - paragraph [ref=e789]: From your first seed purchase to night defense, guild rewards, pets, and badges, this community wiki helps you grow faster and avoid beginner mistakes.
+          - generic [ref=e790]:
+            - link "Read the Beginner Guide" [ref=e791] [cursor=pointer]:
+              - /url: /guide
+              - text: Read the Beginner Guide
+              - img
+            - link "Play on Roblox" [ref=e792] [cursor=pointer]:
+              - /url: https://www.roblox.com/games/97598239454123/Grow-a-Garden-2
+      - complementary [ref=e793]:
+        - generic [ref=e794]:
+          - heading "Wiki Navigation" [level=3] [ref=e795]
+          - generic [ref=e796]:
+            - button "C Codes (1)" [ref=e798] [cursor=pointer]:
+              - generic [ref=e799]: C
+              - generic [ref=e800]: Codes
+              - generic [ref=e801]: (1)
+              - img [ref=e802]
+            - button "G Guide (3)" [ref=e805] [cursor=pointer]:
+              - generic [ref=e806]: G
+              - generic [ref=e807]: Guide
+              - generic [ref=e808]: (3)
+              - img [ref=e809]
+            - button "R Release (5)" [ref=e812] [cursor=pointer]:
+              - generic [ref=e813]: R
+              - generic [ref=e814]: Release
+              - generic [ref=e815]: (5)
+              - img [ref=e816]
+            - button "C Community (1)" [ref=e819] [cursor=pointer]:
+              - generic [ref=e820]: C
+              - generic [ref=e821]: Community
+              - generic [ref=e822]: (1)
+              - img [ref=e823]
+            - button "P Pets (2)" [ref=e826] [cursor=pointer]:
+              - generic [ref=e827]: P
+              - generic [ref=e828]: Pets
+              - generic [ref=e829]: (2)
+              - img [ref=e830]
+            - button "C Crops (7)" [ref=e833] [cursor=pointer]:
+              - generic [ref=e834]: C
+              - generic [ref=e835]: Crops
+              - generic [ref=e836]: (7)
+              - img [ref=e837]
+            - button "T Tools (1)" [ref=e840] [cursor=pointer]:
+              - generic [ref=e841]: T
+              - generic [ref=e842]: Tools
+              - generic [ref=e843]: (1)
+              - img [ref=e844]
+        - generic [ref=e846]:
+          - heading "Active Codes" [level=3] [ref=e847]
+          - generic [ref=e848]:
+            - generic [ref=e849]:
+              - generic [ref=e850]:
+                - code [ref=e851]: TEAMGREENBEAN
+                - button "Copy code" [ref=e852] [cursor=pointer]:
+                  - img [ref=e853]
+              - paragraph [ref=e856]: 3 Green Bean Seeds
+            - link "View all codes" [ref=e857] [cursor=pointer]:
+              - /url: /codes
+              - text: View all codes
+              - img [ref=e858]
+  - contentinfo [ref=e860]:
+    - generic [ref=e861]:
+      - generic [ref=e862]:
+        - generic [ref=e863]: Grow a Garden 2 Wiki
+        - paragraph [ref=e864]: Free Roblox farming simulator with seeds, Sheckles, guild rewards, nighttime stealing, and offline growth.
+        - link "Play Grow a Garden 2" [ref=e865] [cursor=pointer]:
+          - /url: https://www.roblox.com/games/97598239454123/Grow-a-Garden-2
+          - text: Play Grow a Garden 2
+          - img [ref=e866]
+      - paragraph [ref=e870]: Independent fan-made Grow a Garden 2 wiki. Not affiliated with Roblox or Strawberreh Squad.
+      - generic [ref=e871]:
+        - generic [ref=e872]:
+          - heading "Grow a Garden 2 Wiki" [level=3] [ref=e873]
+          - paragraph [ref=e874]: Grow a Garden 2 Wiki is an independent fan-made guide hub for Roblox players. It covers codes, beginner routes, seed choices, pets, defense layouts, badges, and update notes. This site is not affiliated with Roblox or Strawberreh Squad.
+        - generic [ref=e875]:
+          - heading "Quick Links" [level=4] [ref=e876]
+          - list [ref=e877]:
+            - listitem [ref=e878]:
+              - link "Play Grow a Garden 2" [ref=e879] [cursor=pointer]:
+                - /url: https://www.roblox.com/games/97598239454123/Grow-a-Garden-2
+            - listitem [ref=e880]:
+              - link "Official Discord" [ref=e881] [cursor=pointer]:
+                - /url: https://discord.gg/H8qPF3QnMF
+            - listitem [ref=e882]:
+              - link "Popular YouTube Video" [ref=e883] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=a3TCmxcT2QI
+            - listitem [ref=e884]:
+              - link "Official X" [ref=e885] [cursor=pointer]:
+                - /url: https://x.com/GrowaGardenRblx
+        - generic [ref=e886]:
+          - heading "Guides" [level=4] [ref=e887]
+          - list [ref=e888]:
+            - listitem [ref=e889]:
+              - link "Beginner Guide" [ref=e890] [cursor=pointer]:
+                - /url: /guide
+            - listitem [ref=e891]:
+              - link "Seed Guides" [ref=e892] [cursor=pointer]:
+                - /url: /guide
+            - listitem [ref=e893]:
+              - link "Defense Guides" [ref=e894] [cursor=pointer]:
+                - /url: /guide
+            - listitem [ref=e895]:
+              - link "Pet Guides" [ref=e896] [cursor=pointer]:
+                - /url: /guide
+            - listitem [ref=e897]:
+              - link "Privacy Policy" [ref=e898] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e899]:
+              - link "Terms of Service" [ref=e900] [cursor=pointer]:
+                - /url: /terms-of-service
+      - paragraph [ref=e901]: 2026 Grow a Garden 2 Wiki. Not affiliated with Roblox or Strawberreh Squad.

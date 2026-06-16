@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEO 审计报告 - Grow a Garden 2 Wiki</title>
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #627084;
+      --line: #dce3ee;
+      --strong: #0b5fff;
+      --high: #c62828;
+      --medium: #ad6800;
+      --low: #2f6f4e;
+      --ok: #1b7f45;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, "Microsoft YaHei", "PingFang SC", sans-serif;
+      line-height: 1.65;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 36px 20px 56px; }
+    .hero, section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 28px;
+      margin-bottom: 18px;
+      box-shadow: 0 8px 24px rgba(23, 32, 51, 0.05);
+    }
+    h1, h2, h3 { line-height: 1.25; margin: 0 0 14px; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 22px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+    h3 { font-size: 17px; margin-top: 22px; }
+    p { margin: 8px 0 12px; }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: 14px; }
+    th, td { border: 1px solid var(--line); padding: 10px 12px; vertical-align: top; text-align: left; }
+    th { background: #eef3fb; font-weight: 700; }
+    code {
+      background: #eef3fb;
+      border: 1px solid #d7e0ee;
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-family: Consolas, Monaco, monospace;
+      font-size: 0.92em;
+    }
+    ul, ol { padding-left: 22px; }
+    .meta { color: var(--muted); font-size: 14px; }
+    .score {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .score-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcff;
+    }
+    .score-card b { display: block; font-size: 24px; }
+    .badge {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 2px 9px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      white-space: nowrap;
+    }
+    .high { background: var(--high); }
+    .medium { background: var(--medium); }
+    .low { background: var(--low); }
+    .ok { background: var(--ok); }
+    .note {
+      border-left: 4px solid var(--strong);
+      background: #eef5ff;
+      padding: 12px 14px;
+      margin: 14px 0;
+    }
+    @media (max-width: 760px) {
+      .wrap { padding: 18px 12px 36px; }
+      .hero, section { padding: 18px; }
+      .score { grid-template-columns: 1fr; }
+      table { display: block; overflow-x: auto; white-space: nowrap; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="hero">
+      <p class="meta">审计对象：<code>http://localhost:3000</code> | 报告日期：2026-06-16 | 审计类型：技术 SEO、站内 SEO、内容与国际化 SEO 快速审计</p>
+      <h1>Grow a Garden 2 Wiki SEO 审计报告</h1>
+      <p>整体来看，站点首页的基础 SEO 结构较完整：标题、描述、H1、canonical、robots、sitemap、结构化数据、内部链接和图片 alt 均已有实现。当前最需要优先处理的问题集中在国际化 canonical / hreflang、语言版本内容本地化、首页重复内容块，以及前端资源体积。</p>
+      <div class="score">
+        <div class="score-card"><span>整体健康度</span><b>72/100</b><small>基础可抓取，但国际化风险明显</small></div>
+        <div class="score-card"><span>技术 SEO</span><b>76/100</b><small>robots/sitemap 正常，canonical 需修正</small></div>
+        <div class="score-card"><span>站内 SEO</span><b>78/100</b><small>标题结构较好，部分描述模板化</small></div>
+        <div class="score-card"><span>内容质量</span><b>68/100</b><small>内容量充足，但重复与本地化不足</small></div>
+      </div>
+    </div>
+
+    <section>
+      <h2>一、执行摘要</h2>
+      <h3>优先级最高的 5 个问题</h3>
+      <ol>
+        <li><strong>多语言文章页 canonical 指向英文主 URL。</strong>抽查 <code>/es/codes/grow-a-garden-2-codes</code> 与 <code>/th/codes/grow-a-garden-2-codes</code> 时，页面语言分别为 <code>es</code>、<code>th</code>，但 canonical 均为 <code>https://growagarden2wiki.wiki/codes/grow-a-garden-2-codes</code>。这会削弱或抑制本地化页面收录。</li>
+        <li><strong>多语言首页 hreflang 不完整。</strong><code>/es</code>、<code>/pt-BR</code>、<code>/th</code> 首页只输出 <code>hreflang="en"</code>，缺少自引用、其他语言版本和 <code>x-default</code>。</li>
+        <li><strong>多语言首页 title / description 仍为英文。</strong>西语、葡语、泰语首页均使用英文标题和英文 meta description，搜索引擎可能判断为低质量本地化或重复内容。</li>
+        <li><strong>首页内容卡片存在明显重复。</strong>浏览器 DOM 中同一组文章标题在 “Trending Now” 区域重复出现，造成页面冗余与内部链接稀释。</li>
+        <li><strong>前端脚本资源偏大。</strong>浏览器性能条目显示脚本传输约 2.78 MB，本地 load 约 941 ms。真实线上移动网络下可能影响 LCP/INP。</li>
+      </ol>
+      <h3>快速胜利项</h3>
+      <ul>
+        <li>为所有 locale 页面生成自引用 canonical，并让 canonical 与 hreflang URL 一致。</li>
+        <li>为首页补全 <code>en</code>、<code>es</code>、<code>pt-BR</code>、<code>th</code> 与 <code>x-default</code> alternate。</li>
+        <li>将分类页 meta description 从模板句改为具体搜索意图导向文案，例如 codes、pets、crops、tools 分别写独立描述。</li>
+        <li>删除首页重复文章列表或改为不同模块，例如“最新文章”和“热门攻略”使用不同数据集。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>二、审计证据概览</h2>
+      <table>
+        <thead>
+          <tr><th>项目</th><th>检测结果</th><th>评价</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>首页状态码</td><td><code>200</code></td><td><span class="badge ok">通过</span> 可正常访问。</td></tr>
+          <tr><td>首页标题</td><td><code>Grow a Garden 2 Wiki - Codes, Guide &amp; Seeds</code>，43 字符</td><td><span class="badge ok">通过</span> 长度合适，包含核心词。</td></tr>
+          <tr><td>首页描述</td><td>152 字符</td><td><span class="badge ok">通过</span> 接近理想长度，覆盖 codes、guide、seeds 等意图。</td></tr>
+          <tr><td>H1</td><td>首页 1 个 H1：<code>Grow a Garden 2 Wiki</code></td><td><span class="badge ok">通过</span> 结构清晰。</td></tr>
+          <tr><td>Canonical</td><td>首页：<code>https://growagarden2wiki.wiki/</code></td><td><span class="badge ok">基本通过</span> 本地环境使用生产域 canonical 是合理的，但 locale 页面存在问题。</td></tr>
+          <tr><td>Robots.txt</td><td><code>User-Agent: *</code>、<code>Allow: /</code>、指向生产 sitemap</td><td><span class="badge ok">通过</span> 未阻止抓取。</td></tr>
+          <tr><td>Sitemap</td><td>可访问，包含英文、<code>es</code>、<code>pt-BR</code>、<code>th</code> 多语言 URL</td><td><span class="badge medium">需改进</span> XML sitemap 未包含 hreflang alternate。</td></tr>
+          <tr><td>结构化数据</td><td>首页有 <code>Organization</code>、<code>WebSite</code>；文章页有 <code>Article</code>、<code>BreadcrumbList</code></td><td><span class="badge ok">通过</span> 已通过渲染 DOM 检测，不是静态 HTML 误判。</td></tr>
+          <tr><td>图片 alt</td><td>首页 2 张图片均有 alt</td><td><span class="badge ok">通过</span> 基础图片 SEO 良好。</td></tr>
+          <tr><td>内部链接</td><td>首页约 83 个内部链接、8 个外部链接</td><td><span class="badge medium">需优化</span> 链接丰富，但重复链接较多。</td></tr>
+          <tr><td>性能初测</td><td>TTFB 约 288 ms；DOMContentLoaded 约 773 ms；load 约 941 ms；脚本传输约 2.78 MB</td><td><span class="badge medium">需优化</span> 本地速度尚可，JS 体积偏大。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>三、技术 SEO 发现</h2>
+
+      <h3>1. 多语言 canonical 配置错误</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge high">高</span></td></tr>
+        <tr><th>证据</th><td><code>/es/codes/grow-a-garden-2-codes</code> 输出 <code>html lang="es"</code>，但 canonical 为英文无 locale URL。<code>/th/codes/grow-a-garden-2-codes</code> 同样 canonical 到英文 URL。</td></tr>
+        <tr><th>SEO 影响</th><td>Google 通常会把 canonical 视为“该页面主版本”的强信号。西语、葡语、泰语页面 canonical 到英文 URL 时，本地化版本可能不被独立索引，hreflang 集群也可能被削弱。</td></tr>
+        <tr><th>修复建议</th><td>每个 locale 页面必须 self-canonical：<code>/es/...</code> canonical 到 <code>https://growagarden2wiki.wiki/es/...</code>，<code>/pt-BR/...</code> canonical 到对应葡语 URL，<code>/th/...</code> canonical 到对应泰语 URL。</td></tr>
+      </table>
+
+      <h3>2. 首页 hreflang 不完整，缺少 x-default</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge high">高</span></td></tr>
+        <tr><th>证据</th><td>首页只输出 <code>hreflang="en"</code>。抽查 <code>/es</code>、<code>/pt-BR</code>、<code>/th</code> 首页也只输出英文 alternate。</td></tr>
+        <tr><th>SEO 影响</th><td>搜索引擎难以确认语言版本之间的对应关系，可能在西语、葡语、泰语搜索结果中展示英文页面，或忽略部分 locale 页面。</td></tr>
+        <tr><th>修复建议</th><td>所有语言首页都输出完整互链：<code>en</code>、<code>es</code>、<code>pt-BR</code>、<code>th</code>、<code>x-default</code>。每个页面必须包含自引用 hreflang。</td></tr>
+      </table>
+
+      <h3>3. Sitemap 有多语言 URL，但没有 hreflang 标注</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge medium">中</span></td></tr>
+        <tr><th>证据</th><td><code>/sitemap.xml</code> 包含多语言 URL，但 <code>urlset</code> 未声明 <code>xmlns:xhtml</code>，每个 <code>url</code> 下也没有 <code>xhtml:link</code> alternate。</td></tr>
+        <tr><th>SEO 影响</th><td>如果 HTML head 的 hreflang 实现不稳定，sitemap 无法提供备用信号。多语言页面规模增长后，维护成本会变高。</td></tr>
+        <tr><th>修复建议</th><td>在 sitemap 中补充 <code>xhtml:link rel="alternate"</code>，或确保 HTML head 完整可靠。若 locale 页面超过数千条，推荐 sitemap 级 hreflang。</td></tr>
+      </table>
+
+      <h3>4. 前端脚本资源偏大</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge medium">中</span></td></tr>
+        <tr><th>证据</th><td>浏览器资源统计显示首页脚本传输约 <code>2.78 MB</code>，CSS 约 <code>285 KB</code>。</td></tr>
+        <tr><th>SEO 影响</th><td>移动端真实网络下可能拖慢 LCP 和 INP，间接影响搜索体验信号与转化。</td></tr>
+        <tr><th>修复建议</th><td>检查客户端组件边界，减少首页不必要的 JS；对文章列表、视频弹窗、语言切换等交互做懒加载；用生产构建和 Lighthouse / PageSpeed Insights 验证 Core Web Vitals。</td></tr>
+      </table>
+
+      <h3>5. 生产环境安全头可增强</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge low">低</span></td></tr>
+        <tr><th>证据</th><td>本地响应可见 <code>X-Powered-By: Next.js</code>，未在本地响应中看到 HSTS 等安全头。</td></tr>
+        <tr><th>SEO 影响</th><td>不是直接排名因素，但 HTTPS、安全与可信度会影响用户体验和平台质量。</td></tr>
+        <tr><th>修复建议</th><td>生产环境关闭 <code>poweredByHeader</code>，并在 HTTPS 部署层配置 HSTS、CSP、X-Content-Type-Options 等安全头。</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>四、站内 SEO 发现</h2>
+
+      <h3>1. 分类页 meta description 过于模板化</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge medium">中</span></td></tr>
+        <tr><th>证据</th><td><code>/guide</code> 描述为 <code>Browse all guide guides and resources for Grow a Garden 2.</code>，存在 “guide guides” 这类模板痕迹。<code>/codes</code>、<code>/release</code>、<code>/community</code>、<code>/pets</code> 也使用类似模板。</td></tr>
+        <tr><th>SEO 影响</th><td>分类页通常承接高价值泛关键词，模板描述降低点击率，也无法充分覆盖搜索意图。</td></tr>
+        <tr><th>修复建议</th><td>为每个分类页写独立描述。例如 codes 页突出 “active codes, redemption steps, rewards, update date”；pets 页突出 “rankings, abilities, best pets”。</td></tr>
+      </table>
+
+      <h3>2. 首页文章列表重复</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge medium">中</span></td></tr>
+        <tr><th>证据</th><td>DOM 标题中多篇文章出现两次，例如 “Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)” 和多篇 guide/release/crops 文章。</td></tr>
+        <tr><th>SEO 影响</th><td>重复模块会稀释首页主题重点，增加页面长度但不增加独特价值，同时让内部链接权重分配不够清晰。</td></tr>
+        <tr><th>修复建议</th><td>将重复区块拆成不同意图：最新更新、热门攻略、作物指南、工具入口。每个 URL 在首页主内容中优先只出现一次。</td></tr>
+      </table>
+
+      <h3>3. 标题体系整体健康，但部分 H3 过长</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge low">低</span></td></tr>
+        <tr><th>证据</th><td>首页有 1 个 H1，并按 H2/H3 展开；但大量文章卡片标题作为 H3，长度较长。</td></tr>
+        <tr><th>SEO 影响</th><td>搜索引擎可理解页面结构，但过多长 H3 会让首页主题发散。</td></tr>
+        <tr><th>修复建议</th><td>文章卡片标题可保留语义，但控制首页 H3 数量；重要模块使用 H2，卡片标题必要时用更低权重元素加结构化列表。</td></tr>
+      </table>
+
+      <h3>4. 首页 title 与 description 表现良好</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge ok">正向</span></td></tr>
+        <tr><th>证据</th><td>首页 title 43 字符，description 152 字符，包含 Wiki、Codes、Guide、Seeds、Roblox 等关键词。</td></tr>
+        <tr><th>建议</th><td>保留当前方向。后续可测试更强点击意图标题，如加入 “Active Codes” 或 “Beginner Guide”。</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>五、内容质量与 E-E-A-T 发现</h2>
+
+      <h3>1. 多语言页面内容未充分本地化</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge high">高</span></td></tr>
+        <tr><th>证据</th><td><code>/es</code>、<code>/pt-BR</code>、<code>/th</code> 的 title 和 description 仍为英文；页面主体也出现大量英文内容。</td></tr>
+        <tr><th>SEO 影响</th><td>仅修改 <code>html lang</code> 而未翻译主内容，可能被判断为重复内容或低价值 locale 页面。</td></tr>
+        <tr><th>修复建议</th><td>优先本地化首页、分类页、Top 20 流量文章。至少翻译 title、description、H1、核心正文、FAQ、按钮、导航和结构化数据中的 <code>inLanguage</code>。</td></tr>
+      </table>
+
+      <h3>2. 站点信任信号较完整</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge ok">正向</span></td></tr>
+        <tr><th>证据</th><td>页脚包含独立 fan-made 免责声明，并链接 Privacy Policy、Terms of Service；结构化数据包含 Organization 与 sameAs。</td></tr>
+        <tr><th>建议</th><td>补充 About 页面中的编辑标准、更新时间、资料来源说明。攻略类页面可显示作者/编辑者、发布日期和更新日期。</td></tr>
+      </table>
+
+      <h3>3. 文章内容主题覆盖广，但需避免泛化标题</h3>
+      <table>
+        <tr><th>影响</th><td><span class="badge medium">中</span></td></tr>
+        <tr><th>证据</th><td>首页展示 codes、tier list、pets、crops、tools、release 等主题，覆盖面较广。</td></tr>
+        <tr><th>SEO 影响</th><td>覆盖面有利于主题集群，但大量 “Ultimate Guide / Mastering / Everything You Need to Know” 类型标题容易同质化，点击和差异化不足。</td></tr>
+        <tr><th>修复建议</th><td>为高价值页面增加具体信息增益：更新时间、数值表、步骤图、掉落概率、价格、对比表、FAQ schema。标题可更直接，例如 “Grow a Garden 2 Codes: Active Rewards and How to Redeem”。</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>六、国际化 SEO 修复模板</h2>
+      <p>以文章 <code>/codes/grow-a-garden-2-codes</code> 为例，各语言版本应输出一致的 canonical 与 hreflang 集群：</p>
+      <pre><code>&lt;link rel="canonical" href="https://growagarden2wiki.wiki/es/codes/grow-a-garden-2-codes"&gt;
+&lt;link rel="alternate" hreflang="en" href="https://growagarden2wiki.wiki/codes/grow-a-garden-2-codes"&gt;
+&lt;link rel="alternate" hreflang="es" href="https://growagarden2wiki.wiki/es/codes/grow-a-garden-2-codes"&gt;
+&lt;link rel="alternate" hreflang="pt-BR" href="https://growagarden2wiki.wiki/pt-BR/codes/grow-a-garden-2-codes"&gt;
+&lt;link rel="alternate" hreflang="th" href="https://growagarden2wiki.wiki/th/codes/grow-a-garden-2-codes"&gt;
+&lt;link rel="alternate" hreflang="x-default" href="https://growagarden2wiki.wiki/codes/grow-a-garden-2-codes"&gt;</code></pre>
+      <div class="note">注意：canonical 必须出现在 hreflang 集群中。不要让西语、葡语、泰语页面 canonical 到英文页面，否则 locale 页面会失去独立收录资格。</div>
+    </section>
+
+    <section>
+      <h2>七、优先行动计划</h2>
+      <table>
+        <thead>
+          <tr><th>优先级</th><th>任务</th><th>预期收益</th><th>建议完成时间</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>P0</td><td>修复所有 locale 页面 canonical，保证 self-canonical。</td><td>恢复多语言页面独立收录信号。</td><td>1 天内</td></tr>
+          <tr><td>P0</td><td>补全 hreflang 自引用、互链和 <code>x-default</code>。</td><td>提升正确语言页面展示概率。</td><td>1 天内</td></tr>
+          <tr><td>P1</td><td>本地化多语言首页与核心分类页 title、description、H1、主内容。</td><td>降低重复内容风险，增强非英文搜索覆盖。</td><td>3-5 天</td></tr>
+          <tr><td>P1</td><td>重写分类页 meta description，修复 <code>guide guides</code> 等模板问题。</td><td>提升 SERP 点击率和页面相关性。</td><td>1-2 天</td></tr>
+          <tr><td>P1</td><td>移除首页重复文章列表，优化内部链接分组。</td><td>提高首页主题清晰度和链接效率。</td><td>1-2 天</td></tr>
+          <tr><td>P2</td><td>检查 JS bundle，拆分非首屏交互代码。</td><td>改善移动端 Core Web Vitals。</td><td>1 周内</td></tr>
+          <tr><td>P2</td><td>在 sitemap 中加入 hreflang，或确认 HTML head 全量可靠。</td><td>降低大规模多语言维护风险。</td><td>1 周内</td></tr>
+          <tr><td>P3</td><td>完善作者、编辑标准、资料来源和更新时间展示。</td><td>增强攻略站 E-E-A-T 信号。</td><td>2 周内</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>八、建议验收清单</h2>
+      <ul>
+        <li>用浏览器检查每个 locale 页面：<code>document.querySelector('link[rel="canonical"]').href</code> 是否为当前语言 URL。</li>
+        <li>用浏览器检查：<code>document.querySelectorAll('link[rel="alternate"]')</code> 是否包含所有语言和 <code>x-default</code>。</li>
+        <li>用 Google Rich Results Test 验证首页、分类页、文章页结构化数据。</li>
+        <li>用 PageSpeed Insights 分别测试移动端与桌面端 LCP、INP、CLS。</li>
+        <li>上线后在 Google Search Console 观察 “Duplicate, Google chose different canonical” 与 “Alternate page with proper canonical tag” 报告。</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

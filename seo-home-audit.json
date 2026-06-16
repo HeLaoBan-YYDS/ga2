@@ -1,0 +1,828 @@
+{
+  "url": "http://localhost:3000/",
+  "finalPath": "/",
+  "title": "Grow a Garden 2 Wiki - Codes, Guide & Seeds",
+  "titleLength": 43,
+  "description": "Fan-made Grow a Garden 2 wiki with active codes, beginner guide, seed shop tips, stealing defense, guild rewards, pets, badges, and Roblox update notes.",
+  "descriptionLength": 152,
+  "robots": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "canonical": "https://growagarden2wiki.wiki/",
+  "alternates": [
+    {
+      "hreflang": "en",
+      "href": "https://growagarden2wiki.wiki/"
+    }
+  ],
+  "htmlLang": "en",
+  "h1Count": 1,
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "Grow a Garden 2 Wiki"
+    },
+    {
+      "tag": "H2",
+      "text": "Latest Updates"
+    },
+    {
+      "tag": "H2",
+      "text": "Your Grow a Garden 2 Journey"
+    },
+    {
+      "tag": "H3",
+      "text": "Beginner Guide"
+    },
+    {
+      "tag": "H3",
+      "text": "Seeds & Sheckles Farming"
+    },
+    {
+      "tag": "H3",
+      "text": "Night Stealing Defense"
+    },
+    {
+      "tag": "H3",
+      "text": "Guild Rewards & Progression"
+    },
+    {
+      "tag": "H2",
+      "text": "Trending Now"
+    },
+    {
+      "tag": "H3",
+      "text": "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow"
+    },
+    {
+      "tag": "H3",
+      "text": "Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering Time in Grow a Garden 2: Optimize Your Gameplay for Maximum Yields"
+    },
+    {
+      "tag": "H3",
+      "text": "Cultivate Your Community: How to Find the Best Grow a Garden 2 Discord Servers"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Pets Guide: Rankings, Abilities, and Best Strategies"
+    },
+    {
+      "tag": "H3",
+      "text": "Unicorns in Grow a Garden 2: Your Ultimate Guide to Finding and Utilizing Magical Companions"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering Dragon's Breath in Grow a Garden 2: The Ultimate Guide to Riches and Defense"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering Grow a Garden 2 Seed Acquisition: Your Ultimate Guide to Rarity and Rewards"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Acorn in Grow a Garden 2: Cultivation, Theft Prevention, and Profit"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Grow a Garden 2 Gold Seed: Unleash 15x Value & Riches"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Grow a Garden 2 Venus Fly Trap: Price, Abilities, and Stealing Glitches Explained"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Majestic Sunflower in Grow a Garden 2: A Comprehensive Guide"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Moon Bloom: Your Essential Guide to Growing a Garden 2 Moon Bloom"
+    },
+    {
+      "tag": "H3",
+      "text": "Master the Market: Your Ultimate Grow a Garden 2 Stock Notifier & Live Tracker Guide"
+    },
+    {
+      "tag": "H3",
+      "text": "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow"
+    },
+    {
+      "tag": "H3",
+      "text": "Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering Time in Grow a Garden 2: Optimize Your Gameplay for Maximum Yields"
+    },
+    {
+      "tag": "H3",
+      "text": "Cultivate Your Community: How to Find the Best Grow a Garden 2 Discord Servers"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Pets Guide: Rankings, Abilities, and Best Strategies"
+    },
+    {
+      "tag": "H3",
+      "text": "Unicorns in Grow a Garden 2: Your Ultimate Guide to Finding and Utilizing Magical Companions"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering Dragon's Breath in Grow a Garden 2: The Ultimate Guide to Riches and Defense"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering Grow a Garden 2 Seed Acquisition: Your Ultimate Guide to Rarity and Rewards"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Acorn in Grow a Garden 2: Cultivation, Theft Prevention, and Profit"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Grow a Garden 2 Gold Seed: Unleash 15x Value & Riches"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Grow a Garden 2 Venus Fly Trap: Price, Abilities, and Stealing Glitches Explained"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Majestic Sunflower in Grow a Garden 2: A Comprehensive Guide"
+    },
+    {
+      "tag": "H3",
+      "text": "Mastering the Moon Bloom: Your Essential Guide to Growing a Garden 2 Moon Bloom"
+    },
+    {
+      "tag": "H3",
+      "text": "Master the Market: Your Ultimate Grow a Garden 2 Stock Notifier & Live Tracker Guide"
+    },
+    {
+      "tag": "H2",
+      "text": "What is Grow a Garden 2?"
+    },
+    {
+      "tag": "H2",
+      "text": "Grow a Garden 2 Homepage Modules Navigation"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Codes"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Beginner Guide"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Seeds Tier List"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Pets Guide"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Guilds Guide"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Stealing and Defense Guide"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Weather Events"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Badges Guide"
+    },
+    {
+      "tag": "H2",
+      "text": "Frequently Asked Questions"
+    },
+    {
+      "tag": "H3",
+      "text": "What is Grow a Garden 2?"
+    },
+    {
+      "tag": "H3",
+      "text": "Which seeds should beginners plant first in Grow a Garden 2?"
+    },
+    {
+      "tag": "H3",
+      "text": "How does nighttime stealing work in Grow a Garden 2?"
+    },
+    {
+      "tag": "H3",
+      "text": "Where do I find active Grow a Garden 2 codes?"
+    },
+    {
+      "tag": "H3",
+      "text": "Are Grow a Garden 2 pets and guilds worth investing in?"
+    },
+    {
+      "tag": "H2",
+      "text": "Ready to Master Grow a Garden 2?"
+    },
+    {
+      "tag": "H3",
+      "text": "Wiki Navigation"
+    },
+    {
+      "tag": "H3",
+      "text": "Active Codes"
+    },
+    {
+      "tag": "H3",
+      "text": "Grow a Garden 2 Wiki"
+    },
+    {
+      "tag": "H4",
+      "text": "Quick Links"
+    },
+    {
+      "tag": "H4",
+      "text": "Guides"
+    }
+  ],
+  "imgCount": 2,
+  "imgsMissingAlt": [],
+  "imgs": [
+    {
+      "src": "http://localhost:3000/android-chrome-192x192.png",
+      "alt": "Grow a Garden 2",
+      "loading": "lazy",
+      "width": 192,
+      "height": 192
+    },
+    {
+      "src": "http://localhost:3000/images/hero-trailer-thumbnail.jpg",
+      "alt": "Grow a Garden 2 video preview",
+      "loading": null,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "internalLinkCount": 83,
+  "externalLinkCount": 8,
+  "links": [
+    {
+      "text": "Grow a Garden 2",
+      "href": "http://localhost:3000/",
+      "internal": true
+    },
+    {
+      "text": "Codes",
+      "href": "http://localhost:3000/codes",
+      "internal": true
+    },
+    {
+      "text": "Guide",
+      "href": "http://localhost:3000/guide",
+      "internal": true
+    },
+    {
+      "text": "Release",
+      "href": "http://localhost:3000/release",
+      "internal": true
+    },
+    {
+      "text": "Community",
+      "href": "http://localhost:3000/community",
+      "internal": true
+    },
+    {
+      "text": "Pets",
+      "href": "http://localhost:3000/pets",
+      "internal": true
+    },
+    {
+      "text": "Crops",
+      "href": "http://localhost:3000/crops",
+      "internal": true
+    },
+    {
+      "text": "Tools",
+      "href": "http://localhost:3000/tools",
+      "internal": true
+    },
+    {
+      "text": "Play on Roblox",
+      "href": "https://www.roblox.com/games/97598239454123/Grow-a-Garden-2",
+      "internal": false
+    },
+    {
+      "text": "Join Official Discord",
+      "href": "https://discord.gg/H8qPF3QnMF",
+      "internal": false
+    },
+    {
+      "text": "Check Active Codes",
+      "href": "http://localhost:3000/codes",
+      "internal": true
+    },
+    {
+      "text": "Codes2026-06-15Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)",
+      "href": "http://localhost:3000/codes/grow-a-garden-2-codes",
+      "internal": true
+    },
+    {
+      "text": "Guide2026-06-15Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-gnome",
+      "internal": true
+    },
+    {
+      "text": "Guide2026-06-15Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-tier-list",
+      "internal": true
+    },
+    {
+      "text": "Guide2026-06-15Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-wheelbarrow",
+      "internal": true
+    },
+    {
+      "text": "Release2026-06-15Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!",
+      "href": "http://localhost:3000/release/grow-a-garden-2-is-out",
+      "internal": true
+    },
+    {
+      "text": "Release2026-06-15Grow a Garden 2 Countdown and Global Release Times: Everything You Need to Know",
+      "href": "http://localhost:3000/release/grow-a-garden-2-countdown",
+      "internal": true
+    },
+    {
+      "text": "Release2026-06-15Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay",
+      "href": "http://localhost:3000/release/grow-a-garden-2-early-access",
+      "internal": true
+    },
+    {
+      "text": "Release2026-06-15Grow a Garden 2 Release Date: Everything You Need to Know Before Launch Day",
+      "href": "http://localhost:3000/release/grow-a-garden-2-release-date",
+      "internal": true
+    },
+    {
+      "text": "Browse All Guides",
+      "href": "http://localhost:3000/codes",
+      "internal": true
+    },
+    {
+      "text": "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)Discover all active Grow A Garden 2 codes fo",
+      "href": "http://localhost:3000/codes/grow-a-garden-2-codes",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player TipsUnlock the secrets of the Grow a Garden 2 gnome. ",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-gnome",
+      "internal": true
+    },
+    {
+      "text": "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and SeedsUnlock your full farming potential in Roblox's ",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-tier-list",
+      "internal": true
+    },
+    {
+      "text": "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 WheelbarrowUncover the secrets of the Grow a Garden 2 ",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-wheelbarrow",
+      "internal": true
+    },
+    {
+      "text": "Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!Discover all the exciting new features and improvemen",
+      "href": "http://localhost:3000/release/grow-a-garden-2-is-out",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to KnowCheck the Grow a Garden 2 countdown, regi",
+      "href": "http://localhost:3000/release/grow-a-garden-2-countdown",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & GameplayDive into Grow a Garden 2 Early Access! ",
+      "href": "http://localhost:3000/release/grow-a-garden-2-early-access",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch DayGet the confirmed Grow a Garden 2 release dat",
+      "href": "http://localhost:3000/release/grow-a-garden-2-release-date",
+      "internal": true
+    },
+    {
+      "text": "Mastering Time in Grow a Garden 2: Optimize Your Gameplay for Maximum YieldsUnlock the secrets to efficient time managem",
+      "href": "http://localhost:3000/release/grow-a-garden-2-time",
+      "internal": true
+    },
+    {
+      "text": "Cultivate Your Community: How to Find the Best Grow a Garden 2 Discord ServersDiscover active Grow a Garden 2 Discord co",
+      "href": "http://localhost:3000/community/grow-a-garden-2-discord",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Pets Guide: Rankings, Abilities, and Best StrategiesMaster the Grow a Garden 2 pets system with our guid",
+      "href": "http://localhost:3000/pets/grow-a-garden-2-pets",
+      "internal": true
+    },
+    {
+      "text": "Unicorns in Grow a Garden 2: Your Ultimate Guide to Finding and Utilizing Magical CompanionsDiscover how to find and mak",
+      "href": "http://localhost:3000/pets/grow-a-garden-2-unicorn",
+      "internal": true
+    },
+    {
+      "text": "Mastering Dragon's Breath in Grow a Garden 2: The Ultimate Guide to Riches and DefenseUnlock the full potential of Drago",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-dragons-breath",
+      "internal": true
+    },
+    {
+      "text": "Mastering Grow a Garden 2 Seed Acquisition: Your Ultimate Guide to Rarity and RewardsUnlock the secrets to finding and c",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-seed",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Acorn in Grow a Garden 2: Cultivation, Theft Prevention, and ProfitUncover the secrets to successfully cul",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-acorn",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Grow a Garden 2 Gold Seed: Unleash 15x Value & RichesDiscover how to find, plant, and strategically use th",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-gold-seed",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Grow a Garden 2 Venus Fly Trap: Price, Abilities, and Stealing Glitches ExplainedUnleash the power of the ",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-venus-fly-trap",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Majestic Sunflower in Grow a Garden 2: A Comprehensive GuideUncover the secrets to cultivating the legenda",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-sunflower",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Moon Bloom: Your Essential Guide to Growing a Garden 2 Moon BloomUnlock the secrets to cultivating the elu",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-moon-bloom",
+      "internal": true
+    },
+    {
+      "text": "Master the Market: Your Ultimate Grow a Garden 2 Stock Notifier & Live Tracker GuideNever miss a rare seed again with ou",
+      "href": "http://localhost:3000/tools/grow-a-garden-2-stock-notifier",
+      "internal": true
+    },
+    {
+      "text": "Unlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)Discover all active Grow A Garden 2 codes fo",
+      "href": "http://localhost:3000/codes/grow-a-garden-2-codes",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player TipsUnlock the secrets of the Grow a Garden 2 gnome. ",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-gnome",
+      "internal": true
+    },
+    {
+      "text": "Grow A Garden 2 Tier List: Maximize Your Profits with Best Pets and SeedsUnlock your full farming potential in Roblox's ",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-tier-list",
+      "internal": true
+    },
+    {
+      "text": "Mastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 WheelbarrowUncover the secrets of the Grow a Garden 2 ",
+      "href": "http://localhost:3000/guide/grow-a-garden-2-wheelbarrow",
+      "internal": true
+    },
+    {
+      "text": "Finally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!Discover all the exciting new features and improvemen",
+      "href": "http://localhost:3000/release/grow-a-garden-2-is-out",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Countdown and Global Release Times: Everything You Need to KnowCheck the Grow a Garden 2 countdown, regi",
+      "href": "http://localhost:3000/release/grow-a-garden-2-countdown",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Early Access: Cultivate Your Dreams with New Features & GameplayDive into Grow a Garden 2 Early Access! ",
+      "href": "http://localhost:3000/release/grow-a-garden-2-early-access",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Release Date: Everything You Need to Know Before Launch DayGet the confirmed Grow a Garden 2 release dat",
+      "href": "http://localhost:3000/release/grow-a-garden-2-release-date",
+      "internal": true
+    },
+    {
+      "text": "Mastering Time in Grow a Garden 2: Optimize Your Gameplay for Maximum YieldsUnlock the secrets to efficient time managem",
+      "href": "http://localhost:3000/release/grow-a-garden-2-time",
+      "internal": true
+    },
+    {
+      "text": "Cultivate Your Community: How to Find the Best Grow a Garden 2 Discord ServersDiscover active Grow a Garden 2 Discord co",
+      "href": "http://localhost:3000/community/grow-a-garden-2-discord",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Pets Guide: Rankings, Abilities, and Best StrategiesMaster the Grow a Garden 2 pets system with our guid",
+      "href": "http://localhost:3000/pets/grow-a-garden-2-pets",
+      "internal": true
+    },
+    {
+      "text": "Unicorns in Grow a Garden 2: Your Ultimate Guide to Finding and Utilizing Magical CompanionsDiscover how to find and mak",
+      "href": "http://localhost:3000/pets/grow-a-garden-2-unicorn",
+      "internal": true
+    },
+    {
+      "text": "Mastering Dragon's Breath in Grow a Garden 2: The Ultimate Guide to Riches and DefenseUnlock the full potential of Drago",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-dragons-breath",
+      "internal": true
+    },
+    {
+      "text": "Mastering Grow a Garden 2 Seed Acquisition: Your Ultimate Guide to Rarity and RewardsUnlock the secrets to finding and c",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-seed",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Acorn in Grow a Garden 2: Cultivation, Theft Prevention, and ProfitUncover the secrets to successfully cul",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-acorn",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Grow a Garden 2 Gold Seed: Unleash 15x Value & RichesDiscover how to find, plant, and strategically use th",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-gold-seed",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Grow a Garden 2 Venus Fly Trap: Price, Abilities, and Stealing Glitches ExplainedUnleash the power of the ",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-venus-fly-trap",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Majestic Sunflower in Grow a Garden 2: A Comprehensive GuideUncover the secrets to cultivating the legenda",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-sunflower",
+      "internal": true
+    },
+    {
+      "text": "Mastering the Moon Bloom: Your Essential Guide to Growing a Garden 2 Moon BloomUnlock the secrets to cultivating the elu",
+      "href": "http://localhost:3000/crops/grow-a-garden-2-moon-bloom",
+      "internal": true
+    },
+    {
+      "text": "Master the Market: Your Ultimate Grow a Garden 2 Stock Notifier & Live Tracker GuideNever miss a rare seed again with ou",
+      "href": "http://localhost:3000/tools/grow-a-garden-2-stock-notifier",
+      "internal": true
+    },
+    {
+      "text": "Explore All Guides",
+      "href": "http://localhost:3000/guide",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Codes",
+      "href": "http://localhost:3000/codes",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Beginner Guide",
+      "href": "http://localhost:3000/beginner-guide",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Seeds Tier List",
+      "href": "http://localhost:3000/seeds-tier-list",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Pets Guide",
+      "href": "http://localhost:3000/pets",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Guilds Guide",
+      "href": "http://localhost:3000/guilds",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Stealing and Defense Guide",
+      "href": "http://localhost:3000/stealing-and-defense",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Weather Events",
+      "href": "http://localhost:3000/weather-events",
+      "internal": true
+    },
+    {
+      "text": "Grow a Garden 2 Badges Guide",
+      "href": "http://localhost:3000/badges",
+      "internal": true
+    },
+    {
+      "text": "Read Full Guide",
+      "href": "http://localhost:3000/codes",
+      "internal": true
+    },
+    {
+      "text": "Read Full Guide",
+      "href": "http://localhost:3000/beginner-guide",
+      "internal": true
+    },
+    {
+      "text": "Read Full Guide",
+      "href": "http://localhost:3000/seeds-tier-list",
+      "internal": true
+    },
+    {
+      "text": "Read Full Guide",
+      "href": "http://localhost:3000/pets",
+      "internal": true
+    },
+    {
+      "text": "Read Full Guide",
+      "href": "http://localhost:3000/guilds",
+      "internal": true
+    },
+    {
+      "text": "Read Full Guide",
+      "href": "http://localhost:3000/stealing-and-defense",
+      "internal": true
+    },
+    {
+      "text": "Read Full Guide",
+      "href": "http://localhost:3000/weather-events",
+      "internal": true
+    },
+    {
+      "text": "Read Full Guide",
+      "href": "http://localhost:3000/badges",
+      "internal": true
+    },
+    {
+      "text": "Read the Beginner Guide",
+      "href": "http://localhost:3000/guide",
+      "internal": true
+    },
+    {
+      "text": "Play on Roblox",
+      "href": "https://www.roblox.com/games/97598239454123/Grow-a-Garden-2",
+      "internal": false
+    },
+    {
+      "text": "View all codes",
+      "href": "http://localhost:3000/codes",
+      "internal": true
+    }
+  ],
+  "ldJsonCount": 2,
+  "ldJsonTypes": [
+    "Organization",
+    "WebSite"
+  ],
+  "ld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Grow a Garden 2 Wiki",
+      "url": "https://growagarden2wiki.wiki",
+      "logo": "https://growagarden2wiki.wiki/android-chrome-512x512.png",
+      "image": "https://growagarden2wiki.wiki/images/hero.webp",
+      "sameAs": [
+        "https://gag.gg/",
+        "https://www.roblox.com/games/97598239454123/Grow-a-Garden-2",
+        "https://www.roblox.com/communities/432538536/Strawberreh-Squad",
+        "https://discord.gg/H8qPF3QnMF",
+        "https://x.com/GrowaGardenRblx",
+        "https://www.reddit.com/r/growagarden/",
+        "https://www.youtube.com/watch?v=a3TCmxcT2QI"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Grow a Garden 2 Wiki",
+      "url": "https://growagarden2wiki.wiki",
+      "description": "Fan-made Grow a Garden 2 wiki with active codes, beginner guide, seed shop tips, stealing defense, guild rewards, pets, badges, and Roblox update notes.",
+      "image": "https://growagarden2wiki.wiki/images/hero.webp",
+      "inLanguage": "en",
+      "sameAs": [
+        "https://gag.gg/",
+        "https://www.roblox.com/games/97598239454123/Grow-a-Garden-2",
+        "https://www.roblox.com/communities/432538536/Strawberreh-Squad",
+        "https://discord.gg/H8qPF3QnMF",
+        "https://x.com/GrowaGardenRblx",
+        "https://www.reddit.com/r/growagarden/",
+        "https://www.youtube.com/watch?v=a3TCmxcT2QI"
+      ]
+    }
+  ],
+  "perf": {
+    "name": "http://localhost:3000/",
+    "entryType": "navigation",
+    "startTime": 0,
+    "duration": 940.6000000089407,
+    "initiatorType": "navigation",
+    "deliveryType": "",
+    "nextHopProtocol": "http/1.1",
+    "renderBlockingStatus": "non-blocking",
+    "contentType": "text/html",
+    "contentEncoding": "gzip",
+    "workerStart": 0,
+    "workerRouterEvaluationStart": 0,
+    "workerCacheLookupStart": 0,
+    "workerMatchedSourceType": "",
+    "workerFinalSourceType": "",
+    "redirectStart": 0,
+    "redirectEnd": 0,
+    "fetchStart": 1.2999999970197678,
+    "domainLookupStart": 2.2999999970197678,
+    "domainLookupEnd": 2.2999999970197678,
+    "connectStart": 2.2999999970197678,
+    "secureConnectionStart": 0,
+    "connectEnd": 302.1000000089407,
+    "requestStart": 302.20000000298023,
+    "responseStart": 590.1000000089407,
+    "firstInterimResponseStart": 0,
+    "finalResponseHeadersStart": 590.1000000089407,
+    "responseEnd": 618.5,
+    "transferSize": 45208,
+    "encodedBodySize": 44908,
+    "decodedBodySize": 310465,
+    "responseStatus": 200,
+    "serverTiming": [],
+    "unloadEventStart": 0,
+    "unloadEventEnd": 0,
+    "domInteractive": 772.9000000059605,
+    "domContentLoadedEventStart": 772.9000000059605,
+    "domContentLoadedEventEnd": 772.9000000059605,
+    "domComplete": 940.6000000089407,
+    "loadEventStart": 940.6000000089407,
+    "loadEventEnd": 940.6000000089407,
+    "type": "navigate",
+    "redirectCount": 0,
+    "activationStart": 0,
+    "criticalCHRestart": 0,
+    "notRestoredReasons": null,
+    "confidence": {
+      "randomizedTriggerRate": 0.4994798,
+      "value": "low"
+    }
+  },
+  "resourceSummary": {
+    "link": 285525,
+    "script": 2778894,
+    "img": 36904,
+    "other": 300
+  },
+  "jsBytes": 2778894,
+  "cssBytes": 285525,
+  "imageBytes": 36904,
+  "bodyTextLength": 18842,
+  "visibleTextStart": "Grow a Garden 2\nCodes\nGuide\nRelease\nCommunity\nPets\nCrops\nTools\nEnglish\nGrow a Garden 2 Wiki\nFan-Made Community Wiki\n\nPlant seeds, harvest crops, and turn Sheckles into a stronger garden while your plants keep growing offline. Grow a Garden 2 adds guild rewards and nighttime stealing, so smart layouts, defenses, and seed choices matter from the first session.\n\nLaunched Jun 2026\n130M+ Visits\n803K Peak CCU\n93% Rating\n214K+ Favorites\nPlay on Roblox\nJoin Official Discord\nCheck Active Codes\nYouTube\n✕ Close\nLatest Updates\nCodes\n2026-06-15\n\nUnlock Free Rewards: The Ultimate Guide to Grow A Garden 2 Codes (June 2026)\n\nGuide\n2026-06-15\n\nGrow a Garden 2 Gnome Guide: Locations, Secret Rewards, and Player Tips\n\nGuide\n2026-06-15\n\nGrow A Garden 2 Tier List: Maximize Your Profits with Best Pets and Seeds\n\nGuide\n2026-06-15\n\nMastering Your Farm: A Comprehensive Guide to the Grow a Garden 2 Wheelbarrow\n\nRelease\n2026-06-15\n\nFinally! Grow a Garden 2 Is Out – Cultivate Your Dream Oasis Today!\n\nRelease\n2026-06-15\n\nGrow a Garden 2 Countdown and Global Release Times: Everything You Need to Know\n\nRelease\n2026-06-15\n\nGrow a Garden 2 Early Access: Cultivate Your Dreams with New Features & Gameplay\n\nRelease\n20"
+}
