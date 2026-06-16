@@ -355,7 +355,10 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "noCodes": "No codes available.",
+    "copied": "Copied!",
+    "copyCode": "Copy code"
   },
   "footer": {
     "aboutTitle": "Grow a Garden 2 Wiki",

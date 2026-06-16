@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { TrailerButton, localizeHref } from "@/components/site";
+import { CopyButton } from "@/components/copy-button";
 import type { ContentItem } from "@/lib/content";
 import en from "@/locales/en.json";
 
@@ -159,6 +160,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
                         <div key={i} className="flex items-center justify-between gap-4 rounded-xl border border-border bg-muted p-4">
                           <div className="flex items-center gap-3">
                             <code className="rounded-lg bg-background px-3 py-1.5 font-mono text-sm font-bold text-foreground">{h.label}</code>
+                            <CopyButton text={h.label} />
                             <span className="text-sm text-muted-foreground">{h.detail}</span>
                           </div>
                           {"badge" in h && h.badge && <Badge className="shrink-0 bg-emerald-600 text-white text-[10px]">{h.badge}</Badge>}
