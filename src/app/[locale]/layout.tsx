@@ -10,6 +10,7 @@ import { JsonLd, SiteFooter, SiteHeader } from "@/components/site";
 import { routing } from "@/i18n/routing";
 
 const gaId = "G-0LH1PNF2VW";
+const clarityId = "x7zpwicqq8";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -80,6 +81,16 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${gaId}');
+          `}
+        </Script>
+        {/* Microsoft Clarity */}
+        <Script id="clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "${clarityId}");
           `}
         </Script>
       </head>
