@@ -84,7 +84,7 @@
           "badge": "Beginner",
           "title": "Beginner Guide",
           "description": "Everything you need from your first seed purchase to mastering the core loop of planting, harvesting, and selling crops.",
-          "href": "/beginner-guide"
+          "href": "/guide"
         },
         {
           "badge": "Updated",
@@ -96,13 +96,13 @@
           "badge": "Updated",
           "title": "Seeds Tier List",
           "description": "Every seed ranked by sell value, harvest type, ROI, and defensive strength — plant the right crops first.",
-          "href": "/seeds-tier-list"
+          "href": "/guide/grow-a-garden-2-tier-list"
         },
         {
           "badge": "Popular",
           "title": "Which Seeds Should You Plant First?",
           "description": "Compare early-game seeds by profit margin, growth time, and vulnerability to stealing — find your best starter crops.",
-          "href": "/seeds-tier-list"
+          "href": "/guide/grow-a-garden-2-tier-list"
         },
         {
           "badge": "New",
@@ -114,25 +114,25 @@
           "badge": "Popular",
           "title": "Stealing & Defense Guide",
           "description": "How nighttime raiding works, which defensive items stop thieves, and how to protect your most valuable crops.",
-          "href": "/stealing-and-defense"
+          "href": "/guide"
         },
         {
           "badge": "Popular",
           "title": "Guilds Guide",
           "description": "Create or join a guild, compete on leaderboards, and claim exclusive weekly rewards.",
-          "href": "/guilds"
+          "href": "/guide"
         },
         {
           "badge": "New",
           "title": "Weather Events Guide",
           "description": "All weather types — Rain, Lightning, Rainbow, Starfall — with durations, effects, and mutation chances.",
-          "href": "/weather-events"
+          "href": "/guide"
         },
         {
           "badge": "New",
           "title": "Badges Guide",
           "description": "Every badge from First Seed to 1000ft Plant — track your progression goals and unlock milestones.",
-          "href": "/badges"
+          "href": "/guide"
         }
       ]
     },
@@ -143,14 +143,38 @@
         "The biggest player questions are about active codes, best early seeds, how to farm Sheckles, how to defend a garden at night, and which pets or badges are worth chasing. A fan wiki should focus on fast beginner answers first, then expand into seed lists, defense layouts, guild rewards, and update tracking."
       ],
       "stats": [
-        { "label": "Developer", "value": "Strawberreh Squad" },
-        { "label": "Platform", "value": "Roblox" },
-        { "label": "Genre", "value": "Farming Simulator / Tycoon" },
-        { "label": "Visits", "value": "130M+" },
-        { "label": "Favorites", "value": "214K+" },
-        { "label": "Rating", "value": "93.5%" },
-        { "label": "Peak CCU", "value": "803K+" },
-        { "label": "Max Players", "value": "8" }
+        {
+          "label": "Developer",
+          "value": "Strawberreh Squad"
+        },
+        {
+          "label": "Platform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Farming Simulator / Tycoon"
+        },
+        {
+          "label": "Visits",
+          "value": "130M+"
+        },
+        {
+          "label": "Favorites",
+          "value": "214K+"
+        },
+        {
+          "label": "Rating",
+          "value": "93.5%"
+        },
+        {
+          "label": "Peak CCU",
+          "value": "803K+"
+        },
+        {
+          "label": "Max Players",
+          "value": "8"
+        }
       ],
       "cta": "Explore All Guides"
     },
@@ -165,37 +189,82 @@
           "href": "/codes",
           "displayType": "code-cards",
           "highlights": [
-            { "label": "TEAMGREENBEAN", "detail": "Redeem for 3 Green Bean Seeds.", "badge": "Active" }
+            {
+              "label": "TEAMGREENBEAN",
+              "detail": "Redeem for 3 Green Bean Seeds.",
+              "badge": "Active"
+            }
           ]
         },
         {
           "order": 2,
           "name": "Grow a Garden 2 Beginner Guide",
           "description": "A quick start guide covering the core loop of buying seeds, planting crops, harvesting, and selling for Sheckles. It also introduces offline growth, guild rewards, and the nighttime stealing mechanic.",
-          "href": "/beginner-guide",
+          "href": "/guide",
           "displayType": "step-by-step",
           "highlights": [
-            { "label": "1", "detail": "Buy seeds from the shop when the stock refreshes." },
-            { "label": "2", "detail": "Plant seeds in your farm plots and wait for them to grow." },
-            { "label": "3", "detail": "Harvest crops and sell them for Sheckles." },
-            { "label": "4", "detail": "Use your profits to buy better seeds, gears, pets, and props." },
-            { "label": "5", "detail": "Create or join a guild to compete for exclusive weekly rewards." },
-            { "label": "6", "detail": "Prepare for nighttime, because stealing starts when night falls." },
-            { "label": "7", "detail": "Keep progressing even offline, because gardens continue growing while you are away." }
+            {
+              "label": "1",
+              "detail": "Buy seeds from the shop when the stock refreshes."
+            },
+            {
+              "label": "2",
+              "detail": "Plant seeds in your farm plots and wait for them to grow."
+            },
+            {
+              "label": "3",
+              "detail": "Harvest crops and sell them for Sheckles."
+            },
+            {
+              "label": "4",
+              "detail": "Use your profits to buy better seeds, gears, pets, and props."
+            },
+            {
+              "label": "5",
+              "detail": "Create or join a guild to compete for exclusive weekly rewards."
+            },
+            {
+              "label": "6",
+              "detail": "Prepare for nighttime, because stealing starts when night falls."
+            },
+            {
+              "label": "7",
+              "detail": "Keep progressing even offline, because gardens continue growing while you are away."
+            }
           ]
         },
         {
           "order": 3,
           "name": "Grow a Garden 2 Seeds Tier List",
           "description": "A seed ranking module for players who want to know which crops are worth planting first. The tiers focus on average sell value, harvest type, seed cost, ROI, and defensive value.",
-          "href": "/seeds-tier-list",
+          "href": "/guide/grow-a-garden-2-tier-list",
           "displayType": "tier-grid",
           "highlights": [
-            { "label": "S", "detail": "Ghost Pepper, Dragon's Breath, Venus Flytrap, Moon Bloom.", "badge": "Best Seeds" },
-            { "label": "A", "detail": "Poison Ivy, Poison Apple, Pomegranate, Sunflower, Mushroom.", "badge": "Very Good" },
-            { "label": "B", "detail": "Cherry, Dragon Fruit, Bamboo, Acorn.", "badge": "Decent" },
-            { "label": "C", "detail": "Mango, Coconut, Grape, Banana, Green Bean, Pineapple, Cactus, Corn, Apple, Tulip.", "badge": "Mid" },
-            { "label": "D", "detail": "Tomato, Blueberry, Strawberry, Carrot.", "badge": "Starter Only" }
+            {
+              "label": "S",
+              "detail": "Ghost Pepper, Dragon's Breath, Venus Flytrap, Moon Bloom.",
+              "badge": "Best Seeds"
+            },
+            {
+              "label": "A",
+              "detail": "Poison Ivy, Poison Apple, Pomegranate, Sunflower, Mushroom.",
+              "badge": "Very Good"
+            },
+            {
+              "label": "B",
+              "detail": "Cherry, Dragon Fruit, Bamboo, Acorn.",
+              "badge": "Decent"
+            },
+            {
+              "label": "C",
+              "detail": "Mango, Coconut, Grape, Banana, Green Bean, Pineapple, Cactus, Corn, Apple, Tulip.",
+              "badge": "Mid"
+            },
+            {
+              "label": "D",
+              "detail": "Tomato, Blueberry, Strawberry, Carrot.",
+              "badge": "Starter Only"
+            }
           ]
         },
         {
@@ -205,79 +274,205 @@
           "href": "/pets",
           "displayType": "card-list",
           "highlights": [
-            { "label": "Frog", "detail": "Common pet costing 10K Sheckles; increases jump height by +5.", "badge": "Common" },
-            { "label": "Bunny", "detail": "Common pet costing 20K Sheckles; increases walk speed by +5.", "badge": "Common" },
-            { "label": "Deer", "detail": "Rare pet costing 50K Sheckles; helps plants grow 10% faster.", "badge": "Rare" },
-            { "label": "Dragonfly", "detail": "Mythic pet costing 3M Sheckles; boosts gold chance by 2x.", "badge": "Mythic" },
-            { "label": "Unicorn", "detail": "Mythic pet costing 4M Sheckles; doubles the chance of rainbow fruits.", "badge": "Mythic" },
-            { "label": "Raccoon", "detail": "Super pet costing 5M Sheckles; steals fruit from empty gardens at night and increases the steal limit by +25.", "badge": "Super" }
+            {
+              "label": "Frog",
+              "detail": "Common pet costing 10K Sheckles; increases jump height by +5.",
+              "badge": "Common"
+            },
+            {
+              "label": "Bunny",
+              "detail": "Common pet costing 20K Sheckles; increases walk speed by +5.",
+              "badge": "Common"
+            },
+            {
+              "label": "Deer",
+              "detail": "Rare pet costing 50K Sheckles; helps plants grow 10% faster.",
+              "badge": "Rare"
+            },
+            {
+              "label": "Dragonfly",
+              "detail": "Mythic pet costing 3M Sheckles; boosts gold chance by 2x.",
+              "badge": "Mythic"
+            },
+            {
+              "label": "Unicorn",
+              "detail": "Mythic pet costing 4M Sheckles; doubles the chance of rainbow fruits.",
+              "badge": "Mythic"
+            },
+            {
+              "label": "Raccoon",
+              "detail": "Super pet costing 5M Sheckles; steals fruit from empty gardens at night and increases the steal limit by +25.",
+              "badge": "Super"
+            }
           ]
         },
         {
           "order": 5,
           "name": "Grow a Garden 2 Guilds Guide",
           "description": "A focused guide for the new guild system in Grow a Garden 2. This module helps players understand guild creation, invitations, leaderboards, and weekly rewards.",
-          "href": "/guilds",
+          "href": "/guide",
           "displayType": "step-by-step",
           "highlights": [
-            { "label": "1", "detail": "Find the Guild booth in the central hub." },
-            { "label": "2", "detail": "Create a guild or join an existing guild through an invitation." },
-            { "label": "3", "detail": "Compete with other guilds in global competitions." },
-            { "label": "4", "detail": "Check guild leaderboards to track progress." },
-            { "label": "5", "detail": "Claim exclusive weekly rewards when your guild performs well." }
+            {
+              "label": "1",
+              "detail": "Find the Guild booth in the central hub."
+            },
+            {
+              "label": "2",
+              "detail": "Create a guild or join an existing guild through an invitation."
+            },
+            {
+              "label": "3",
+              "detail": "Compete with other guilds in global competitions."
+            },
+            {
+              "label": "4",
+              "detail": "Check guild leaderboards to track progress."
+            },
+            {
+              "label": "5",
+              "detail": "Claim exclusive weekly rewards when your guild performs well."
+            }
           ]
         },
         {
           "order": 6,
           "name": "Grow a Garden 2 Stealing and Defense Guide",
           "description": "A practical module for the nighttime stealing system and base protection. It explains when stealing starts, how raids work, and which defensive options matter most.",
-          "href": "/stealing-and-defense",
+          "href": "/guide",
           "displayType": "step-by-step",
           "highlights": [
-            { "label": "1", "detail": "Wait for night to start, because PvP stealing begins during nighttime." },
-            { "label": "2", "detail": "Enter other players' gardens and attempt to steal crops." },
-            { "label": "3", "detail": "You cannot harvest from a garden while the owner is inside the plot." },
-            { "label": "4", "detail": "Protect your own garden with defensive crops, props, walls, fences, and traps." },
-            { "label": "5", "detail": "Prioritize Bear Trap Crate items to stop thieves from escaping with valuable crops." },
-            { "label": "6", "detail": "Use Fence Crate and Owner Door Crate items to reduce entry points and control access to your base." }
+            {
+              "label": "1",
+              "detail": "Wait for night to start, because PvP stealing begins during nighttime."
+            },
+            {
+              "label": "2",
+              "detail": "Enter other players' gardens and attempt to steal crops."
+            },
+            {
+              "label": "3",
+              "detail": "You cannot harvest from a garden while the owner is inside the plot."
+            },
+            {
+              "label": "4",
+              "detail": "Protect your own garden with defensive crops, props, walls, fences, and traps."
+            },
+            {
+              "label": "5",
+              "detail": "Prioritize Bear Trap Crate items to stop thieves from escaping with valuable crops."
+            },
+            {
+              "label": "6",
+              "detail": "Use Fence Crate and Owner Door Crate items to reduce entry points and control access to your base."
+            }
           ]
         },
         {
           "order": 7,
           "name": "Grow a Garden 2 Weather Events",
           "description": "A weather module for players who want to catch growth boosts, mutation chances, and special seed spawns. Weather events are important because they can directly affect crop value and farming speed.",
-          "href": "/weather-events",
+          "href": "/guide",
           "displayType": "card-list",
           "highlights": [
-            { "label": "Rain", "detail": "Lasts 5 minutes and gives 2x growth speed to all plants.", "badge": "Growth" },
-            { "label": "Lightning", "detail": "Lasts 5 minutes and gives Shocked or Electric mutation to random crops.", "badge": "Mutation" },
-            { "label": "Rainbow", "detail": "Lasts 5 minutes and increases rainbow fruit chance.", "badge": "Mutation" },
-            { "label": "Snowfall", "detail": "Lasts 2 minutes 30 seconds and gives Frozen mutation to random crops.", "badge": "Mutation" },
-            { "label": "Starfall", "detail": "Lasts 2 minutes and gives Starstruck mutation to random crops.", "badge": "Rare" },
-            { "label": "Gold Seed", "detail": "Lasts 2 minutes and spawns golden seeds randomly.", "badge": "Seed Spawn" },
-            { "label": "Rainbow Seed", "detail": "Lasts 2 minutes and spawns rainbow seeds randomly.", "badge": "Seed Spawn" },
-            { "label": "Rainbow Moon", "detail": "Lasts 2 minutes and makes stolen fruits become rainbow.", "badge": "Stealing" }
+            {
+              "label": "Rain",
+              "detail": "Lasts 5 minutes and gives 2x growth speed to all plants.",
+              "badge": "Growth"
+            },
+            {
+              "label": "Lightning",
+              "detail": "Lasts 5 minutes and gives Shocked or Electric mutation to random crops.",
+              "badge": "Mutation"
+            },
+            {
+              "label": "Rainbow",
+              "detail": "Lasts 5 minutes and increases rainbow fruit chance.",
+              "badge": "Mutation"
+            },
+            {
+              "label": "Snowfall",
+              "detail": "Lasts 2 minutes 30 seconds and gives Frozen mutation to random crops.",
+              "badge": "Mutation"
+            },
+            {
+              "label": "Starfall",
+              "detail": "Lasts 2 minutes and gives Starstruck mutation to random crops.",
+              "badge": "Rare"
+            },
+            {
+              "label": "Gold Seed",
+              "detail": "Lasts 2 minutes and spawns golden seeds randomly.",
+              "badge": "Seed Spawn"
+            },
+            {
+              "label": "Rainbow Seed",
+              "detail": "Lasts 2 minutes and spawns rainbow seeds randomly.",
+              "badge": "Seed Spawn"
+            },
+            {
+              "label": "Rainbow Moon",
+              "detail": "Lasts 2 minutes and makes stolen fruits become rainbow.",
+              "badge": "Stealing"
+            }
           ]
         },
         {
           "order": 8,
           "name": "Grow a Garden 2 Badges Guide",
           "description": "A badge checklist module for players who want progression goals beyond farming money. It covers early milestones, mutation goals, stealing achievements, size goals, and first-week rewards.",
-          "href": "/badges",
+          "href": "/guide",
           "displayType": "card-list",
           "highlights": [
-            { "label": "First Seed", "detail": "Plant your first seed.", "badge": "Early" },
-            { "label": "First Pet", "detail": "Obtain your first Grow a Garden 2 pet.", "badge": "Early" },
-            { "label": "First Mutation", "detail": "Grow your first mutated plant.", "badge": "Mutation" },
-            { "label": "Stole A Fruit", "detail": "Successfully steal a fruit from another player's garden.", "badge": "PvP" },
-            { "label": "Builder", "detail": "Place your first prop or decorative item.", "badge": "Build" },
-            { "label": "Rainbow", "detail": "Grow a Rainbow fruit.", "badge": "Rare" },
-            { "label": "OMG its HUGE", "detail": "Obtain a HUGE pet.", "badge": "Hard" },
-            { "label": "1000ft Plant", "detail": "Grow a plant that reaches 1000ft.", "badge": "Hard" },
-            { "label": "OG Badge", "detail": "Play the game in the first week.", "badge": "Limited" }
+            {
+              "label": "First Seed",
+              "detail": "Plant your first seed.",
+              "badge": "Early"
+            },
+            {
+              "label": "First Pet",
+              "detail": "Obtain your first Grow a Garden 2 pet.",
+              "badge": "Early"
+            },
+            {
+              "label": "First Mutation",
+              "detail": "Grow your first mutated plant.",
+              "badge": "Mutation"
+            },
+            {
+              "label": "Stole A Fruit",
+              "detail": "Successfully steal a fruit from another player's garden.",
+              "badge": "PvP"
+            },
+            {
+              "label": "Builder",
+              "detail": "Place your first prop or decorative item.",
+              "badge": "Build"
+            },
+            {
+              "label": "Rainbow",
+              "detail": "Grow a Rainbow fruit.",
+              "badge": "Rare"
+            },
+            {
+              "label": "OMG its HUGE",
+              "detail": "Obtain a HUGE pet.",
+              "badge": "Hard"
+            },
+            {
+              "label": "1000ft Plant",
+              "detail": "Grow a plant that reaches 1000ft.",
+              "badge": "Hard"
+            },
+            {
+              "label": "OG Badge",
+              "detail": "Play the game in the first week.",
+              "badge": "Limited"
+            }
           ]
         }
-      ]
+      ],
+      "readFullGuide": "Read Full Guide"
     },
     "faq": {
       "title": "Frequently Asked Questions",
@@ -371,12 +566,12 @@
     "playGame": "Play Grow a Garden 2",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Popular YouTube Video",
-    "vvBuilder": "Official X",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Seed Guides",
-    "bossGuides": "Defense Guides",
-    "buildGuide": "Pet Guides",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "officialX": "Official X",
+    "seedGuides": "Seed Guides",
+    "defenseGuides": "Defense Guides",
+    "petGuides": "Pet Guides"
   }
 }

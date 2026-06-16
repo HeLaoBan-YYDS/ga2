@@ -1,1 +1,577 @@
-{}
+{
+  "site": {
+    "name": "Grow a Garden 2 Wiki",
+    "shortName": "Grow a Garden 2",
+    "tagline": "Wiki comunitaria hecha por fans",
+    "description": "Wiki de Grow a Garden 2 hecha por fans con códigos activos, guía para principiantes, consejos de la tienda de semillas, defensa contra robos, recompensas de gremio, mascotas, insignias y notas de actualización de Roblox.",
+    "legalNotice": "Wiki independiente de Grow a Garden 2 hecha por fans. No está afiliada con Roblox ni con Strawberreh Squad."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "codes": "Códigos",
+    "guide": "Guía",
+    "release": "Lanzamiento",
+    "community": "Comunidad",
+    "pets": "Mascotas",
+    "crops": "Cultivos",
+    "tools": "Herramientas"
+  },
+  "home": {
+    "meta": {
+      "title": "Grow a Garden 2 Wiki - Códigos, guía y semillas",
+      "description": "Wiki de Grow a Garden 2 hecha por fans con códigos activos, guía para principiantes, consejos de semillas, defensa contra robos, recompensas de gremio, mascotas, insignias y notas de Roblox."
+    },
+    "hero": {
+      "eyebrow": "Wiki comunitaria hecha por fans",
+      "title": "Grow a Garden 2 Wiki",
+      "description": "Planta semillas, cosecha cultivos y convierte tus Sheckles en un jardín más fuerte mientras tus plantas siguen creciendo sin conexión. Grow a Garden 2 añade recompensas de gremio y robos nocturnos, así que los diseños inteligentes, las defensas y la elección de semillas importan desde la primera partida.",
+      "stats": [
+        "Lanzado en jun. de 2026",
+        "130M+ visitas",
+        "803K pico de CCU",
+        "93% de valoración",
+        "214K+ favoritos"
+      ],
+      "primaryCta": "Jugar en Roblox",
+      "secondaryCta": "Unirse al Discord oficial",
+      "tertiaryCta": "Ver códigos activos",
+      "videoLabel": "Muestra de gameplay"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu ruta en Grow a Garden 2",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende la ruta de la primera sesión: compra semillas, planta parcelas, cosecha cultivos, vende por Sheckles y evita malgastar dinero al inicio."
+        },
+        {
+          "number": "2",
+          "title": "Semillas y farmeo de Sheckles",
+          "description": "Sigue qué comprar cuando se repone la tienda, qué cultivos ayudan más al inicio y cómo reinvertir ganancias en mejores semillas."
+        },
+        {
+          "number": "3",
+          "title": "Defensa contra robos nocturnos",
+          "description": "Entiende cómo los robos nocturnos cambian el ciclo principal y cómo proteger cultivos valiosos con diseños, vallas y trampas."
+        },
+        {
+          "number": "4",
+          "title": "Recompensas de gremio y progreso",
+          "description": "Usa gremios, recompensas semanales, insignias y mascotas para pasar del farmeo casual al crecimiento competitivo del jardín."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias ahora",
+      "quickLinks": [
+        "Tier list de semillas",
+        "Guía para principiantes",
+        "Defensa nocturna",
+        "Todas las guías de mascotas"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Todo lo que necesitas desde tu primera compra de semillas hasta dominar el ciclo de plantar, cosechar y vender cultivos.",
+          "href": "/guide"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Códigos activos",
+          "description": "Todos los códigos funcionales de Grow a Garden 2 con recompensas; canjéalos antes de que caduquen.",
+          "href": "/codes"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Tier list de semillas",
+          "description": "Cada semilla clasificada por valor de venta, tipo de cosecha, ROI y fuerza defensiva; planta primero los cultivos correctos.",
+          "href": "/guide/grow-a-garden-2-tier-list"
+        },
+        {
+          "badge": "Popular",
+          "title": "¿Qué semillas deberías plantar primero?",
+          "description": "Compara semillas iniciales por margen de ganancia, tiempo de crecimiento y vulnerabilidad al robo para encontrar tus mejores cultivos.",
+          "href": "/guide/grow-a-garden-2-tier-list"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Guía de mascotas",
+          "description": "Todas las mascotas con precios, rarezas y habilidades, desde Frog hasta Unicorn y Raccoon.",
+          "href": "/pets"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guía de robo y defensa",
+          "description": "Cómo funcionan los asaltos nocturnos, qué objetos defensivos detienen ladrones y cómo proteger tus cultivos más valiosos.",
+          "href": "/guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guía de gremios",
+          "description": "Crea o únete a un gremio, compite en clasificaciones y reclama recompensas semanales exclusivas.",
+          "href": "/guide"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Guía de eventos climáticos",
+          "description": "Todos los climas, como Rain, Lightning, Rainbow y Starfall, con duración, efectos y probabilidades de mutación.",
+          "href": "/guide"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Guía de insignias",
+          "description": "Todas las insignias, desde First Seed hasta 1000ft Plant; sigue tus metas de progreso y desbloquea hitos.",
+          "href": "/guide"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Grow a Garden 2?",
+      "paragraphs": [
+        "Grow a Garden 2 es un simulador de granja de Roblox donde los jugadores compran semillas, plantan cultivos, los cosechan y venden la producción por Sheckles. El ciclo principal es fácil de entender, pero la secuela añade más presión con competencia de gremios y robos nocturnos.",
+        "Las dudas más comunes son sobre códigos activos, mejores semillas iniciales, cómo farmear Sheckles, cómo defender el jardín por la noche y qué mascotas o insignias merecen la pena. Una wiki de fans debe responder rápido a principiantes y luego ampliar listas de semillas, diseños defensivos, recompensas de gremio y seguimiento de actualizaciones."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Strawberreh Squad"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Género",
+          "value": "Simulador de granja / Tycoon"
+        },
+        {
+          "label": "Visitas",
+          "value": "130M+"
+        },
+        {
+          "label": "Favoritos",
+          "value": "214K+"
+        },
+        {
+          "label": "Valoración",
+          "value": "93.5%"
+        },
+        {
+          "label": "Pico de CCU",
+          "value": "803K+"
+        },
+        {
+          "label": "Jugadores máx.",
+          "value": "8"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Navegación de módulos de la página de Grow a Garden 2",
+      "description": "Salta directo a las ocho secciones principales y ve al módulo que necesitas.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Códigos de Grow a Garden 2",
+          "description": "Sigue los códigos canjeables más recientes de Grow a Garden 2 para recompensas de lanzamiento gratis.",
+          "href": "/codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "TEAMGREENBEAN",
+              "detail": "Canjea por 3 semillas de Green Bean.",
+              "badge": "Activo"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía para principiantes de Grow a Garden 2",
+          "description": "Guía rápida del ciclo principal: comprar semillas, plantar cultivos, cosechar y vender por Sheckles.",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Compra semillas en la tienda cuando se reponga el stock."
+            },
+            {
+              "label": "2",
+              "detail": "Planta semillas en tus parcelas y espera a que crezcan."
+            },
+            {
+              "label": "3",
+              "detail": "Cosecha cultivos y véndelos por Sheckles."
+            },
+            {
+              "label": "4",
+              "detail": "Usa tus ganancias para comprar mejores semillas, equipos, mascotas y decoraciones."
+            },
+            {
+              "label": "5",
+              "detail": "Crea o únete a un gremio para competir por recompensas semanales."
+            },
+            {
+              "label": "6",
+              "detail": "Prepárate para la noche, porque los robos empiezan al anochecer."
+            },
+            {
+              "label": "7",
+              "detail": "Sigue progresando sin conexión, porque los jardines crecen mientras estás fuera."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Tier list de semillas de Grow a Garden 2",
+          "description": "Ranking de semillas para saber qué cultivos conviene plantar primero, con valor de venta, cosecha, coste, ROI y defensa.",
+          "href": "/guide/grow-a-garden-2-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Ghost Pepper, Dragon's Breath, Venus Flytrap, Moon Bloom.",
+              "badge": "Mejores semillas"
+            },
+            {
+              "label": "A",
+              "detail": "Poison Ivy, Poison Apple, Pomegranate, Sunflower, Mushroom.",
+              "badge": "Muy buenas"
+            },
+            {
+              "label": "B",
+              "detail": "Cherry, Dragon Fruit, Bamboo, Acorn.",
+              "badge": "Decentes"
+            },
+            {
+              "label": "C",
+              "detail": "Mango, Coconut, Grape, Banana, Green Bean, Pineapple, Cactus, Corn, Apple, Tulip.",
+              "badge": "Medias"
+            },
+            {
+              "label": "D",
+              "detail": "Tomato, Blueberry, Strawberry, Carrot.",
+              "badge": "Solo inicio"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de mascotas de Grow a Garden 2",
+          "description": "Guía para comparar precios, rarezas y habilidades de mascotas. Pueden ayudar en farmeo, movimiento, mutaciones, robos y defensa.",
+          "href": "/pets",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Frog",
+              "detail": "Mascota común de 10K Sheckles; aumenta el salto en +5.",
+              "badge": "Común"
+            },
+            {
+              "label": "Bunny",
+              "detail": "Mascota común de 20K Sheckles; aumenta la velocidad al caminar en +5.",
+              "badge": "Común"
+            },
+            {
+              "label": "Deer",
+              "detail": "Mascota rara de 50K Sheckles; ayuda a que las plantas crezcan 10% más rápido.",
+              "badge": "Rara"
+            },
+            {
+              "label": "Dragonfly",
+              "detail": "Mascota mítica de 3M Sheckles; duplica la probabilidad de oro.",
+              "badge": "Mítica"
+            },
+            {
+              "label": "Unicorn",
+              "detail": "Mascota mítica de 4M Sheckles; duplica la probabilidad de frutas arcoíris.",
+              "badge": "Mítica"
+            },
+            {
+              "label": "Raccoon",
+              "detail": "Mascota super de 5M Sheckles; roba fruta de jardines vacíos por la noche y aumenta el límite de robo en +25.",
+              "badge": "Super"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de gremios de Grow a Garden 2",
+          "description": "Guía enfocada en el nuevo sistema de gremios: creación, invitaciones, clasificaciones y recompensas semanales.",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Encuentra el puesto de gremios en el centro."
+            },
+            {
+              "label": "2",
+              "detail": "Crea un gremio o únete a uno mediante invitación."
+            },
+            {
+              "label": "3",
+              "detail": "Compite contra otros gremios en competiciones globales."
+            },
+            {
+              "label": "4",
+              "detail": "Consulta las clasificaciones de gremios para seguir el progreso."
+            },
+            {
+              "label": "5",
+              "detail": "Reclama recompensas semanales exclusivas cuando tu gremio rinda bien."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de robo y defensa de Grow a Garden 2",
+          "description": "Módulo práctico sobre robo nocturno y protección de base: cuándo empieza, cómo funcionan los asaltos y qué defensas importan.",
+          "href": "/guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Espera a que llegue la noche, porque el robo PvP se activa entonces."
+            },
+            {
+              "label": "2",
+              "detail": "Entra en jardines de otros jugadores e intenta robar cultivos."
+            },
+            {
+              "label": "3",
+              "detail": "No puedes cosechar en un jardín mientras su dueño está dentro de la parcela."
+            },
+            {
+              "label": "4",
+              "detail": "Protege tu jardín con cultivos defensivos, objetos, muros, vallas y trampas."
+            },
+            {
+              "label": "5",
+              "detail": "Prioriza Bear Trap Crate para detener ladrones con cultivos valiosos."
+            },
+            {
+              "label": "6",
+              "detail": "Usa Fence Crate y Owner Door Crate para reducir entradas y controlar el acceso."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Eventos climáticos de Grow a Garden 2",
+          "description": "Módulo de clima para aprovechar mejoras de crecimiento, mutaciones y aparición de semillas especiales.",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Rain",
+              "detail": "Dura 5 minutos y da crecimiento 2x a todas las plantas.",
+              "badge": "Crecimiento"
+            },
+            {
+              "label": "Lightning",
+              "detail": "Dura 5 minutos y da mutación Shocked o Electric a cultivos aleatorios.",
+              "badge": "Mutación"
+            },
+            {
+              "label": "Rainbow",
+              "detail": "Dura 5 minutos y aumenta la probabilidad de fruta arcoíris.",
+              "badge": "Mutación"
+            },
+            {
+              "label": "Snowfall",
+              "detail": "Dura 2 minutos 30 segundos y da mutación Frozen a cultivos aleatorios.",
+              "badge": "Mutación"
+            },
+            {
+              "label": "Starfall",
+              "detail": "Dura 2 minutos y da mutación Starstruck.",
+              "badge": "Raro"
+            },
+            {
+              "label": "Gold Seed",
+              "detail": "Dura 2 minutos y genera semillas doradas aleatorias.",
+              "badge": "Semillas"
+            },
+            {
+              "label": "Rainbow Seed",
+              "detail": "Dura 2 minutos y genera semillas arcoíris aleatorias.",
+              "badge": "Semillas"
+            },
+            {
+              "label": "Rainbow Moon",
+              "detail": "Dura 2 minutos y convierte frutas robadas en arcoíris.",
+              "badge": "Robo"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guía de insignias de Grow a Garden 2",
+          "description": "Checklist de insignias para metas más allá del dinero: hitos iniciales, mutaciones, robos, tamaño y primera semana.",
+          "href": "/guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "First Seed",
+              "detail": "Planta tu primera semilla.",
+              "badge": "Inicial"
+            },
+            {
+              "label": "First Pet",
+              "detail": "Consigue tu primera mascota de Grow a Garden 2.",
+              "badge": "Inicial"
+            },
+            {
+              "label": "First Mutation",
+              "detail": "Cultiva tu primera planta mutada.",
+              "badge": "Mutación"
+            },
+            {
+              "label": "Stole A Fruit",
+              "detail": "Roba con éxito una fruta del jardín de otro jugador.",
+              "badge": "PvP"
+            },
+            {
+              "label": "Builder",
+              "detail": "Coloca tu primer objeto o decoración.",
+              "badge": "Construcción"
+            },
+            {
+              "label": "Rainbow",
+              "detail": "Cultiva una fruta arcoíris.",
+              "badge": "Rara"
+            },
+            {
+              "label": "OMG its HUGE",
+              "detail": "Consigue una mascota HUGE.",
+              "badge": "Difícil"
+            },
+            {
+              "label": "1000ft Plant",
+              "detail": "Cultiva una planta que alcance 1000ft.",
+              "badge": "Difícil"
+            },
+            {
+              "label": "OG Badge",
+              "detail": "Juega durante la primera semana.",
+              "badge": "Limitada"
+            }
+          ]
+        }
+      ],
+      "readFullGuide": "Leer guía completa"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas a las dudas más comunes sobre Grow a Garden 2.",
+      "items": [
+        {
+          "question": "¿Qué es Grow a Garden 2?",
+          "answer": "Grow a Garden 2 es un simulador de granja free-to-play en Roblox desarrollado por Strawberreh Squad. Los jugadores compran semillas, plantan cultivos, los cosechan y venden productos por Sheckles. La secuela introduce competición de gremios, robos nocturnos, mascotas con habilidades, eventos climáticos y crecimiento sin conexión."
+        },
+        {
+          "question": "¿Qué semillas deberían plantar primero los principiantes?",
+          "answer": "Empieza con cultivos baratos y rápidos como Carrots, Tomatoes y Strawberries para reunir tus primeros Sheckles. Cuando tengas ingresos estables, reinvierte en semillas mejores como Green Beans y Sunflowers."
+        },
+        {
+          "question": "¿Cómo funciona el robo nocturno en Grow a Garden 2?",
+          "answer": "Cuando cae la noche, el robo PvP se activa. Los jugadores pueden entrar en otros jardines e intentar robar cultivos, pero no pueden cosechar mientras el dueño está dentro."
+        },
+        {
+          "question": "¿Dónde encuentro códigos activos de Grow a Garden 2?",
+          "answer": "Consulta la página de Códigos para ver todos los códigos funcionales con recompensas y notas de caducidad. Códigos como TEAMGREENBEAN dan semillas gratis."
+        },
+        {
+          "question": "¿Merecen la pena las mascotas y gremios?",
+          "answer": "Sí. Las mascotas dan bonos pasivos y los gremios desbloquean competiciones semanales con recompensas exclusivas."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para dominar Grow a Garden 2?",
+      "description": "Desde tu primera compra de semillas hasta defensa nocturna, recompensas de gremio, mascotas e insignias, esta wiki comunitaria te ayuda a crecer más rápido y evitar errores de principiante.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en Roblox"
+    }
+  },
+  "codes": {
+    "overviewTitle": "Códigos",
+    "overviewDescription": "Consulta guías de códigos de Grow a Garden 2, notas de canje, recompensas activas y comprobaciones de caducidad."
+  },
+  "guide": {
+    "overviewTitle": "Guía",
+    "overviewDescription": "Empieza con guías prácticas de Grow a Garden 2 para progreso, tier lists, herramientas y sistemas clave."
+  },
+  "release": {
+    "overviewTitle": "Lanzamiento",
+    "overviewDescription": "Sigue fechas de lanzamiento, cuenta atrás, acceso anticipado y estado del estreno de Grow a Garden 2."
+  },
+  "community": {
+    "overviewTitle": "Comunidad",
+    "overviewDescription": "Encuentra recursos de comunidad de Grow a Garden 2, guía de Discord y lugares para seguir novedades."
+  },
+  "pets": {
+    "overviewTitle": "Mascotas",
+    "overviewDescription": "Compara mascotas de Grow a Garden 2, habilidades, rarezas y compañeros destacados."
+  },
+  "crops": {
+    "overviewTitle": "Cultivos",
+    "overviewDescription": "Explora cultivos, semillas, plantas especiales, picks de valor y prioridades de farmeo de Grow a Garden 2."
+  },
+  "tools": {
+    "overviewTitle": "Herramientas",
+    "overviewDescription": "Usa guías de utilidad de Grow a Garden 2 para seguimiento de stock, notificaciones y planificación."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Tabla de contenidos",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!",
+    "noCodes": "No hay códigos disponibles.",
+    "copied": "¡Copiado!",
+    "copyCode": "Copiar código"
+  },
+  "footer": {
+    "aboutTitle": "Grow a Garden 2 Wiki",
+    "about": "Grow a Garden 2 Wiki es un centro independiente de guías hecho por fans para jugadores de Roblox. Cubre códigos, rutas iniciales, semillas, mascotas, defensas, insignias y notas de actualización. Este sitio no está afiliado con Roblox ni Strawberreh Squad.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 Grow a Garden 2 Wiki. No afiliado con Roblox ni Strawberreh Squad.",
+    "description": "Simulador de granja gratuito de Roblox con semillas, Sheckles, recompensas de gremio, robos nocturnos y crecimiento sin conexión.",
+    "playGame": "Jugar Grow a Garden 2",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "Video popular de YouTube",
+    "beginnerGuide": "Guía para principiantes",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos de servicio",
+    "officialX": "X oficial",
+    "seedGuides": "Guías de semillas",
+    "defenseGuides": "Guías de defensa",
+    "petGuides": "Guías de mascotas"
+  }
+}

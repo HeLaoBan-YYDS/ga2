@@ -223,7 +223,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
                     href={localizeHref(mod.href, locale)}
                     className="mt-5 inline-flex items-center text-sm font-semibold text-[hsl(var(--nav-theme))] hover:underline"
                   >
-                    Read Full Guide <ChevronRight className="ml-1 h-4 w-4" />
+                    {home.explore.readFullGuide} <ChevronRight className="ml-1 h-4 w-4" />
                   </Link>
                 </div>
               </div>
