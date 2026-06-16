@@ -97,10 +97,10 @@
     <div class="hero">
       <p class="meta">审计对象：<code>http://localhost:3000</code> | 报告日期：2026-06-16 | 审计类型：技术 SEO、站内 SEO、内容与国际化 SEO 快速审计</p>
       <h1>Grow a Garden 2 Wiki SEO 审计报告</h1>
-      <p>整体来看，站点首页的基础 SEO 结构较完整：标题、描述、H1、canonical、robots、sitemap、结构化数据、内部链接和图片 alt 均已有实现。当前最需要优先处理的问题集中在国际化 canonical / hreflang、语言版本内容本地化、首页重复内容块，以及前端资源体积。</p>
+      <p>整体来看，站点首页的基础 SEO 结构较完整：标题、描述、H1、canonical、robots、sitemap、结构化数据、内部链接和图片 alt 均已有实现。当前最需要优先处理的问题集中在国际化 canonical / hreflang、语言版本内容本地化、首页重复内容块，以及前端资源体积。<strong>（多语言 canonical 问题已于 2026-06-16 修复，见下方更新。）</strong></p>
       <div class="score">
-        <div class="score-card"><span>整体健康度</span><b>72/100</b><small>基础可抓取，但国际化风险明显</small></div>
-        <div class="score-card"><span>技术 SEO</span><b>76/100</b><small>robots/sitemap 正常，canonical 需修正</small></div>
+        <div class="score-card"><span>整体健康度</span><b>78/100</b><small>canonical 已修复，hreflang 仍需完善</small></div>
+        <div class="score-card"><span>技术 SEO</span><b>84/100</b><small>robots/sitemap 正常，canonical 已修复</small></div>
         <div class="score-card"><span>站内 SEO</span><b>78/100</b><small>标题结构较好，部分描述模板化</small></div>
         <div class="score-card"><span>内容质量</span><b>68/100</b><small>内容量充足，但重复与本地化不足</small></div>
       </div>
@@ -136,7 +136,7 @@
           <tr><td>首页标题</td><td><code>Grow a Garden 2 Wiki - Codes, Guide &amp; Seeds</code>，43 字符</td><td><span class="badge ok">通过</span> 长度合适，包含核心词。</td></tr>
           <tr><td>首页描述</td><td>152 字符</td><td><span class="badge ok">通过</span> 接近理想长度，覆盖 codes、guide、seeds 等意图。</td></tr>
           <tr><td>H1</td><td>首页 1 个 H1：<code>Grow a Garden 2 Wiki</code></td><td><span class="badge ok">通过</span> 结构清晰。</td></tr>
-          <tr><td>Canonical</td><td>首页：<code>https://growagarden2wiki.wiki/</code></td><td><span class="badge ok">基本通过</span> 本地环境使用生产域 canonical 是合理的，但 locale 页面存在问题。</td></tr>
+          <tr><td>Canonical</td><td>首页：<code>https://growagarden2wiki.wiki/</code></td><td><span class="badge ok">通过</span> 所有 locale 页面已实现 self-canonical（2026-06-16 修复）。</td></tr>
           <tr><td>Robots.txt</td><td><code>User-Agent: *</code>、<code>Allow: /</code>、指向生产 sitemap</td><td><span class="badge ok">通过</span> 未阻止抓取。</td></tr>
           <tr><td>Sitemap</td><td>可访问，包含英文、<code>es</code>、<code>pt-BR</code>、<code>th</code> 多语言 URL</td><td><span class="badge medium">需改进</span> XML sitemap 未包含 hreflang alternate。</td></tr>
           <tr><td>结构化数据</td><td>首页有 <code>Organization</code>、<code>WebSite</code>；文章页有 <code>Article</code>、<code>BreadcrumbList</code></td><td><span class="badge ok">通过</span> 已通过渲染 DOM 检测，不是静态 HTML 误判。</td></tr>
@@ -150,12 +150,14 @@
     <section>
       <h2>三、技术 SEO 发现</h2>
 
-      <h3>1. 多语言 canonical 配置错误</h3>
+      <h3>1. 多语言 canonical 配置错误 <span class=”badge ok”>已修复 2026-06-16</span></h3>
       <table>
-        <tr><th>影响</th><td><span class="badge high">高</span></td></tr>
-        <tr><th>证据</th><td><code>/es/codes/grow-a-garden-2-codes</code> 输出 <code>html lang="es"</code>，但 canonical 为英文无 locale URL。<code>/th/codes/grow-a-garden-2-codes</code> 同样 canonical 到英文 URL。</td></tr>
-        <tr><th>SEO 影响</th><td>Google 通常会把 canonical 视为“该页面主版本”的强信号。西语、葡语、泰语页面 canonical 到英文 URL 时，本地化版本可能不被独立索引，hreflang 集群也可能被削弱。</td></tr>
-        <tr><th>修复建议</th><td>每个 locale 页面必须 self-canonical：<code>/es/...</code> canonical 到 <code>https://growagarden2wiki.wiki/es/...</code>，<code>/pt-BR/...</code> canonical 到对应葡语 URL，<code>/th/...</code> canonical 到对应泰语 URL。</td></tr>
+        <tr><th>影响</th><td><del><span class=”badge high”>高</span></del> → <span class=”badge ok”>已修复</span></td></tr>
+        <tr><th>证据</th><td><del><code>/es/codes/grow-a-garden-2-codes</code> 输出 <code>html lang=”es”</code>，但 canonical 为英文无 locale URL。<code>/th/codes/grow-a-garden-2-codes</code> 同样 canonical 到英文 URL。</del><br><strong>修复后：</strong><code>/es/...</code> → <code>https://growagarden2wiki.wiki/es/codes/grow-a-garden-2-codes</code>；<code>/th/...</code> → <code>https://growagarden2wiki.wiki/th/codes/grow-a-garden-2-codes</code>；<code>/pt-BR/...</code> → <code>https://growagarden2wiki.wiki/pt-BR/codes/grow-a-garden-2-codes</code>。英文页面保持无前缀。</td></tr>
+        <tr><th>根因</th><td><code>src/app/[locale]/[...slug]/page.tsx</code> 中 <code>generateMetadata</code> 的 <code>pathname</code> 变量未包含语言前缀（<code>/${contentType}/${articleSlug}</code> 而非 <code>/${locale}/${contentType}/${articleSlug}</code>），且列表页 canonical 同样缺少前缀。</td></tr>
+        <tr><th>修复文件</th><td><code>src/app/[locale]/[...slug]/page.tsx</code>（第 40–41 行列表页 canonical/OG URL；第 48–52 行详情页 canonical/OG URL）</td></tr>
+        <tr><th>SEO 影响</th><td>Google 通常会把 canonical 视为”该页面主版本”的强信号。西语、葡语、泰语页面 canonical 到英文 URL 时，本地化版本可能不被独立索引，hreflang 集群也可能被削弱。</td></tr>
+        <tr><th>修复建议</th><td><strong>已完成。</strong>每个 locale 页面现在 self-canonical：<code>/es/...</code> canonical 到 <code>https://growagarden2wiki.wiki/es/...</code>，<code>/pt-BR/...</code> canonical 到对应葡语 URL，<code>/th/...</code> canonical 到对应泰语 URL。</td></tr>
       </table>
 
       <h3>2. 首页 hreflang 不完整，缺少 x-default</h3>
@@ -272,7 +274,7 @@
           <tr><th>优先级</th><th>任务</th><th>预期收益</th><th>建议完成时间</th></tr>
         </thead>
         <tbody>
-          <tr><td>P0</td><td>修复所有 locale 页面 canonical，保证 self-canonical。</td><td>恢复多语言页面独立收录信号。</td><td>1 天内</td></tr>
+          <tr><td><del>P0</del> ✅</td><td>修复所有 locale 页面 canonical，保证 self-canonical。</td><td>恢复多语言页面独立收录信号。</td><td><del>1 天内</del> 已完成 2026-06-16</td></tr>
           <tr><td>P0</td><td>补全 hreflang 自引用、互链和 <code>x-default</code>。</td><td>提升正确语言页面展示概率。</td><td>1 天内</td></tr>
           <tr><td>P1</td><td>本地化多语言首页与核心分类页 title、description、H1、主内容。</td><td>降低重复内容风险，增强非英文搜索覆盖。</td><td>3-5 天</td></tr>
           <tr><td>P1</td><td>重写分类页 meta description，修复 <code>guide guides</code> 等模板问题。</td><td>提升 SERP 点击率和页面相关性。</td><td>1-2 天</td></tr>

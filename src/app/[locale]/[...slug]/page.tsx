@@ -37,8 +37,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
     return {
       title,
       description,
-      alternates: { canonical: `/${ct}`, languages: languageAlternates(`/${ct}`) },
-      openGraph: { title, description, url: `${siteUrl}/${ct}`, siteName, images: [`${siteUrl}/images/hero.webp`] },
+      alternates: { canonical: locale === "en" ? `/${ct}` : `/${locale}/${ct}`, languages: languageAlternates(`/${ct}`) },
+      openGraph: { title, description, url: `${siteUrl}${locale === "en" ? "" : `/${locale}`}/${ct}`, siteName, images: [`${siteUrl}/images/hero.webp`] },
       twitter: { card: "summary_large_image", title, description, images: [`${siteUrl}/images/hero.webp`] },
     };
   }
@@ -46,8 +46,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
   const item = await getContent(contentType, articleSlug, locale);
   if (!item) return { title: "Not Found" };
   const pathname = `/${contentType}/${articleSlug.join("/")}`;
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
+  const canonicalPathname = `${localePrefix}${pathname}`;
   const image = item.metadata.image?.startsWith("http") ? item.metadata.image : `${siteUrl}${item.metadata.image ?? "/images/hero.webp"}`;
-  return { title: `${item.metadata.title} - ${siteName}`, description: item.metadata.description, alternates: { canonical: pathname, languages: languageAlternates(pathname) }, openGraph: { type: "article", title: item.metadata.title, description: item.metadata.description, url: `${siteUrl}${pathname}`, siteName, images: [image] }, twitter: { card: "summary_large_image", title: item.metadata.title, description: item.metadata.description, images: [image] } };
+  return { title: `${item.metadata.title} - ${siteName}`, description: item.metadata.description, alternates: { canonical: canonicalPathname, languages: languageAlternates(pathname) }, openGraph: { type: "article", title: item.metadata.title, description: item.metadata.description, url: `${siteUrl}${canonicalPathname}`, siteName, images: [image] }, twitter: { card: "summary_large_image", title: item.metadata.title, description: item.metadata.description, images: [image] } };
 }
 
 export default async function SlugPage({ params }: { params: Promise<{ locale: Locale; slug: string[] }> }) {
