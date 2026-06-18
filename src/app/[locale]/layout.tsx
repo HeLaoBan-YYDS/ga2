@@ -67,12 +67,11 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           `}
         </Script>
         {/* Google AdSense */}
-        <Script
-          id="google-adsense"
+        <meta name="google-adsense-account" content={adsenseClient} />
+        <script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
         {/* Microsoft Clarity */}
         <Script id="microsoft-clarity" strategy="afterInteractive">
