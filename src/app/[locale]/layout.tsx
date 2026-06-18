@@ -10,6 +10,7 @@ import { SiteFooter, SiteHeader } from "@/components/site";
 import { routing } from "@/i18n/routing";
 
 const gaId = "G-0LH1PNF2VW";
+const adsenseClient = "ca-pub-9990396895505565";
 const clarityId = "x7zpwicqq8";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -65,6 +66,14 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             gtag('config', '${gaId}');
           `}
         </Script>
+        {/* Google AdSense */}
+        <Script
+          id="google-adsense"
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         {/* Microsoft Clarity */}
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`
