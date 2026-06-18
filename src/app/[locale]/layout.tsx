@@ -6,7 +6,7 @@ import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
-import { JsonLd, SiteFooter, SiteHeader } from "@/components/site";
+import { SiteFooter, SiteHeader } from "@/components/site";
 import { routing } from "@/i18n/routing";
 
 const gaId = "G-0LH1PNF2VW";
@@ -17,15 +17,6 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://growagarden2wiki.wiki";
 const siteName = "Grow a Garden 2 Wiki";
 const siteDescription = "Fan-made Grow a Garden 2 wiki with active codes, beginner guide, seed shop tips, stealing defense, guild rewards, pets, badges, and Roblox update notes.";
-const officialLinks = [
-  "https://gag.gg/",
-  "https://www.roblox.com/games/97598239454123/Grow-a-Garden-2",
-  "https://www.roblox.com/communities/432538536/Strawberreh-Squad",
-  "https://discord.gg/H8qPF3QnMF",
-  "https://x.com/GrowaGardenRblx",
-  "https://www.reddit.com/r/growagarden/",
-  "https://www.youtube.com/watch?v=a3TCmxcT2QI",
-];
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -60,15 +51,6 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   const messages = await getMessages();
-  const organization = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: siteName,
-    url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}/images/hero.webp`,
-    sameAs: officialLinks,
-  };
 
   return (
     <html lang={locale} className={`${inter.variable}`} suppressHydrationWarning>
@@ -84,7 +66,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
           `}
         </Script>
         {/* Microsoft Clarity */}
-        <Script id="clarity" strategy="afterInteractive">
+        <Script id="microsoft-clarity" strategy="afterInteractive">
           {`
             (function(c,l,a,r,i,t,y){
                 c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -97,7 +79,6 @@ export default async function LocaleLayout({ children, params }: { children: Rea
       <body className="min-h-screen bg-background font-sans text-foreground antialiased">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <NextIntlClientProvider messages={messages}>
-            <JsonLd data={organization} />
             <SiteHeader locale={locale} />
             {children}
             <SiteFooter locale={locale} />

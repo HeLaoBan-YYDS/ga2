@@ -41,15 +41,54 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const loc = locale as Locale;
   const messages = (await getMessages({ locale })) as Messages;
   const navGroups = getDynamicNavigation(loc);
-  const webSite = {
+  const localePrefix = locale === "en" ? "" : `/${locale}`;
+  const homeUrl = `${siteUrl}${localePrefix || "/"}`;
+  const organizationId = `${siteUrl}/#organization`;
+  const webSiteId = `${siteUrl}/#website`;
+  const videoGameId = `${siteUrl}/#videogame`;
+  const homeGraph = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: messages.site.name,
-    url: siteUrl,
-    description: messages.site.description,
-    image: `${siteUrl}/images/hero.webp`,
-    inLanguage: locale,
-    sameAs: officialLinks,
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": organizationId,
+        name: messages.site.name,
+        url: siteUrl,
+        logo: {
+          "@type": "ImageObject",
+          url: `${siteUrl}/android-chrome-512x512.png`,
+        },
+        image: `${siteUrl}/images/hero.webp`,
+        sameAs: officialLinks,
+      },
+      {
+        "@type": "WebSite",
+        "@id": webSiteId,
+        name: messages.site.name,
+        url: siteUrl,
+        description: messages.site.description,
+        image: `${siteUrl}/images/hero.webp`,
+        inLanguage: locale,
+        publisher: { "@id": organizationId },
+        about: { "@id": videoGameId },
+        sameAs: officialLinks,
+      },
+      {
+        "@type": "VideoGame",
+        "@id": videoGameId,
+        name: messages.site.shortName,
+        alternateName: messages.site.name,
+        description: messages.home.meta.description,
+        url: homeUrl,
+        image: `${siteUrl}/images/hero.webp`,
+        genre: ["Farming", "Simulation", "Roblox"],
+        gamePlatform: "Roblox",
+        operatingSystem: "Windows, macOS, iOS, Android, Xbox",
+        applicationCategory: "Game",
+        publisher: { "@id": organizationId },
+        sameAs: officialLinks,
+      },
+    ],
   };
 
   // 动态加载所有 content 目录下的文章
@@ -70,7 +109,7 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      <JsonLd data={webSite} />
+      <JsonLd data={homeGraph} />
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_300px]">
         <HomePageClient home={messages.home} locale={locale} articles={allArticles} recentArticles={recentArticles} />
         <WikiSidebar locale={locale} navGroups={navGroups} />
