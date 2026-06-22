@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Advertisement</title>
+    <style>
+      html,
+      body {
+        width: 160px;
+        height: 600px;
+        margin: 0;
+        overflow: hidden;
+        background: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      const adKey = new URLSearchParams(location.search).get("key")?.trim();
+
+      if (adKey) {
+        var atOptions = {
+          key: adKey,
+          format: "iframe",
+          height: 600,
+          width: 160,
+          params: {},
+        };
+        const invoke = document.createElement("script");
+        invoke.src = `https://www.highperformanceformat.com/${encodeURIComponent(adKey)}/invoke.js`;
+        invoke.async = true;
+        document.body.appendChild(invoke);
+      }
+    </script>
+  </body>
+</html>

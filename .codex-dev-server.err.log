@@ -1,0 +1,8 @@
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Parsing of D:\code\ga2\node_modules\next-intl\dist\esm\production\extractor\format\index.js for build dependencies failed at 'import(t)'.
+<w> Build dependencies behind this expression are ignored and might cause incorrect cache invalidation.
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\code\ga2\.next\cache\webpack\client-development\2.pack.gz_' -> 'D:\code\ga2\.next\cache\webpack\client-development\2.pack.gz'
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\code\ga2\.next\cache\webpack\server-development\3.pack.gz_' -> 'D:\code\ga2\.next\cache\webpack\server-development\3.pack.gz'
+ ⨯ [TypeError: Cannot read properties of undefined (reading 'clientModules')] {
+  page: '/_next/static/chunks/app/%5Blocale%5D/%5B...slug%5D/page.js'
+}

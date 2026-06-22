@@ -1,0 +1,225 @@
+   ▲ Next.js 15.3.7
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.4s
+ ✓ Compiled /middleware in 162ms (127 modules)
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 7.4s (1246 modules)
+ GET / 200 in 8540ms
+ ○ Compiling /sitemap.xml ...
+ ✓ Compiled /sitemap.xml in 542ms (1267 modules)
+ GET /sitemap.xml 200 in 624ms
+ GET /sitemap.xml 200 in 7ms
+ GET / 200 in 610ms
+ ○ Compiling /[locale]/[...slug] ...
+ ✓ Compiled /[locale]/[...slug] in 554ms (1279 modules)
+ GET /codes 200 in 1332ms
+ GET /guide 200 in 141ms
+ GET /release 200 in 167ms
+ GET /community 200 in 132ms
+ GET /pets 200 in 152ms
+ GET /crops 200 in 184ms
+ GET /tools 200 in 134ms
+ ✓ Compiled /[locale]/privacy-policy in 369ms (1282 modules)
+ GET /privacy-policy 200 in 1021ms
+ ✓ Compiled /[locale]/terms-of-service in 474ms (1284 modules)
+ GET /terms-of-service 200 in 1145ms
+ ✓ Compiled /[locale]/copyright in 420ms (1286 modules)
+ GET /copyright 200 in 1088ms
+ ✓ Compiled /[locale]/about in 368ms (1288 modules)
+ GET /about 200 in 997ms
+ GET /codes/grow-a-garden-2-codes 200 in 404ms
+ GET /community/grow-a-garden-2-discord 200 in 329ms
+ GET /crops/grow-a-garden-2-acorn 200 in 234ms
+ GET /crops/grow-a-garden-2-dragons-breath 200 in 315ms
+ GET /crops/grow-a-garden-2-gold-seed 200 in 250ms
+ GET /crops/grow-a-garden-2-moon-bloom 200 in 306ms
+ GET /crops/grow-a-garden-2-seed 200 in 342ms
+ GET /crops/grow-a-garden-2-sunflower 200 in 309ms
+ GET /crops/grow-a-garden-2-venus-fly-trap 200 in 354ms
+ GET /guide/grow-a-garden-2-gnome 200 in 318ms
+ GET /guide/grow-a-garden-2-tier-list 200 in 555ms
+ GET /guide/grow-a-garden-2-wheelbarrow 200 in 560ms
+ GET /pets/grow-a-garden-2-pets 200 in 307ms
+ GET /pets/grow-a-garden-2-unicorn 200 in 2704ms
+ GET /release/grow-a-garden-2-countdown 200 in 280ms
+ GET /release/grow-a-garden-2-early-access 200 in 377ms
+ GET /release/grow-a-garden-2-is-out 200 in 286ms
+ GET /release/grow-a-garden-2-release-date 200 in 320ms
+ GET /release/grow-a-garden-2-time 200 in 304ms
+ GET /tools/grow-a-garden-2-stock-notifier 200 in 1798ms
+ GET /es 200 in 565ms
+ GET /es/codes 200 in 142ms
+ GET /es/guide 200 in 196ms
+ GET /es/release 200 in 251ms
+ GET /es/community 200 in 158ms
+ GET /es/pets 200 in 162ms
+ GET /es/crops 200 in 199ms
+ GET /es/tools 200 in 149ms
+ GET /es/privacy-policy 200 in 95ms
+ GET /es/terms-of-service 200 in 94ms
+ GET /es/copyright 200 in 122ms
+ GET /es/about 200 in 84ms
+ GET /es/codes/grow-a-garden-2-codes 200 in 357ms
+ GET /es/community/grow-a-garden-2-discord 200 in 321ms
+ GET /es/crops/grow-a-garden-2-acorn 200 in 176ms
+ GET /es/crops/grow-a-garden-2-dragons-breath 200 in 310ms
+ GET /es/crops/grow-a-garden-2-gold-seed 200 in 253ms
+ GET /es/crops/grow-a-garden-2-moon-bloom 200 in 279ms
+ GET /es/crops/grow-a-garden-2-seed 200 in 312ms
+ GET /es/crops/grow-a-garden-2-sunflower 200 in 288ms
+ GET /es/crops/grow-a-garden-2-venus-fly-trap 200 in 294ms
+ GET /es/guide/grow-a-garden-2-gnome 200 in 251ms
+ GET /es/guide/grow-a-garden-2-tier-list 200 in 462ms
+ GET /es/guide/grow-a-garden-2-wheelbarrow 200 in 263ms
+ GET /es/pets/grow-a-garden-2-pets 200 in 256ms
+ GET /es/pets/grow-a-garden-2-unicorn 200 in 241ms
+ GET /es/release/grow-a-garden-2-countdown 200 in 321ms
+ GET /es/release/grow-a-garden-2-early-access 200 in 340ms
+ GET /es/release/grow-a-garden-2-is-out 200 in 279ms
+ GET /es/release/grow-a-garden-2-release-date 200 in 274ms
+ GET /es/release/grow-a-garden-2-time 200 in 304ms
+ GET /es/tools/grow-a-garden-2-stock-notifier 200 in 282ms
+ GET /pt-BR 200 in 222ms
+ GET /pt-BR/codes 200 in 142ms
+ GET /pt-BR/guide 200 in 126ms
+ GET /pt-BR/release 200 in 108ms
+ GET /pt-BR/community 200 in 109ms
+ GET /pt-BR/pets 200 in 109ms
+ GET /pt-BR/crops 200 in 110ms
+ GET /pt-BR/tools 200 in 115ms
+ GET /pt-BR/privacy-policy 200 in 101ms
+ GET /pt-BR/terms-of-service 200 in 95ms
+ GET /pt-BR/copyright 200 in 112ms
+ GET /pt-BR/about 200 in 91ms
+ GET /pt-BR/codes/grow-a-garden-2-codes 200 in 236ms
+ GET /pt-BR/community/grow-a-garden-2-discord 200 in 224ms
+ GET /pt-BR/crops/grow-a-garden-2-acorn 200 in 132ms
+ GET /pt-BR/crops/grow-a-garden-2-dragons-breath 200 in 219ms
+ GET /pt-BR/crops/grow-a-garden-2-gold-seed 200 in 184ms
+ GET /pt-BR/crops/grow-a-garden-2-moon-bloom 200 in 253ms
+ GET /pt-BR/crops/grow-a-garden-2-seed 200 in 236ms
+ GET /pt-BR/crops/grow-a-garden-2-sunflower 200 in 214ms
+ GET /pt-BR/crops/grow-a-garden-2-venus-fly-trap 200 in 229ms
+ GET /pt-BR/guide/grow-a-garden-2-gnome 200 in 193ms
+ GET /pt-BR/guide/grow-a-garden-2-tier-list 200 in 407ms
+ GET /pt-BR/guide/grow-a-garden-2-wheelbarrow 200 in 558ms
+ GET /pt-BR/pets/grow-a-garden-2-pets 200 in 233ms
+ GET /pt-BR/pets/grow-a-garden-2-unicorn 200 in 2599ms
+ GET /pt-BR/release/grow-a-garden-2-countdown 200 in 211ms
+ GET /pt-BR/release/grow-a-garden-2-early-access 200 in 298ms
+ GET /pt-BR/release/grow-a-garden-2-is-out 200 in 164ms
+ GET /pt-BR/release/grow-a-garden-2-release-date 200 in 369ms
+ GET /pt-BR/release/grow-a-garden-2-time 200 in 372ms
+ GET /pt-BR/tools/grow-a-garden-2-stock-notifier 200 in 1751ms
+ GET /th 200 in 199ms
+ GET /th/codes 200 in 147ms
+ GET /th/guide 200 in 112ms
+ GET /th/release 200 in 89ms
+ GET /th/community 200 in 110ms
+ GET /th/pets 200 in 107ms
+ GET /th/crops 200 in 110ms
+ GET /th/tools 200 in 94ms
+ GET /th/privacy-policy 200 in 101ms
+ GET /th/terms-of-service 200 in 103ms
+ GET /th/copyright 200 in 91ms
+ GET /th/about 200 in 108ms
+ GET /th/codes/grow-a-garden-2-codes 200 in 244ms
+ GET /th/community/grow-a-garden-2-discord 200 in 260ms
+ GET /th/crops/grow-a-garden-2-acorn 200 in 124ms
+ GET /th/crops/grow-a-garden-2-dragons-breath 200 in 214ms
+ GET /th/crops/grow-a-garden-2-gold-seed 200 in 161ms
+ GET /th/crops/grow-a-garden-2-moon-bloom 200 in 286ms
+ GET /th/crops/grow-a-garden-2-seed 200 in 242ms
+ GET /th/crops/grow-a-garden-2-sunflower 200 in 208ms
+ GET /th/crops/grow-a-garden-2-venus-fly-trap 200 in 218ms
+ GET /th/guide/grow-a-garden-2-gnome 200 in 213ms
+ GET /th/guide/grow-a-garden-2-tier-list 200 in 365ms
+ GET /th/guide/grow-a-garden-2-wheelbarrow 200 in 521ms
+ GET /th/pets/grow-a-garden-2-pets 200 in 248ms
+ GET /th/pets/grow-a-garden-2-unicorn 200 in 2615ms
+ GET /th/release/grow-a-garden-2-countdown 200 in 194ms
+ GET /th/release/grow-a-garden-2-early-access 200 in 274ms
+ GET /th/release/grow-a-garden-2-is-out 200 in 215ms
+ GET /th/release/grow-a-garden-2-release-date 200 in 269ms
+ GET /th/release/grow-a-garden-2-time 200 in 223ms
+ GET /th/tools/grow-a-garden-2-stock-notifier 200 in 1850ms
+ GET /zh 200 in 574ms
+ GET /zh/codes 200 in 241ms
+ GET /zh/guide 200 in 211ms
+ GET /zh/release 200 in 217ms
+ GET /zh/community 200 in 155ms
+ GET /zh/pets 200 in 187ms
+ GET /zh/crops 200 in 200ms
+ GET /zh/tools 200 in 158ms
+ GET /zh/privacy-policy 200 in 100ms
+ GET /zh/terms-of-service 200 in 90ms
+ GET /zh/copyright 200 in 102ms
+ GET /zh/about 200 in 91ms
+ GET /zh/codes/grow-a-garden-2-codes 200 in 357ms
+ GET /zh/community/grow-a-garden-2-discord 200 in 423ms
+ GET /zh/crops/grow-a-garden-2-acorn 200 in 223ms
+ GET /zh/crops/grow-a-garden-2-dragons-breath 200 in 356ms
+ GET /zh/crops/grow-a-garden-2-gold-seed 200 in 319ms
+ GET /zh/crops/grow-a-garden-2-moon-bloom 200 in 366ms
+ GET /zh/crops/grow-a-garden-2-seed 200 in 379ms
+ GET /zh/crops/grow-a-garden-2-sunflower 200 in 316ms
+ GET /zh/crops/grow-a-garden-2-venus-fly-trap 200 in 288ms
+ GET /zh/guide/grow-a-garden-2-gnome 200 in 319ms
+ GET /zh/guide/grow-a-garden-2-tier-list 200 in 551ms
+ GET /zh/guide/grow-a-garden-2-wheelbarrow 200 in 291ms
+ GET /zh/pets/grow-a-garden-2-pets 200 in 312ms
+ GET /zh/pets/grow-a-garden-2-unicorn 200 in 2766ms
+ GET /zh/release/grow-a-garden-2-countdown 200 in 241ms
+ GET /zh/release/grow-a-garden-2-early-access 200 in 309ms
+ GET /zh/release/grow-a-garden-2-is-out 200 in 287ms
+ GET /zh/release/grow-a-garden-2-release-date 200 in 262ms
+ GET /zh/release/grow-a-garden-2-time 200 in 306ms
+ GET /zh/tools/grow-a-garden-2-stock-notifier 200 in 276ms
+ ✓ Compiled in 631ms (507 modules)
+ ✓ Compiled in 139ms (507 modules)
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 948ms (757 modules)
+ GET /pt-BR 200 in 1241ms
+ GET /th 200 in 342ms
+ GET /th 200 in 23ms
+ GET / 200 in 158ms
+ ○ Compiling /sitemap.xml ...
+ ✓ Compiled /[locale]/[...slug] in 1224ms (1287 modules)
+ ✓ Compiled (1296 modules)
+ GET /sitemap.xml 200 in 1741ms
+ GET /robots.txt 200 in 1748ms
+ GET /robots.txt 200 in 543ms
+ GET /_next/static/webpack/76bdc2ffc1899180.webpack.hot-update.json 404 in 1827ms
+ GET /sitemap.xml 200 in 13ms
+ GET / 200 in 1522ms
+ GET / 200 in 2759ms
+ GET / 200 in 541ms
+ GET /robots.txt 200 in 5ms
+ GET /sitemap.xml 200 in 7ms
+ GET / 200 in 392ms
+ GET /robots.txt 200 in 7ms
+ GET /sitemap.xml 200 in 11ms
+ GET /codes 200 in 315ms
+ GET /zh 200 in 683ms
+ GET /codes/grow-a-garden-2-codes 200 in 991ms
+ ✓ Compiled in 756ms (1264 modules)
+ ✓ Compiled in 1070ms (1264 modules)
+ GET / 200 in 1339ms
+ GET /zh 200 in 1341ms
+ GET / 200 in 439ms
+ ✓ Compiled /[locale]/[...slug] in 405ms (766 modules)
+ ○ Compiling /_error ...
+ GET / 200 in 1956ms
+ GET /_next/static/chunks/app/%5Blocale%5D/%5B...slug%5D/page.js 404 in 1011ms
+ ✓ Compiled /_error in 2s (1604 modules)
+ ○ Compiling /sitemap.xml ...
+ ✓ Compiled /sitemap.xml in 768ms (873 modules)
+ ✓ Compiled (876 modules)
+ GET /sitemap.xml 200 in 1397ms
+ GET /robots.txt 200 in 1404ms
+ GET / 200 in 2257ms
+ GET /robots.txt 200 in 6ms
+ GET /sitemap.xml 200 in 12ms
