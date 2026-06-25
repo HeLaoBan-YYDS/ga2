@@ -7,6 +7,8 @@ const bannerSlots = {
   "banner-728x90": { width: 728, height: 90 },
 } as const;
 
+const adSandboxPermissions = "allow-scripts allow-popups allow-popups-to-escape-sandbox";
+
 export type AdBannerType = keyof typeof bannerSlots;
 
 type AdBannerProps = {
@@ -37,6 +39,8 @@ export function AdBanner({ adKey, eager = false, type }: AdBannerProps) {
         height={slot.height}
         scrolling="no"
         loading={eager ? "eager" : "lazy"}
+        sandbox={adSandboxPermissions}
+        referrerPolicy="no-referrer"
         style={{ border: "none" }}
       />
     </div>

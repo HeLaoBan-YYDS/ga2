@@ -6,6 +6,7 @@ import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { ThemeProvider } from "next-themes";
+import { AdBanner } from "@/components/ads/adsterra-banner";
 import { SiteFooter, SiteHeader } from "@/components/site";
 import { routing } from "@/i18n/routing";
 
@@ -18,6 +19,22 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://growagarden2wiki.wiki";
 const siteName = "Grow a Garden 2 Wiki";
 const siteDescription = "Fan-made Grow a Garden 2 wiki with active codes, beginner guide, seed shop tips, stealing defense, guild rewards, pets, badges, and Roblox update notes.";
+
+function GlobalSidebarAd({ adKey }: { adKey?: string | null }) {
+  const key = adKey?.trim();
+
+  if (!key) {
+    return null;
+  }
+
+  return (
+    <aside className="sticky top-20 z-20 self-start py-2">
+      <div className="mx-auto max-w-4xl">
+        <AdBanner type="banner-160x600" adKey={key} eager />
+      </div>
+    </aside>
+  );
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -52,6 +69,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   const messages = await getMessages();
+  const sidebarAdKey = process.env.NEXT_PUBLIC_AD_SIDEBAR_160X600?.trim();
 
   return (
     <html lang={locale} className={`${inter.variable}`} suppressHydrationWarning>
@@ -88,7 +106,14 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           <NextIntlClientProvider messages={messages}>
             <SiteHeader locale={locale} />
-            {children}
+            {sidebarAdKey ? (
+              <div className="grid min-w-0 grid-cols-1 xl:grid-cols-[160px_minmax(0,1fr)] xl:gap-6">
+                <GlobalSidebarAd adKey={sidebarAdKey} />
+                <div className="min-w-0">{children}</div>
+              </div>
+            ) : (
+              children
+            )}
             <SiteFooter locale={locale} />
           </NextIntlClientProvider>
         </ThemeProvider>

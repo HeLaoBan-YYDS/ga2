@@ -5,6 +5,7 @@ export function YouTubeEmbed({ videoId, title }: { videoId: string; title?: stri
         src={`https://www.youtube.com/embed/${videoId}`}
         title={title || "YouTube video"}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
         allowFullScreen
         className="size-full"
       />

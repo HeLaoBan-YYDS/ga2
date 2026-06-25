@@ -116,7 +116,7 @@ export function TrailerDialog({ videoId }: { videoId: string }) {
   return (
     <dialog id="trailer-dialog" className="fixed inset-0 z-[100] m-0 flex h-dvh w-dvw max-h-none max-w-none items-center justify-center border-0 bg-black/80 p-0 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-200" onClose={stopTrailerPlayback} onClick={(e) => { if (e.target === e.currentTarget) closeTrailerDialog(); }}>
       <div className="relative w-full max-w-4xl mx-4">
-        <iframe id="trailer-iframe" className="aspect-video w-full rounded-xl" allow="autoplay; encrypted-media" allowFullScreen />
+        <iframe id="trailer-iframe" className="aspect-video w-full rounded-xl" allow="autoplay; encrypted-media" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups" allowFullScreen />
         <button className="absolute -top-10 right-0 text-white/80 hover:text-white text-sm font-medium" onClick={closeTrailerDialog}>✕ Close</button>
       </div>
     </dialog>
